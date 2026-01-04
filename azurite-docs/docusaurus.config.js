@@ -20,9 +20,9 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://Azaultic.github.io',
+  url: 'https://azurite.info',
   // For a custom domain, the baseUrl should be '/'
-  baseUrl: '/AzuriteWebsite/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
