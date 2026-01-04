@@ -60,6 +60,22 @@ const config = {
     ],
   ],
 
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        language: ["en", "nl"],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        indexBlog: false,
+        indexDocs: true,
+        docsRouteBasePath: '/docs',
+      }),
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -69,7 +85,7 @@ const config = {
       announcementBar: {
         id: 'server_launch',
         content:
-          '🎉 Azurite RP is nu LIVE! Join onze Discord voor meer info - <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/F3qr9MC8sC">Klik hier</a>',
+          'Azurite RP is nu volop in Development! Join onze Discord voor meer info - <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/F3qr9MC8sC">Klik hier</a>',
         backgroundColor: '#25424eff',
         textColor: '#ffffffff',
         isCloseable: true,

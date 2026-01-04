@@ -38,7 +38,7 @@ Er zijn **3 manieren** om te verbinden:
 ### Methode 1: Direct Connect (Aanbevolen)
 
 1. Druk op `F8` in FiveM om de console te openen
-2. Type: `connect cfx.re/join/48bkgv`
+2. Type: `connect cfx.re/join/lvmxko`
 3. Druk op Enter
 
 ### Methode 2: Via Server Browser
@@ -50,10 +50,10 @@ Er zijn **3 manieren** om te verbinden:
 
 ### Methode 3: Via Website
 
-Klik gewoon op deze link: [fivem://connect/cfx.re/join/48bkgv](https://cfx.re/join/48bkgv)
+Klik gewoon op deze link: [fivem://connect/cfx.re/join/lvmxko](https://cfx.re/join/lvmxko)
 
 :::info Server Adres
-**Ons server adres:** `cfx.re/join/48bkgv`
+**Ons server adres:** `cfx.re/join/lvmxko`
 :::
 
 ## 👤 Stap 3: Character Aanmaken
