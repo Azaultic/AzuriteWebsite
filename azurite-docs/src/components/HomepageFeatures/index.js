@@ -13,26 +13,26 @@ const FeatureList = [
       </>
     ),
   },
-  {
-    title: '🚓 Whitelisted Jobs',
-    description: (
-      <>
-        Kies uit diverse carrièrepaden zoals politie, EMS, mechanics en meer. 
-        Elke job heeft unieke features en mogelijkheden om je roleplay ervaring 
-        naar een hoger niveau te tillen.
-      </>
-    ),
-  },
-  {
-    title: '💎 Custom Scripts',
-    description: (
-      <>
-        Geniet van volledig custom scripts en features die je nergens anders vindt. 
-        Van unieke voertuigen tot custom locaties, we blijven de server 
-        continu verbeteren.
-      </>
-    ),
-  },
+  // {
+  //   title: '🚓 Whitelisted Jobs',
+  //   description: (
+  //     <>
+  //       Kies uit diverse carrièrepaden zoals politie, EMS, mechanics en meer. 
+  //       Elke job heeft unieke features en mogelijkheden om je roleplay ervaring 
+  //       naar een hoger niveau te tillen.
+  //     </>
+  //   ),
+  // },
+  // {
+  //   title: '💎 Custom Scripts',
+  //   description: (
+  //     <>
+  //       Geniet van volledig custom scripts en features die je nergens anders vindt. 
+  //       Van unieke voertuigen tot custom locaties, we blijven de server 
+  //       continu verbeteren.
+  //     </>
+  //   ),
+  // },
   {
     title: '📋 Duidelijke Regels',
     description: (
@@ -53,16 +53,16 @@ const FeatureList = [
       </>
     ),
   },
-  {
-    title: '🔧 Actieve Development',
-    description: (
-      <>
-        Ons dev team werkt constant aan nieuwe features en improvements. 
-        Feedback van de community wordt serieus genomen en regelmatig 
-        geïmplementeerd in updates.
-      </>
-    ),
-  },
+  // {
+  //   title: '🔧 Actieve Development',
+  //   description: (
+  //     <>
+  //       Ons dev team werkt constant aan nieuwe features en improvements. 
+  //       Feedback van de community wordt serieus genomen en regelmatig 
+  //       geïmplementeerd in updates.
+  //     </>
+  //   ),
+  // },
 ];
 
 function Feature({title, description}) {
