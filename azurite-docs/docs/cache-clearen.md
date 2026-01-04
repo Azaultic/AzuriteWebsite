@@ -49,4 +49,4 @@ Let op:
 :::
 
 ---
-**Veel plezier op Azurite RP!** 💎🎮
+**Veel plezier op Azurite!** 💎🎮

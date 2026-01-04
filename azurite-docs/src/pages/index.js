@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <Layout
       title={`Welkom bij ${siteConfig.title}`}
-      description="Officiële documentatie voor Azurite RP - FiveM Roleplay Server">
+      description="Officiële documentatie voor Azurite - FiveM Roleplay Server">
       <HomepageHeader />
       <main>
         <ServerStatus />

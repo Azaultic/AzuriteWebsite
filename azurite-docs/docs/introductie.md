@@ -2,10 +2,10 @@
 sidebar_position: 1
 title: Introductie
 ---
-# Introductie – Azurite RP
+# Introductie – Azurite
 
 ## Welkom
-Welkom bij Azurite RP — een moderne, story‑driven roleplay community waar respect, creativiteit en plezier centraal staan. We houden het toegankelijk: of je nu een doorgewinterde roleplayer bent of net begint, bij ons vind je een plek om je verhaal tot leven te brengen.
+Welkom bij Azurite — een moderne, story‑driven roleplay community waar respect, creativiteit en plezier centraal staan. We houden het toegankelijk: of je nu een doorgewinterde roleplayer bent of net begint, bij ons vind je een plek om je verhaal tot leven te brengen.
 
 ## Waarom Azurite?
 - Realistische, maar toegankelijke RP met ruimte voor eigen initiatief.
@@ -27,7 +27,7 @@ Welkom bij Azurite RP — een moderne, story‑driven roleplay community waar re
 Lees eerst de server regels. Daarna ben je ready om in te loggen en jouw verhaal te starten.
 :::
 
-Alle regels omtrent Azurite RP vind je [hier](./server-regels)
+Alle regels omtrent Azurite vind je [hier](./server-regels)
 
 ---
-**Veel plezier op Azurite RP!** 💎🎮
+**Veel plezier op Azurite!** 💎🎮

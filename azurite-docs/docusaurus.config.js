@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Azurite RP',
+  title: 'Azurite',
   tagline: 'De beste FiveM Roleplay ervaring 💎',
   favicon: 'img/azurite-logo.png',
 
@@ -82,7 +82,7 @@ const config = {
       announcementBar: {
         id: 'server_launch',
         content:
-          'Azurite RP is nu volop in Development! Join onze Discord voor meer info - <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/F3qr9MC8sC">Klik hier</a>',
+          'Azurite is nu volop in Development! Join onze Discord voor meer info - <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/F3qr9MC8sC">Klik hier</a>',
         backgroundColor: '#3a5c6a',
         textColor: '#e2e8f0',
         isCloseable: true,
@@ -194,7 +194,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Azurite RP. Made with ❤️ and 💎`,
+        copyright: `Copyright © ${new Date().getFullYear()} Azurite. Made with ❤️ and 💎`,
       },
       prism: {
         theme: prismThemes.github,

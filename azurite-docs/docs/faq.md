@@ -27,7 +27,7 @@ Een whitelisted job is specifiek een job waarvoor je moet solliciteren. Al de an
 
 Probeer het volgende:
 1. **Restart FiveM** en probeer opnieuw
-2. **Clear je **[cache](/docs/cache-clearen)**.
+2. **Clear je [cache](/docs/cache-clearen)**.
 3. **Update je graphics drivers**
 4. **Verlaag je GTA V settings** als je een lage-spec PC hebt
 
@@ -43,4 +43,4 @@ Werkt het nog steeds niet? Maak een ticket in onze Discord!
 - 📖 **Regels:** Check onze [regels](/docs/server-regels.md)
 
 ---
-**Veel plezier op Azurite RP!** 💎🎮
+**Veel plezier op Azurite!** 💎🎮

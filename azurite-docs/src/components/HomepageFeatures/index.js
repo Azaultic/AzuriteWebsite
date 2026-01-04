@@ -9,7 +9,7 @@ const FeatureList = [
       <>
         Word deel van een groeiende community van FiveM spelers. 
         Met dagelijkse events, actieve staff en een vriendelijke omgeving 
-        is er altijd iets te beleven in Azurite RP.
+        is er altijd iets te beleven in Azurite.
       </>
     ),
   },
@@ -84,7 +84,7 @@ export default function HomepageFeatures() {
       <div className="container">
         <div className="text--center margin-bottom--lg">
           <Heading as="h2" className={styles.sectionTitle}>
-            Waarom Azurite RP?
+            Waarom Azurite?
           </Heading>
           <p className={styles.sectionSubtitle}>
             Ontdek wat onze FiveM server uniek maakt

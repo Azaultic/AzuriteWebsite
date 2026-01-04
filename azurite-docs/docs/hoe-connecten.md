@@ -3,7 +3,7 @@ sidebar_position: 3
 title: Hoe connect ik?
 ---
 
-# Verbinden met Azurite RP
+# Verbinden met Azurite
 
 Volg deze stappen om te connecten met onze FiveM server.
 
@@ -14,7 +14,7 @@ Voordat je kunt spelen, heb je het volgende nodig:
 - ✅ **Grand Theft Auto V** (GTA V) - Steam of Epic Games versie
 - ✅ **FiveM Client** - Download van [fivem.net](https://fivem.net/)
 - ✅ **Whitelisted Discord Account** - Voor communicatie met de community & connectie naar de server
-- ✅ **Leeftijd 16+** - Minimumleeftijd voor Azurite RP
+- ✅ **Leeftijd 16+** - Minimumleeftijd voor Azurite
 
 :::tip
 Zorg ervoor dat je GTA V volledig up-to-date is voordat je FiveM installeert!
@@ -31,7 +31,20 @@ Zorg ervoor dat je GTA V volledig up-to-date is voordat je FiveM installeert!
 Start GTA V **niet** via Steam/Epic terwijl je FiveM gebruikt. FiveM start het spel automatisch.
 :::
 
-## 🔗 Stap 2: Verbinden met Azurite RP
+
+
+## 📱 Stap 2: Join de Discord
+
+Onze Discord is **essentieel** voor:
+- 📝 Whitelist (toegang tot de server)
+- 📢 Server updates en announcements
+- 🎫 Support tickets
+- 👥 Community interactie
+- 🎉 Event aankondigingen
+
+
+
+## 🔗 Stap 3: Verbinden met Azurite
 
 Er zijn **3 manieren** om te verbinden:
 
@@ -45,7 +58,7 @@ Er zijn **3 manieren** om te verbinden:
 
 1. Open FiveM
 2. Ga naar de "Servers" tab
-3. Zoek naar "Azurite RP"
+3. Zoek naar "Azurite"
 4. Klik op de server en klik "Connect"
 
 ### Methode 3: Via Website
@@ -56,13 +69,13 @@ Klik gewoon op deze link: [fivem://connect/cfx.re/join/lvmxko](https://cfx.re/jo
 **Ons server adres:** `cfx.re/join/lvmxko`
 :::
 
-## 👤 Stap 3: Character Aanmaken
+## 👤 Stap 4: Character Aanmaken
 
 Bij je eerste keer inloggen:
 
 1. **Kies een naam**
    - Gebruik een realistische voor- en achternaam
-   - Geen racistische, seksuele namen etc... Bekijk de [Server Regels](/docs/server-regels#Character)
+   - Geen racistische, seksuele namen etc... Bekijk de [Server Regels](/docs/server-regels#character)
    - Voorbeeld: ✅ "Jan Jansen" | ❌ "xXProGamerXx"
 
 2. **Pas je character aan**
@@ -72,15 +85,8 @@ Bij je eerste keer inloggen:
 
 3. **Lees de regels**
    - Bekijk onze [Server Regels](/docs/server-regels)
-   - Deze zijn belangrijk om te kennen!
+   - Ook al ben je heel ervaren in Roleplay, op elke server zijn de regels toch iets anders. Neem daarom de regels zeker door!
 
-## 📱 Stap 4: Join de Discord
-
-Onze Discord is **essentieel** voor:
-- 📢 Server updates en announcements
-- 🎫 Support tickets
-- 👥 Community interactie
-- 🎉 Event aankondigingen
 
 ---
-**Veel plezier op Azurite RP!** 💎🎮
+**Veel plezier op Azurite!** 💎🎮
