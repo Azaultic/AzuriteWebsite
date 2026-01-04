@@ -1,0 +1,11 @@
+{
+  "label": "Changelogs",
+  "position": 4,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Changelogs",
+    "slug": "/changelogs",
+    "description": "Overzicht van alle updates, fixes, balancing en bekende issues."
+  }
+}

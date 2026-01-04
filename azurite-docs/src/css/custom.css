@@ -1,32 +1,262 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Azurite RP - Custom Styling
+ * FiveM Roleplay Server Documentation
  */
 
-/* You can override the default Infima variables here. */
+/* Primary Brand Colors */
 :root {
+  --azurite-primary: #517C8E;
+  --azurite-primary-dark: #476f7d;
+  --azurite-primary-darker: #3f6370;
+  --azurite-primary-light: #5c8fa4;
+  --azurite-primary-lighter: #6ba1b8;
+  --azurite-accent: #7dd3fc;
+  --azurite-dark-bg: #0f172a;
+  --azurite-darker-bg: #020617;
+  
   --ifm-color-primary: #517C8E;
   --ifm-color-primary-dark: #476f7d;
   --ifm-color-primary-darker: #3f6370;
+  --ifm-color-primary-darkest: #355361;
   --ifm-color-primary-light: #5c8fa4;
   --ifm-color-primary-lighter: #6ba1b8;
+  --ifm-color-primary-lightest: #7ab5cc;
+  
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-heading-font-family: 'Space Grotesk', var(--ifm-font-family-base);
+  
+  /* Smooth scrolling */
+  scroll-behavior: smooth;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark mode palette */
 [data-theme='dark'] {
   --ifm-color-primary: #6ba1b8;
+  --ifm-color-primary-dark: #5c8fa4;
+  --ifm-color-primary-darker: #517C8E;
+  --ifm-color-primary-darkest: #476f7d;
+  --ifm-color-primary-light: #7ab5cc;
+  --ifm-color-primary-lighter: #89c4e0;
+  --ifm-color-primary-lightest: #98d3f4;
+  
+  --ifm-background-color: #0f172a;
+  --ifm-background-surface-color: #1e293b;
+  --ifm-navbar-background-color: #020617;
+  --ifm-footer-background-color: #020617;
 }
 
-.navbar-discord {
-  background-color: #517C8E;
+/* Custom Navbar Styling */
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.navbar__logo {
+  height: 40px;
+  margin-right: 0.5rem;
+  filter: drop-shadow(0 0 8px rgba(81, 124, 142, 0.3));
+  transition: transform 0.3s ease;
+}
+
+.navbar__logo:hover {
+  transform: scale(1.05) rotate(-2deg);
+}
+
+.navbar__title {
+  font-weight: 700;
+  font-size: 1.3rem;
+  background: linear-gradient(135deg, var(--azurite-primary) 0%, var(--azurite-accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+/* Hero Section Custom Styling */
+.hero--primary {
+  background: linear-gradient(135deg, var(--azurite-darker-bg) 0%, var(--azurite-dark-bg) 50%, var(--azurite-primary-darker) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero--primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(81, 124, 142, 0.2) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(107, 161, 184, 0.15) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.hero__title {
+  font-size: 3.5rem !important;
+  font-weight: 800;
+  background: linear-gradient(135deg, #ffffff 0%, var(--azurite-accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 40px rgba(81, 124, 142, 0.5);
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.9);
+  animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Button Styling */
+.button--secondary {
+  background: linear-gradient(135deg, var(--azurite-primary) 0%, var(--azurite-primary-light) 100%);
+  border: 2px solid var(--azurite-accent);
   color: white !important;
-  padding: 6px 14px;
-  border-radius: 6px;
+  font-weight: 600;
+  padding: 12px 32px;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.button--secondary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.button--secondary:hover::before {
+  left: 100%;
+}
+
+.button--secondary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(81, 124, 142, 0.5);
+  border-color: white;
+}
+
+/* Card Styling */
+.card {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  background: var(--ifm-background-surface-color);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(81, 124, 142, 0.2);
+  border-color: var(--azurite-primary);
+}
+
+/* Sidebar Styling */
+.menu__link {
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.menu__link:hover {
+  background: linear-gradient(135deg, rgba(81, 124, 142, 0.1) 0%, rgba(107, 161, 184, 0.1) 100%);
+}
+
+.menu__link--active {
+  background: linear-gradient(135deg, var(--azurite-primary) 0%, var(--azurite-primary-light) 100%);
+  color: white !important;
   font-weight: 600;
 }
 
-.navbar-discord:hover {
-  background-color: #3f6370;
-  text-decoration: none;
+/* Code Blocks */
+.prism-code {
+  border-radius: 12px;
+  border: 1px solid var(--ifm-color-emphasis-200);
 }
+
+/* Admonitions */
+.admonition {
+  border-radius: 12px;
+  border-left: 4px solid var(--azurite-primary);
+}
+
+/* Footer */
+.footer {
+  background: linear-gradient(180deg, var(--ifm-footer-background-color) 0%, var(--azurite-darker-bg) 100%);
+  border-top: 1px solid var(--azurite-primary);
+}
+
+.footer__title {
+  color: var(--azurite-accent);
+  font-weight: 700;
+}
+
+.footer__link-item:hover {
+  color: var(--azurite-accent);
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ifm-background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--azurite-primary);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--azurite-primary-light);
+}
+
+/* Glow Effect for Important Elements */
+.glow {
+  box-shadow: 0 0 20px rgba(43, 67, 77, 0.5);
+}
+
+/* Responsive */
+@media (max-width: 996px) {
+  .hero__title {
+    font-size: 2.5rem !important;
+  }
+  
+  .hero__subtitle {
+    font-size: 1.2rem;
+  }
+}
+
+/* Custom animations */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+

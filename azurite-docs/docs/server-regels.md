@@ -1,15 +1,17 @@
 ---
 sidebar_position: 2
-title: Server Regels - Azurite RP
+title: Server Regels
 ---
 
 ## Algemeen
 
-### Staff
-- Indien je vragen of problemen hebt is het NIET de bedoeling om staffleden via DM te benaderen of te taggen in discord.
-- Het is WEL de bedoeling dat je dan een ticket of in-game report aanmaakt. 
+### Het Azurite Team
+:::info
+Indien je vragen of problemen hebt is het NIET de bedoeling om staffleden via DM te benaderen of te taggen in discord.
+:::
+- Het is WEL de bedoeling dat je dan een ticket of in-game report aanmaakt.
 - Wij zullen steeds onze uiterste best doen om alle kanalen, tickets en in-game reports zo snel mogelijk te bekijken en/of te behandelen.
-- Staffleden zijn : Management, Devs, Staff, Intakers.
+- Het Azurite team bestaat uit: Management, Devs, Staff, Intakers.
 
 
 
@@ -59,7 +61,7 @@ Pas je character aan wanneer je voor de eerste keer in onze stad komt. Let er da
 ### Multi-Character 
 Je kan maximaal 2 characters aanmaken. Hier zijn wel enkele regels aan verbonden. 
 
-Het is NIET toegestaan om : 
+Het is NIET toegestaan om: 
 - Met meerdere characters deel te nemen aan dezelfde of verschillende onderwereldgroepen.
 - Informatie mee te nemen van het ene character naar het andere.
 - Met beide characters een whitelisted job uit te voeren.
@@ -69,14 +71,18 @@ Het is NIET toegestaan om :
 
 ### Server Restart 
 
-3 keer per dag zal de server een restart krijgen, in roleplay beter gekend als een aardbeving of tsunami. 
+3 keer per dag zal de server een restart krijgen (RP: aardbeving/tsunami).
 
-Deze restarts zullen plaatsvinden om :
-- 02u00
-- 10u00
-- 18u00
+**Tijden:**
+<ul class="rule-times">
+	<li><span class="badge badge--secondary">03:00</span></li>
+	<li><span class="badge badge--secondary">11:00</span></li>
+	<li><span class="badge badge--secondary">19:00</span></li>
+</ul>
 
-Voor en na deze restarts zijn er ook enkele restricties waar iedereen zich aan dient te houden. Dit zodat overheidsdiensten of andere groeperingen de tijd krijgen om te reageren of zich klaar te maken voor een scenario. 
+:::info
+Voor en na restarts gelden restricties zodat diensten/groeperingen kunnen reageren of voorbereiden.
+:::
 
 - 30 minuten voor een restart mogen er geen nieuwe grote scenario’s of langdurige activiteiten gestart worden. Zorg dan ook dat lopende scenario’s tijdig afgerond worden.
 
@@ -120,12 +126,12 @@ Gta style driving is toegestaan. Snel rijden, jumps nemen, offroad rijden met ee
 
 
 ### RDM/VDM
-VDM : Vehicle Deathmatch
+VDM: Vehicle Deathmatch
 
 - Andere spelers doelbewust omver rijden met een voertuig zonder reden/roleplay. 
 
 
-RDM : Random Deathmatch 
+RDM: Random Deathmatch 
 
 - Andere spelers doelbewust neerslaan of neerschieten zonder reden/roleplay. 
 
@@ -136,7 +142,7 @@ Dit is uiteraard niet toegelaten.
 ### Value of Life
 Handel steeds alsof je character echt leeft. Hecht dan ook waarde aan je leven. 
 
-Een voorbeeld : 
+Een voorbeeld: 
 - als iemand een wapen op je richt, dan moet je je best doen om die persoon te overtuigen om je niet overhoop te knallen, je zal dus ook moeten meewerken en niet laten zien dat jij ondanks de situatie toch het grootste pakketje hebt 😉
 
 
@@ -154,7 +160,7 @@ Enkele bekende voorbeelden van powergaming:
 ### FailRP/Low Quality RP
 Alle scenario’s die schadelijk zijn voor de roleplay en de algehele ervaring negatief beïnvloeden, worden beschouwd als Low Quality RP. 
 
-Enkele voorbeelden : 
+Enkele voorbeelden: 
 
 - Iemand neerschieten of steken omdat deze schade heeft aangericht aan je voertuig.
 - Extreme bedragen of spullen eisen voor iemands leven.
@@ -172,21 +178,24 @@ Enkele voorbeelden :
 
 
 ### New Life Rule (NLR)
-Er zijn 2 mogelijkheden wat betreft de NRL :
+Er zijn 2 mogelijkheden wat betreft de NLR:
 
-- Je bent geholpen door EMS (of er is geen EMS maar iemand heeft je naar het ziekenhuis gebracht en je hebt kunnen inchecken). In dat geval mag je het scenario onthouden maar je mag de komende 2 uur niet meer aankoppelen bij dit scenario.  Dit geldt ook voor overheidsdiensten!
-- Je bent niet geholpen of hebt niet kunnen inchecken en moet respawnen. In dat geval ben je al je spullen kwijt en mag je het scenario NIET onthouden en ook NIET meer aankoppelen bij dat scenario.
+| Situatie | Gevolg |
+|---|---|
+| Geholpen door EMS of kunnen inchecken | Scenario onthouden, maar 2 uur niet meer aankoppelen (geldt ook voor overheid). |
+| Niet geholpen / niet kunnen inchecken (respawn) | Spullen kwijt, scenario NIET onthouden en NIET opnieuw aankoppelen. |
+
 
 
 
 ### Maskers/Herkenbaarheid
-We houden het graag simpel :
+We houden het graag simpel:
 
 Spreekt iemand met zijn/haar eigen stem maar heeft wel een masker op? Je kan die persoon uiteraard gewoon herkennen!
 
 Gebruikt iemand een voicechanger of hoor je dat de persoon enigzins zijn/haar best doet om de stem te vervormen? Je kan de persoon nu NIET herkennen op basis van de stem. 
 
-Je kan de persoon natuurlijk wel nog herkennen op basis van andere elementen zoals : 
+Je kan de persoon natuurlijk wel nog herkennen op basis van andere elementen zoals: 
 - Kleding
 - Tatoeages
 - Voertuigen/kenteken
@@ -249,32 +258,39 @@ Gangs mogen bepaalde locaties als hun territorium claimen. Dit moet op een reali
 
 
 ### Activiteit totaal aantal betrokken criminelen
-De maximale groepsgrootte voor een specifieke activiteit varieert per scenario en is afgestemd op het aantal politieagenten :
+De maximale groepsgrootte voor een specifieke activiteit varieert per scenario en is afgestemd op het aantal politieagenten:
 
-- ATM Overval : 2 - Hit & Run ✅
-- Huis Overval : 4 - Hit & Run ✅
-- Winkeloverval : 4 - Hit & Run ✅
-- Boosting : 4 - Hit & Run ✅
-- Missies : 4 - Hit & Run ✅
-- Witwassen : 4 Hit & Run ❌
-- Cash Exchange : 4 Hit & Run ❌
-- Fleeca Bank : 4  Hit & Run ❌
-- Cargo Container :4 Hit & Run ❌
-- Paleto Bank : 6 Hit & Run ❌
-- Bobcat : 6 Hit & Run ❌
-- Maze Bank : 6 Hit & Run ❌
-- Pacific : 8 Hit & Run ❌
-- Art Asylum : 8 Hit & Run ❌
-- Casino Heist : 8 Hit & Run ❌
+| Activiteit | Max spelers | Hit & Run |
+|---|---:|:---:|
+| ATM Overval | 2 | ✅ |
+| Huis Overval | 4 | ✅ |
+| Winkeloverval | 4 | ✅ |
+| Boosting | 4 | ✅ |
+| Missies | 4 | ✅ |
+| Witwassen | 4 | ❌ |
+| Cash Exchange | 4 | ❌ |
+| Fleeca Bank | 4 | ❌ |
+| Cargo Container | 4 | ❌ |
+| Paleto Bank | 6 | ❌ |
+| Bobcat | 6 | ❌ |
+| Maze Bank | 6 | ❌ |
+| Pacific | 8 | ❌ |
+| Art Asylum | 8 | ❌ |
+| Casino Heist | 8 | ❌ |
+
 
 
 
 ### Ban Categorieën
 Dit zijn algemene richtlijnen voor ons als staffteam; weet wel dat elke situatie individueel zal beoordeeld worden op basis van hoe het scenario zich heeft ontwikkeld en eventuele vorige sancties.
 
-- CAT 1 - 1 dag ban
-- CAT 2 - 3 dagen ban
-- CAT 3 - 7 dagen ban
-- CAT 4 - 14 dagen ban
-- CAT 5 - Permanente ban
-#### Bij een CAT 5 wordt je character ook volledig gewiped.
+| Categorie | Sanctie |
+|---|---|
+| CAT 1 | 1 dag ban |
+| CAT 2 | 3 dagen ban |
+| CAT 3 | 7 dagen ban |
+| CAT 4 | 14 dagen ban |
+| CAT 5 | Permanente ban |
+
+:::danger
+Bij een CAT 5 worden al je characters volledig gewiped/verwijderd.

@@ -11,8 +11,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Azurite RP',
-  tagline: 'Officiële documentatie voor Azurite RP',
-  favicon: 'img/favicon.ico',
+  tagline: 'De beste FiveM Roleplay ervaring 💎',
+  favicon: 'img/azurite-logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -32,12 +32,13 @@ const config = {
 
   onBrokenLinks: 'throw',
 
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'nl',
+    locales: ['nl', 'nl'],
   },
 
   presets: [
@@ -52,21 +53,7 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -79,33 +66,57 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      // Announcement bar voor belangrijke updates (must be inside themeConfig)
+      announcementBar: {
+        id: 'server_launch',
+        content:
+          '🎉 Azurite RP is nu LIVE! Join onze Discord voor meer info - <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/F3qr9MC8sC">Klik hier</a>',
+        backgroundColor: '#25424eff',
+        textColor: '#ffffffff',
+        isCloseable: true,
+      },
       colorMode: {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Azurite RP',
+        title: 'Azurite',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'AzuriteLogo',
+          src: 'img/azurite-logo.png',
         },
         items: [
           {
-            href: 'https://discord.gg/F3qr9MC8sC',
-            label: '💬 Discord',
-            position: 'right',
-            className: 'navbar-discord',
-          }        
+            type: 'docSidebar',
+            sidebarId: 'docsSidebar',
+            position: 'left',
+            label: '📚 Info',
+          },
+          {
+            to: '/docs/changelogs',
+            position: 'left',
+            label: '📝 Changelogs',
+            activeBaseRegex: '/docs/changelogs/.*'
+          },
+          
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Info',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Introductie',
+                to: '/docs/introductie',
+              },
+              {
+                label: 'Server Regels',
+                to: '/docs/server-regels',
+              },
+              {
+                label: 'Changelogs',
+                to: '/docs/changelogs',
               },
             ],
           },
@@ -113,34 +124,63 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Join Discord',
+                href: 'https://discord.gg/F3qr9MC8sC',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Follow on TikTok',
+                href: 'https://tiktok.com/@azuriterp',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Follow on Twitch',
+                href: 'https://twitch.tv/azuriterp',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Terms of Service',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'CFX (FiveM)',
+                href: 'https://runtime.fivem.net/platform-license-agreement-12-sept-2023.pdf',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Twitch',
+                href: 'https://legal.twitch.com/en/legal/terms-of-service/',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discord.com/terms',
+              },
+              {
+                label: 'TikTok',
+                href: 'https://www.tiktok.com/legal/page/us/terms-of-service/en',
+              },
+              {
+                label: 'Youtube',
+                href: 'https://www.youtube.com/static?template=terms',
+              },
+              {
+                label: 'Kick',
+                href: 'https://kick.com/terms-of-service',
+              },
+            ],
+          },
+          {
+            title: 'Server Info',
+            items: [
+              {
+                label: 'Connecten',
+                to: '/docs/hoe-connecten',
+              },
+              {
+                label: 'Support',
+                to: 'https://discord.gg/F3qr9MC8sC',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Azurite RP. Made with ❤️ and 💎`,
       },
       prism: {
         theme: prismThemes.github,

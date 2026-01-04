@@ -4,46 +4,75 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: '🎮 Actieve Community',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Word deel van een groeiende community van FiveM spelers. 
+        Met dagelijkse events, actieve staff en een vriendelijke omgeving 
+        is er altijd iets te beleven in Azurite RP.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: '🚓 Whitelisted Jobs',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Kies uit diverse carrièrepaden zoals politie, EMS, mechanics en meer. 
+        Elke job heeft unieke features en mogelijkheden om je roleplay ervaring 
+        naar een hoger niveau te tillen.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: '💎 Custom Scripts',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Geniet van volledig custom scripts en features die je nergens anders vindt. 
+        Van unieke voertuigen tot custom locaties, we blijven de server 
+        continu verbeteren.
+      </>
+    ),
+  },
+  {
+    title: '📋 Duidelijke Regels',
+    description: (
+      <>
+        Onze server draait op respect en fairplay. Met duidelijke regels 
+        en een actief staffteam zorgen we ervoor dat iedereen een 
+        geweldige ervaring heeft.
+      </>
+    ),
+  },
+  {
+    title: '💰 Balanced Economy',
+    description: (
+      <>
+        Een goed uitgebalanceerde economie waar hard werken beloond wordt. 
+        Verdien geld door legaal werk, of waag je aan de onderwereld, 
+        de keuze is aan jou.
+      </>
+    ),
+  },
+  {
+    title: '🔧 Actieve Development',
+    description: (
+      <>
+        Ons dev team werkt constant aan nieuwe features en improvements. 
+        Feedback van de community wordt serieus genomen en regelmatig 
+        geïmplementeerd in updates.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+      <div className={styles.featureCard}>
+        <div className="text--center padding-horiz--md">
+          <Heading as="h3" className={styles.featureTitle}>{title}</Heading>
+          <p className={styles.featureDescription}>{description}</p>
+        </div>
       </div>
     </div>
   );
@@ -53,6 +82,14 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        <div className="text--center margin-bottom--lg">
+          <Heading as="h2" className={styles.sectionTitle}>
+            Waarom Azurite RP?
+          </Heading>
+          <p className={styles.sectionSubtitle}>
+            Ontdek wat onze FiveM server uniek maakt
+          </p>
+        </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
