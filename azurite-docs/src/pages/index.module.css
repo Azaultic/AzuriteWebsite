@@ -9,11 +9,14 @@
   position: relative;
   overflow: hidden;
   background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #517C8E 100%);
+  background-size: 200% 200%;
+  animation: gradient-shift 20s ease infinite;
   min-height: 500px;
   display: flex;
   align-items: center;
 }
 
+/* Animated gradient background */
 .heroBanner::before {
   content: '';
   position: absolute;
@@ -22,18 +25,94 @@
   right: 0;
   bottom: 0;
   background: 
-    radial-gradient(circle at 30% 40%, rgba(81, 124, 142, 0.3) 0%, transparent 50%),
-    radial-gradient(circle at 70% 60%, rgba(107, 161, 184, 0.2) 0%, transparent 50%);
+    radial-gradient(circle at 30% 40%, rgba(81, 124, 142, 0.4) 0%, transparent 50%),
+    radial-gradient(circle at 70% 60%, rgba(107, 161, 184, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 50% 80%, rgba(100, 212, 255, 0.2) 0%, transparent 60%);
   pointer-events: none;
   animation: bgAnimation 15s ease-in-out infinite;
+}
+
+/* Smoke/mist effect layers */
+.heroBanner::after {
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: -10%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(115, 166, 187, 0.2) 0%, rgba(81, 124, 142, 0.1) 40%, transparent 70%);
+  border-radius: 50%;
+  filter: blur(80px);
+  animation: heroSmoke 30s infinite ease-in-out;
+  pointer-events: none;
+}
+
+@keyframes heroSmoke {
+  0%, 100% {
+    transform: translate(0, 0) scale(1) rotate(0deg);
+    opacity: 0.6;
+  }
+  33% {
+    transform: translate(80px, -60px) scale(1.3) rotate(120deg);
+    opacity: 0.9;
+  }
+  66% {
+    transform: translate(-50px, 70px) scale(1.1) rotate(240deg);
+    opacity: 0.7;
+  }
+}
+
+.heroBanner .container {
+  position: relative;
+  z-index: 1;
+  animation: fadeInUp 1s ease-out;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  animation: fadeInUp 1.2s ease-out;
+}
+
+.buttons a {
+  animation: bounceIn 1s ease-out 0.5s both;
 }
 
 @keyframes bgAnimation {
   0%, 100% {
     opacity: 1;
+    transform: scale(1);
   }
   50% {
-    opacity: 0.7;
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes gradient-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes smoke {
+  0% {
+    transform: translateY(0) scale(1) rotate(0deg);
+    opacity: 0.15;
+  }
+  50% {
+    transform: translateY(-100px) scale(1.3) rotate(180deg);
+    opacity: 0.25;
+  }
+  100% {
+    transform: translateY(-200px) scale(1.6) rotate(360deg);
+    opacity: 0;
   }
 }
 
@@ -50,4 +129,37 @@
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+/* Ensure content is above animated background */
+.heroBanner .container {
+  position: relative;
+  z-index: 1;
+}
+
+.heroBanner h1 {
+  position: relative;
+  z-index: 2;
+  text-shadow: 
+    0 0 40px rgba(100, 212, 255, 0.5),
+    0 0 80px rgba(81, 124, 142, 0.3),
+    0 4px 20px rgba(0, 0, 0, 0.5);
+  animation: title-glow 3s ease-in-out infinite;
+}
+
+@keyframes title-glow {
+  0%, 100% {
+    text-shadow: 
+      0 0 40px rgba(100, 212, 255, 0.5),
+      0 0 80px rgba(81, 124, 142, 0.3),
+      0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    text-shadow: 
+      0 0 60px rgba(100, 212, 255, 0.7),
+      0 0 100px rgba(81, 124, 142, 0.5),
+      0 4px 20px rgba(0, 0, 0, 0.5);
+  }
 }

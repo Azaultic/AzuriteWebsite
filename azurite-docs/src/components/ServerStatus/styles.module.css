@@ -1,6 +1,28 @@
 .statusSection {
   padding: 3rem 0;
   background: linear-gradient(180deg, rgba(81, 124, 142, 0.05) 0%, transparent 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.statusSection::before {
+  display: none;
+}
+
+@keyframes statusGlow {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1) rotate(0deg);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2) rotate(180deg);
+    opacity: 0.8;
+  }
+}
+
+.statusSection .container {
+  position: relative;
+  z-index: 1;
 }
 
 .statusContainer {
@@ -11,6 +33,11 @@
   padding: 2.5rem;
   border: 2px solid var(--ifm-color-emphasis-200);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.statusContainerVisible {
+  /* Animation class voor extra effecten indien nodig */
 }
 
 .statusHeader {
@@ -30,6 +57,7 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin: 0;
+  animation: fadeInLeft 0.8s ease-out;
 }
 
 .statusBadge {
@@ -40,13 +68,24 @@
   background: var(--ifm-color-emphasis-100);
   border-radius: 50px;
   border: 2px solid var(--ifm-color-emphasis-200);
+  animation: fadeInRight 0.8s ease-out;
 }
 
 .statusDot {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
 }
 
 .statusDot.online {
@@ -80,17 +119,46 @@
   background: var(--ifm-color-emphasis-100);
   border-radius: 12px;
   border: 1px solid var(--ifm-color-emphasis-200);
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.statBoxVisible {
+  /* Animation class voor extra effecten indien nodig */
+}
+
+.statBox::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(81, 124, 142, 0.2), transparent);
+  transition: left 0.6s ease;
+}
+
+.statBox:hover::before {
+  left: 100%;
 }
 
 .statBox:hover {
-  transform: translateY(-4px);
   border-color: var(--ifm-color-primary);
-  box-shadow: 0 8px 16px rgba(81, 124, 142, 0.2);
+  box-shadow: 0 4px 12px rgba(81, 124, 142, 0.2);
 }
 
 .statIcon {
   font-size: 2rem;
+}
+
+@keyframes gentleBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
 }
 
 .statInfo {
@@ -102,6 +170,11 @@
   font-weight: 700;
   color: var(--ifm-color-primary);
   line-height: 1.2;
+  transition: all 0.3s ease;
+}
+
+.statBox:hover .statValue {
+  color: var(--ifm-color-primary-light);
 }
 
 .statLabel {
@@ -120,6 +193,11 @@
   border-radius: 12px;
   border: 2px dashed var(--ifm-color-primary);
   flex-wrap: wrap;
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
+}
+
+.connectSectionVisible {
+  /* Animation class voor extra effecten indien nodig */
 }
 
 .connectInfo {
@@ -157,17 +235,48 @@
   font-weight: 700;
   font-size: 1.1rem;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 4px 12px rgba(81, 124, 142, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.connectButton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transition: left 0.5s ease;
+}
+
+.connectButton:hover::before {
+  left: 100%;
 }
 
 .connectButton:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(81, 124, 142, 0.5);
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 12px 24px rgba(81, 124, 142, 0.5);
+}
+
+.connectButton:active {
+  transform: translateY(-2px) scale(1.03);
 }
 
 .buttonIcon {
   font-size: 1.5rem;
+  animation: wiggle 2s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
 }
 
 /* Dark mode */

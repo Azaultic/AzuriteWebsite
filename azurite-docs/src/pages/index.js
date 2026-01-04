@@ -5,6 +5,7 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import ServerStatus from '@site/src/components/ServerStatus';
 import DiscordWidget from '@site/src/components/DiscordWidget';
+import AnimatedBackground from '@site/src/components/AnimatedBackground';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -13,6 +14,7 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <AnimatedBackground />
       <div className="container">
         <Heading as="h1" className="hero__title">
           {siteConfig.title}

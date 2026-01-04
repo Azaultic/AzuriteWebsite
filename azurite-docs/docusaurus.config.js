@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Azurite',
-  tagline: 'De beste FiveM Roleplay ervaring 💎',
+  tagline: '💎 De beste FiveM Roleplay ervaring 💎',
   favicon: 'img/azurite-logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -30,6 +30,24 @@ const config = {
   projectName: 'AzuriteWebsite', // Usually your repo name.
 
   onBrokenLinks: 'warn',
+
+  // Scripts and stylesheets configuration
+  scripts: [],
+  stylesheets: [],
+  
+  // Client modules for hydration
+  clientModules: [],
+
+  // Headtags for CSP and external resources
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        'http-equiv': 'Content-Security-Policy',
+        content: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://discord.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https: http:; font-src 'self' data:; connect-src 'self' https://discord.com https://discordapp.com; frame-src 'self' https://discord.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self'",
+      },
+    },
+  ],
 
 
   // Even if you don't use internationalization, you can use this field to set

@@ -1,6 +1,39 @@
 .features {
   padding: 4rem 0;
   background: linear-gradient(180deg, transparent 0%, rgba(81, 124, 142, 0.05) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.features::before {
+  display: none;
+}
+
+.features::after {
+  display: none;
+}
+
+@keyframes ambientFloat1 {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(50px, -40px, 0);
+  }
+}
+
+@keyframes ambientFloat2 {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(-40px, 30px, 0);
+  }
+}
+
+.features .container {
+  position: relative;
+  z-index: 1;
 }
 
 .sectionTitle {
@@ -11,6 +44,14 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin-bottom: 1rem;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sectionTitleVisible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .sectionSubtitle {
@@ -18,6 +59,14 @@
   color: var(--ifm-color-emphasis-700);
   max-width: 600px;
   margin: 0 auto 3rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+}
+
+.sectionSubtitleVisible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .featureCard {
@@ -26,10 +75,17 @@
   background: var(--ifm-background-surface-color);
   border-radius: 16px;
   border: 2px solid var(--ifm-color-emphasis-200);
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
   margin-bottom: 2rem;
+  opacity: 0;
+  transform: translateY(40px) scale(0.95);
+}
+
+.featureCardVisible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
 }
 
 .featureCard::before {
@@ -41,17 +97,33 @@
   height: 4px;
   background: linear-gradient(90deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-light) 100%);
   transform: scaleX(0);
-  transition: transform 0.3s ease;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-origin: left;
+}
+
+.featureCard::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), 
+    rgba(81, 124, 142, 0.1) 0%, 
+    transparent 50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
 }
 
 .featureCard:hover {
-  transform: translateY(-8px);
   border-color: var(--ifm-color-primary);
-  box-shadow: 0 12px 32px rgba(81, 124, 142, 0.25);
+  box-shadow: 0 6px 16px rgba(81, 124, 142, 0.2);
 }
 
 .featureCard:hover::before {
   transform: scaleX(1);
+}
+
+.featureCard:hover::after {
+  opacity: 1;
 }
 
 .featureTitle {
@@ -59,6 +131,11 @@
   font-weight: 700;
   color: var(--ifm-color-primary);
   margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.featureCard:hover .featureTitle {
+  color: var(--ifm-color-primary-light);
 }
 
 .featureDescription {

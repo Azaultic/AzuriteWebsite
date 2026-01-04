@@ -1,27 +1,65 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
+import BrowserOnly from '@docusaurus/BrowserOnly';
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 import styles from './styles.module.css';
 
-export default function DiscordWidget({ serverId = '1451179970998177835' }) {
+const DiscordWidgetContent = React.memo(function DiscordWidgetContent({ serverId = '1451179970998177835' }) {
+  const [isVisible, setIsVisible] = useState(true);
+  const widgetRef = useRef(null);
+
+  useEffect(() => {
+    if (!ExecutionEnvironment.canUseDOM) return;
+    
+    // Fallback timeout in case IntersectionObserver doesn't fire
+    const fallbackTimeout = setTimeout(() => {
+      setIsVisible(true);
+    }, 100);
+
+    if (typeof IntersectionObserver === 'undefined') {
+      setIsVisible(true);
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          clearTimeout(fallbackTimeout);
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    if (widgetRef.current) {
+      observer.observe(widgetRef.current);
+    }
+
+    return () => {
+      observer.disconnect();
+      clearTimeout(fallbackTimeout);
+    };
+  }, []);
+
   return (
-    <section className={styles.discordSection}>
+    <section className={styles.discordSection} ref={widgetRef}>
       <div className="container">
-        <div className={styles.discordContainer}>
-          <div className={styles.discordContent}>
+        <div className={`${styles.discordContainer} ${isVisible ? styles.discordContainerVisible : ''}`}>
+          <div className={`${styles.discordContent} ${isVisible ? styles.discordContentVisible : ''}`}>
             <h2>Join Azurite</h2>
             <p>
               Connect met andere spelers, blijf op de hoogte van updates, 
               en vind antwoorden op je vragen in onze Discord server.
             </p>
             <div className={styles.discordStats}>
-              <div className={styles.statCard}>
+              <div className={`${styles.statCard} ${isVisible ? styles.statCardVisible : ''}`} style={{animationDelay: '0.2s'}}>
                 <span className={styles.statNumber}>2+</span>
                 <span className={styles.statLabel}>Active Members</span>
               </div>
-              <div className={styles.statCard}>
+              <div className={`${styles.statCard} ${isVisible ? styles.statCardVisible : ''}`} style={{animationDelay: '0.3s'}}>
                 <span className={styles.statNumber}>Geen</span>
                 <span className={styles.statLabel}>Support</span>
               </div>
-              <div className={styles.statCard}>
+              <div className={`${styles.statCard} ${isVisible ? styles.statCardVisible : ''}`} style={{animationDelay: '0.4s'}}>
                 <span className={styles.statNumber}>2+</span>
                 <span className={styles.statLabel}>Staff Team</span>
               </div>
@@ -40,7 +78,7 @@ export default function DiscordWidget({ serverId = '1451179970998177835' }) {
               Join Discord Server
             </a>
           </div>
-          <div className={styles.discordWidget}>
+          <div className={`${styles.discordWidget} ${isVisible ? styles.discordWidgetVisible : ''}`}>
             <iframe
               src={`https://discord.com/widget?id=${serverId}&theme=dark`}
               width="350"
@@ -49,10 +87,19 @@ export default function DiscordWidget({ serverId = '1451179970998177835' }) {
               frameBorder="0"
               sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
               title="Discord Widget"
+              loading="lazy"
             />
           </div>
         </div>
       </div>
     </section>
+  );
+});
+
+export default function DiscordWidget({ serverId = '1451179970998177835' }) {
+  return (
+    <BrowserOnly fallback={<div>Loading...</div>}>
+      {() => <DiscordWidgetContent serverId={serverId} />}
+    </BrowserOnly>
   );
 }
