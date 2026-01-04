@@ -1,0 +1,32 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #517C8E;
+  --ifm-color-primary-dark: #476f7d;
+  --ifm-color-primary-darker: #3f6370;
+  --ifm-color-primary-light: #5c8fa4;
+  --ifm-color-primary-lighter: #6ba1b8;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #6ba1b8;
+}
+
+.navbar-discord {
+  background-color: #517C8E;
+  color: white !important;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.navbar-discord:hover {
+  background-color: #3f6370;
+  text-decoration: none;
+}
