@@ -3,7 +3,7 @@ sidebar_position: 4
 title: Hoe clear ik mijn cache?
 ---
 
-### Waarom je cache clearen?
+## Waarom je cache clearen?
 Je leegt de cache van je FiveM‑client om prestatieproblemen, crashes en laadfouten op te lossen door beschadigde of verouderde tijdelijke bestanden te verwijderen. Hierdoor worden game‑assets zoals MLO’s, textures en voertuigen bij je volgende serververbinding opnieuw gedownload, wat zorgt voor soepelere gameplay en snellere laadtijden zonder je personages of voortgang te verwijderen. Het is vergelijkbaar met het wissen van browsercookies, maar dan voor je FiveM‑ervaring, zodat je schone data krijgt voor een betere roleplay‑sessie.
 
 
@@ -45,5 +45,8 @@ Let op:
 6. Start FiveM en stel je keybinds opnieuw in.
 
 :::tip
-- Als keybinds specifiek op één server problemen geven, het legen van `data\server-cache` en `data\server-cache-priv` (zie stappen hierboven) forceert een schone herlaad van servergebonden data, wat vaak bind‑conflicten oplost.
+- Als keybinds specifiek op één server problemen geven, het legen van `data\server-cache` en `data\server-cache-priv` (zie stappen hierboven) forceert een reload van servergebonden data, wat vaak bind‑conflicten oplost.
 :::
+
+---
+**Veel plezier op Azurite RP!** 💎🎮

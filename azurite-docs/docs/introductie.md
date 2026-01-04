@@ -28,3 +28,6 @@ Lees eerst de server regels. Daarna ben je ready om in te loggen en jouw verhaal
 :::
 
 Alle regels omtrent Azurite RP vind je [hier](./server-regels)
+
+---
+**Veel plezier op Azurite RP!** 💎🎮

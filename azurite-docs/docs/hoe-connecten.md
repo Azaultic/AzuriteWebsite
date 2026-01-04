@@ -28,7 +28,7 @@ Zorg ervoor dat je GTA V volledig up-to-date is voordat je FiveM installeert!
 4. FiveM zal automatisch je GTA V installatie detecteren
 
 :::warning Let op!
-Start GTA V **NIET** via Steam/Epic terwijl je FiveM gebruikt. FiveM start het spel automatisch.
+Start GTA V **niet** via Steam/Epic terwijl je FiveM gebruikt. FiveM start het spel automatisch.
 :::
 
 ## 🔗 Stap 2: Verbinden met Azurite RP
@@ -62,7 +62,7 @@ Bij je eerste keer inloggen:
 
 1. **Kies een naam**
    - Gebruik een realistische voor- en achternaam
-   - Geen beroemdheden, cartoon characters of rare namen
+   - Geen racistische, seksuele namen etc... Bekijk de [Server Regels](/docs/server-regels#Character)
    - Voorbeeld: ✅ "Jan Jansen" | ❌ "xXProGamerXx"
 
 2. **Pas je character aan**
@@ -82,57 +82,5 @@ Onze Discord is **essentieel** voor:
 - 👥 Community interactie
 - 🎉 Event aankondigingen
 
-**Discord Link:** [discord.gg/F3qr9MC8sC](https://discord.gg/F3qr9MC8sC)
-
-## ❓ Veelgestelde Vragen
-
-### Moet ik whitelisted zijn?
-
-Nee! Azurite RP is een **open server**. Je kunt meteen beginnen met spelen na het maken van je character.
-
-Sommige jobs vereisen wel een whitelist:
-- 🚓 Politie (LSPD)
-- 🚑 EMS/Ambulance
-- 🔧 Mechanics
-- En meer...
-
-### Kan ik meerdere characters hebben?
-
-Ja! Je mag **maximaal 2 characters** hebben. Check de [Server Regels](/docs/server-regels#multi-character) voor meer info.
-
-### Hoe krijg ik geld?
-
-- 💼 Start met legale jobs
-- 🚗 Doe taxi, vuilnisman, of andere starter jobs
-- 💰 Verdien geld en bouw je imperium op
-- 💎 Later kun je ook criminele activiteiten doen
-
-### Mijn game crashed bij het joinen?
-
-Probeer het volgende:
-1. **Restart FiveM** en probeer opnieuw
-2. **Clear je cache**: Ga naar `FiveM Application Data` → Delete `cache` folder
-3. **Update je graphics drivers**
-4. **Verlaag je GTA V settings** als je een lage-spec PC hebt
-
-Werkt het nog steeds niet? Maak een ticket in onze Discord!
-
-## 🎯 Nu je er bent...
-
-Je bent nu klaar om te beginnen! Hier zijn wat tips:
-
-1. **Begin klein** - Start met legale jobs om de server te leren kennen
-2. **Maak vrienden** - Roleplay is leuker met anderen!
-3. **Vraag om hulp** - Community is er om te helpen
-4. **Lees de regels** - Dit voorkomt veel problemen
-5. **Heb plezier!** - Dat is waar het om draait!
-
-## 🆘 Hulp Nodig?
-
-- 💬 **In-Game:** Type `/report` om staff te contacteren
-- 🎫 **Discord:** Maak een support ticket
-- 📖 **Regels:** Check onze [regels](/docs/server-regels.md)
-
 ---
-
 **Veel plezier op Azurite RP!** 💎🎮

@@ -45,13 +45,9 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        // docs: {
-        //   sidebarPath: './sidebars.js',
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/Azaultic/AzuriteWebsite/tree/main/',
-        // },
+        docs: {
+          sidebarPath: './sidebars.js',
+        },
         blog: false,
         theme: {
           customCss: './src/css/custom.css',
@@ -64,6 +60,7 @@ const config = {
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      // @ts-ignore
       ({
         hashed: true,
         language: ["en", "nl"],
@@ -86,12 +83,14 @@ const config = {
         id: 'server_launch',
         content:
           'Azurite RP is nu volop in Development! Join onze Discord voor meer info - <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/F3qr9MC8sC">Klik hier</a>',
-        backgroundColor: '#25424eff',
-        textColor: '#ffffffff',
+        backgroundColor: '#3a5c6a',
+        textColor: '#e2e8f0',
         isCloseable: true,
       },
       colorMode: {
-        respectPrefersColorScheme: true,
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
       },
       navbar: {
         title: 'Azurite',
@@ -102,7 +101,7 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'defaultSidebar',
+            sidebarId: 'docsSidebar',
             position: 'left',
             label: '📚 Info',
           },

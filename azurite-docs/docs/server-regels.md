@@ -1,17 +1,18 @@
 ---
 sidebar_position: 2
 title: Server Regels
+id: server-regels
 ---
+
+<div className="server-rules-page">
 
 ## Algemeen
 
 ### Het Azurite Team
-:::info
-Indien je vragen of problemen hebt is het NIET de bedoeling om staffleden via DM te benaderen of te taggen in discord.
-:::
-- Het is WEL de bedoeling dat je dan een ticket of in-game report aanmaakt.
+- Indien je vragen of problemen hebt is het **niet** de bedoeling om staffleden via DM te benaderen of te taggen in discord.
+- Het is **wel** de bedoeling dat je dan een ticket of in-game report aanmaakt.
 - Wij zullen steeds onze uiterste best doen om alle kanalen, tickets en in-game reports zo snel mogelijk te bekijken en/of te behandelen.
-- Het Azurite team bestaat uit: Management, Devs, Staff, Intakers.
+- Het Azurite team bestaat uit: **Azurite**, **Developer**, **Moderator**, **Support**.
 
 
 
@@ -34,8 +35,8 @@ Respecteer de Terms of Service (ToS) en de communityrichtlijnen!
 
 
 
-### Verkoop van in-game items/geld/eigendommen
-Het verkopen of ruilen van in-game items/geld/eigendommen voor IRL geld of goederen is verboden en tevens in strijd met de FiveM ToS
+### Verkoop van in-game items/geld/eigendommen.
+Het verkopen of ruilen van in-game items/geld/eigendommen voor IRL geld of goederen is verboden en tevens in strijd met de FiveM ToS.
 
 
 
@@ -61,10 +62,10 @@ Pas je character aan wanneer je voor de eerste keer in onze stad komt. Let er da
 ### Multi-Character 
 Je kan maximaal 2 characters aanmaken. Hier zijn wel enkele regels aan verbonden. 
 
-Het is NIET toegestaan om: 
+Het is **niet** toegestaan om: 
 - Met meerdere characters deel te nemen aan dezelfde of verschillende onderwereldgroepen.
 - Informatie mee te nemen van het ene character naar het andere.
-- Met beide characters een whitelisted job uit te voeren.
+- Met beide characters een whitelisted job uit te voeren. Bekijk de [FAQ](/docs/faq#wat-is-een-whitelisted-job) voor meer info.
 - Spullen of geld over te zetten van het ene character naar een andere.
 
 
@@ -106,10 +107,10 @@ Het gebruiken van informatie die je buiten het spel hebt verkregen is verboden!
 
 Bijvoorbeeld via:
 - discord
-- livestream.
-- ect...
+- livestream
+- etc...
 
-Heel simpel: wat je character niet hoort of ziet kan hij/zij NIET weten!
+Heel simpel: wat je character niet hoort of ziet kan hij/zij **niet** weten!
 
 Het is soms verleidelijk om informatie te gebruiken die je character in principe niet kan weten, doe het gewoon niet, je zal merken dat je het op die manier veel leuker maakt voor jezelf en trouwens ook voor anderen.
 
@@ -126,14 +127,13 @@ Gta style driving is toegestaan. Snel rijden, jumps nemen, offroad rijden met ee
 
 
 ### RDM/VDM
-VDM: Vehicle Deathmatch
-
-- Andere spelers doelbewust omver rijden met een voertuig zonder reden/roleplay. 
-
-
 RDM: Random Deathmatch 
 
 - Andere spelers doelbewust neerslaan of neerschieten zonder reden/roleplay. 
+
+VDM: Vehicle Deathmatch
+
+- Andere spelers doelbewust omver rijden met een voertuig zonder reden/roleplay. 
 
 Dit is uiteraard niet toegelaten.
 
@@ -178,12 +178,16 @@ Enkele voorbeelden:
 
 
 ### New Life Rule (NLR)
-Er zijn 2 mogelijkheden wat betreft de NLR:
+Wat is de **New Life Rule**?
+- De **New Life Rule** is van toepassing wanneer je character bewusteloos is.
+Je character is bewusteloos vanaf dat je zelf EMS kan oproepen. 
+
+Er zijn 2 mogelijkheden wat betreft de **New Life Rule**:
 
 | Situatie | Gevolg |
 |---|---|
 | Geholpen door EMS of kunnen inchecken | Scenario onthouden, maar 2 uur niet meer aankoppelen (geldt ook voor overheid). |
-| Niet geholpen / niet kunnen inchecken (respawn) | Spullen kwijt, scenario NIET onthouden en NIET opnieuw aankoppelen. |
+| Niet geholpen / niet kunnen inchecken (respawn) | Spullen kwijt, scenario **niet** onthouden en **niet** opnieuw aankoppelen. |
 
 
 
@@ -193,7 +197,7 @@ We houden het graag simpel:
 
 Spreekt iemand met zijn/haar eigen stem maar heeft wel een masker op? Je kan die persoon uiteraard gewoon herkennen!
 
-Gebruikt iemand een voicechanger of hoor je dat de persoon enigzins zijn/haar best doet om de stem te vervormen? Je kan de persoon nu NIET herkennen op basis van de stem. 
+Gebruikt iemand een voicechanger of hoor je dat de persoon enigzins zijn/haar best doet om de stem te vervormen? Je kan de persoon nu **niet** herkennen op basis van de stem. 
 
 Je kan de persoon natuurlijk wel nog herkennen op basis van andere elementen zoals: 
 - Kleding
@@ -226,7 +230,7 @@ Telefoons, eten en drinken, verbandjes of spullen (dus ook wapens en munitie) di
 
 - EMS-personeel mag niet ontvoerd worden om ervoor te zorgen dat er steeds iemand is die hulp kan bieden aan burgers.
 Dit wil niet zeggen dat je als EMS-medewerker kan doen en laten wat je wil "want ze mogen me toch niet onvoeren". 
-- In een goed doordacht scenario én met een goede reden kan en mag je een specifieke EMS medewerker WEL ontvoeren.
+- In een goed doordacht scenario én met een goede reden kan en mag je een specifieke EMS medewerker **wel** ontvoeren.
 - EMS mag geen wapens dragen, maar lichte verdedigingsmiddelen of handboeien kunnen soms worden toegestaan.
 - Het stelen van ambulances is toegestaan, behalve tijdens actieve medische hulpverlening.
 Let wel op, dit kan leiden tot zware boetes/straffen.
@@ -237,23 +241,21 @@ Net zoals bij de politie mogen alle andere spullen wel gewoon gestolen worden.
 
 
 ### Criminaliteit
-Criminele Activiteiten
-
 Er geldt een limiet voor het aantal spelers per criminele activiteit. Het doorgeven van informatie tussen karakters (bijvoorbeeld via uitkijkposten of radiocommunicatie) maakt deel uit van het scenario. 
 - Elke groep mag slechts één grote criminele activiteit tegelijk starten.
 - Bij bepaalde overvallen moet je wachten tot de politie ter plaatse is voordat je het scenario verder kunt zetten. Andere mogen gedaan worden als Hit & Run.
-- Vermijd het gebruik helicopters, vliegtuigen, zeppelin etc.. Met andere woorden; gebruik geen voertuigen die ervoor zorgen dat de andere partij geen kans maakt.
-- Het overnemen van een bank of andere grote overval is (momenteel) NIET toegestaan.
+- Vermijd het gebruik van helikopters, vliegtuigen, etc.. Met andere woorden; gebruik geen voertuigen die ervoor zorgen dat de andere partij geen kans maakt.
+- Het overnemen van een bank of andere grote overval is (momenteel) **niet** toegestaan.
 
 
 
 ### Ganglimiet
-Gangs mogen (op dit moment) maximaal 8 actieve leden hebben, inclusief associates, recruits,prospects of hoe je ze ook wil noemen. Dit aantal kan worden aangepast afhankelijk van de groei en ontwikkeling van de server.
+Gangs mogen (op dit moment) maximaal 8 actieve leden hebben, inclusief associates, recruits, prospects of hoe je ze ook wil noemen. Dit aantal kan worden aangepast afhankelijk van de groei en ontwikkeling van de server.
 
 
 
 ### Territorium claimen
-Gangs mogen bepaalde locaties als hun territorium claimen. Dit moet op een realistische manier worden uitgevoerd en mag NIET op een bestaande criminele locatie zijn.
+Gangs mogen bepaalde locaties als hun territorium claimen. Dit moet op een realistische manier worden uitgevoerd en mag **niet** op een bestaande criminele locatie zijn.
 
 
 
@@ -282,7 +284,7 @@ De maximale groepsgrootte voor een specifieke activiteit varieert per scenario e
 
 
 ### Ban Categorieën
-Dit zijn algemene richtlijnen voor ons als staffteam; weet wel dat elke situatie individueel zal beoordeeld worden op basis van hoe het scenario zich heeft ontwikkeld en eventuele vorige sancties.
+Dit zijn algemene richtlijnen voor ons als staffteam; weet wel dat elke situatie individueel beoordeeld zal worden op basis van hoe het scenario zich heeft ontwikkeld en eventuele vorige sancties.
 
 | Categorie | Sanctie |
 |---|---|
@@ -294,3 +296,9 @@ Dit zijn algemene richtlijnen voor ons als staffteam; weet wel dat elke situatie
 
 :::danger
 Bij een CAT 5 worden al je characters volledig gewiped/verwijderd.
+:::
+
+</div>
+
+---
+**Veel plezier op Azurite RP!** 💎🎮
