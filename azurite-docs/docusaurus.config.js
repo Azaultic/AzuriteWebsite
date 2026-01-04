@@ -87,7 +87,7 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'docsSidebar',
+            sidebarId: 'defaultSidebar',
             position: 'left',
             label: '📚 Info',
           },
