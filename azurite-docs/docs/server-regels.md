@@ -298,6 +298,9 @@ Dit zijn algemene richtlijnen voor ons als staffteam; weet wel dat elke situatie
 Bij een CAT 5 worden al je characters volledig gewiped/verwijderd.
 :::
 
+
+##  Let op: Het niet naleven van deze regels kan leiden tot waarschuwingen, mutes, kicks of bans, afhankelijk van de ernst van de overtreding.
+
 </div>
 
 ---
