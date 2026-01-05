@@ -76,6 +76,7 @@ const config = {
 
   themes: [
     [
+      // @ts-ignore
       require.resolve("@easyops-cn/docusaurus-search-local"),
       /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
       // @ts-ignore
