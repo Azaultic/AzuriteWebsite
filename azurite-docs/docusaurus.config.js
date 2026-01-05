@@ -146,12 +146,12 @@ const config = {
           {
             to: '/docs/hoe-connecten',
             position: 'left',
-            label: '🌐・Hoe connect ik?',
+            label: '🌐・Verbinden met Azurite',
           },
           {
             to: '/docs/cache-clearen',
             position: 'left',
-            label: '💾・Hoe clear ik mijn cache?',
+            label: '💾・Cache Clearen',
           },
           {
             to: '/docs/changelogs',

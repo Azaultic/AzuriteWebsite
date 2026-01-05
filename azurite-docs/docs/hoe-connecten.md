@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: 🌐・Hoe connect ik?
+title: 🌐・Verbinden met Azurite
 ---
 
 # Verbinden met Azurite

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-title: 💾・Hoe clear ik mijn cache?
+title: 💾・Cache Clearen
 ---
 
 ## Waarom je cache clearen?
