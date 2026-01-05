@@ -1,12 +1,16 @@
 ---
 sidebar_position: 4
-title: FAQ
+title: 📚・FAQ
 ---
 ## ❓Veelgestelde Vragen
 
-### Wanneer zijn er intakes?
+### Ik zie geen intake channels?
+- Dit komt hoogst waarschijnlijk omdat je in de discord je zelf nog niet heb geverifieerd. Dit is een kleine bescherming voor de discord (jullie) tegen spam accounts.
+- Je kan jezelf verifiëren door naar het discord kanaal: [**✅・verification**](https://discord.com/channels/1451179970998177835/1456981796871864473) te gaan. Hier zie je een bericht met als emoji een checkmark. Zodra je de checkmark aanvinkt ben je geverifieerd. Thats it!
 
-- Er zijn nooit specifieke uren gepland voor intakes. Wel zullen deze altijd op voorhand aangekondigd worden. Hou dus zeker de discord in de gaten!
+
+### Wanneer zijn er intakes?
+- Er zijn nooit specifieke uren gepland voor intakes. Wel zullen deze altijd op voorhand aangekondigd worden. Hou dus zeker de discord in de gaten! [Whitelist info](docs/whitelist-info.md) Voor alles omtrent een whitelist.
 
 
 
@@ -43,4 +47,4 @@ Werkt het nog steeds niet? Maak een ticket in onze Discord!
 - 📖 **Regels:** Check onze [regels](/docs/server-regels.md)
 
 ---
-**Veel plezier op Azurite!** 💎🎮
+💎 **Veel plezier op Azurite!** 💎

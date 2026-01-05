@@ -1,6 +1,6 @@
 ---
-sidebar_position: 3
-title: Hoe connect ik?
+sidebar_position: 4
+title: 🌐・Hoe connect ik?
 ---
 
 # Verbinden met Azurite
@@ -89,4 +89,4 @@ Bij je eerste keer inloggen:
 
 
 ---
-**Veel plezier op Azurite!** 💎🎮
+💎 **Veel plezier op Azurite!** 💎

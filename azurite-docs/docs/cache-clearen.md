@@ -1,6 +1,6 @@
 ---
-sidebar_position: 4
-title: Hoe clear ik mijn cache?
+sidebar_position: 5
+title: 💾・Hoe clear ik mijn cache?
 ---
 
 ## Waarom je cache clearen?
@@ -49,4 +49,4 @@ Let op:
 :::
 
 ---
-**Veel plezier op Azurite!** 💎🎮
+💎 **Veel plezier op Azurite!** 💎

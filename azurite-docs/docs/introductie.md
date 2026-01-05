@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Introductie
+title: 💎・Introductie
 ---
 # Introductie – Azurite
 
@@ -27,7 +27,7 @@ Welkom bij Azurite — een moderne, story‑driven roleplay community waar respe
 Lees eerst de server regels. Daarna ben je ready om in te loggen en jouw verhaal te starten.
 :::
 
-Alle regels omtrent Azurite vind je [hier](./server-regels)
+Alle regels omtrent Azurite vind je in de [server regels](./server-regels) tab op de site.
 
 ---
-**Veel plezier op Azurite!** 💎🎮
+💎 **Veel plezier op Azurite!** 💎

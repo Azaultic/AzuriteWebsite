@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Azurite',
-  tagline: '💎 De beste FiveM Roleplay ervaring 💎',
+  tagline: '💎 Van Azurite Voor Jullie Roleplay Ervaring 💎',
   favicon: 'img/azurite-logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -118,10 +118,34 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'docsSidebar',
+            to: '/docs/introductie',
             position: 'left',
-            label: '📚 Info',
+            label: '💎・Introductie',
+          },
+          {
+            to: '/docs/server-regels',
+            position: 'left',
+            label: '📕・Server Regels',
+          },
+          {
+            to: '/docs/whitelist-info',
+            position: 'left',
+            label: '🔓・Whitelist info',
+          },
+          {
+            to: '/docs/faq',
+            position: 'left',
+            label: '📚・FAQ',
+          },
+          {
+            to: '/docs/hoe-connecten',
+            position: 'left',
+            label: '🌐・Hoe connect ik?',
+          },
+          {
+            to: '/docs/cache-clearen',
+            position: 'left',
+            label: '💾・Hoe clear ik mijn cache?',
           },
           {
             to: '/docs/changelogs',
@@ -129,7 +153,6 @@ const config = {
             label: '📝 Changelogs',
             activeBaseRegex: '/docs/changelogs/.*'
           },
-          
         ],
       },
       footer: {

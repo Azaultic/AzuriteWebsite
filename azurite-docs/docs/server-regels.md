@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Server Regels
+title: 📕・Server Regels
 id: server-regels
 ---
 
@@ -301,4 +301,4 @@ Bij een CAT 5 worden al je characters volledig gewiped/verwijderd.
 </div>
 
 ---
-**Veel plezier op Azurite!** 💎🎮
+💎 **Veel plezier op Azurite!** 💎

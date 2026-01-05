@@ -1,7 +1,7 @@
 {
-  "label": "Changelogs",
-  "position": 5,
-  "collapsed": false,
+  "label": "📝・Changelogs Azurite",
+  "position": 6,
+  "collapsed": true,
   "link": {
     "type": "generated-index",
     "title": "Changelogs",
