@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: 💎・Introductie
 ---
-# Introductie – Azurite
+# Introductie
 ---
 
 ## Welkom

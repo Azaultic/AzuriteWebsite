@@ -3,7 +3,7 @@ sidebar_position: 3
 title: 🔓・Whitelist info
 ---
 
-# Whitelist Proces - Azurite
+# Whitelist Proces
 
 Welkom bij het whitelist-proces van Azurite! 
 
