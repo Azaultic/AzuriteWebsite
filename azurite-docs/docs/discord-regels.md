@@ -1,7 +1,7 @@
 ---
-sidebar_position: 3
-title: 📘・Server Regels
-id: server-regels
+sidebar_position: 2
+title: 📕・Discord Regels (updated soon)
+id: discord-regels
 ---
 
 <div className="server-rules-page">

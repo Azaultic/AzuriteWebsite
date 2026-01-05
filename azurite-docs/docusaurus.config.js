@@ -124,9 +124,14 @@ const config = {
             label: '💎・Introductie',
           },
           {
+            to: '/docs/discord-regels',
+            position: 'left',
+            label: '📕・Discord Regels',
+          },
+          {
             to: '/docs/server-regels',
             position: 'left',
-            label: '📕・Server Regels',
+            label: '📘・Server Regels',
           },
           {
             to: '/docs/whitelist-info',
