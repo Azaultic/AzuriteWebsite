@@ -264,21 +264,23 @@ De maximale groepsgrootte voor een specifieke activiteit varieert per scenario e
 
 | Activiteit | Max spelers | Hit & Run |
 |---|---:|:---:|
-| ATM Overval | 2 | ✅ |
-| Huis Overval | 4 | ✅ |
-| Winkeloverval | 4 | ✅ |
-| Boosting | 4 | ✅ |
-| Missies | 4 | ✅ |
-| Witwassen | 4 | ❌ |
-| Cash Exchange | 4 | ❌ |
-| Fleeca Bank | 4 | ❌ |
-| Cargo Container | 4 | ❌ |
-| Paleto Bank | 6 | ❌ |
-| Bobcat | 6 | ❌ |
-| Maze Bank | 6 | ❌ |
-| Pacific | 8 | ❌ |
-| Art Asylum | 8 | ❌ |
-| Casino Heist | 8 | ❌ |
+| Boosting | 2 (Rank B = 4)  | ✅ |
+| Store Robbery | 2 | ✅ |
+| House Robbery | 2 | ✅ |
+| ATM Robbery | 2 | ✅ |
+| Traphouse Robbery | 2 | ✅ |
+| ?Illegal Missions? | 4 | ✅ |
+| Laundromat Robbery | 4 | ❌ |
+| Cash Exchange Robbery | 4 | ❌ |
+| Fleeca Bank Robbery | 4 | ❌ |
+| Paleto Bank Robbery | 4 | ❌ |
+| Ammunation Robbery | 6 | ❌ |
+| Jewelery Robbery | 6 | ❌ |
+| Bobcat Robbery | 6 | ❌ |
+| Maze Bank Robbery | 6 | ❌ |
+| Oil Rig Robbery | 8 | ❌ |
+| Pacific Bank Robbery | 8 | ❌ |
+| Casino Heist Robbery | 8 | ❌ |
 
 
 
@@ -292,10 +294,11 @@ Dit zijn algemene richtlijnen voor ons als staffteam; weet wel dat elke situatie
 | CAT 2 | 3 dagen ban |
 | CAT 3 | 7 dagen ban |
 | CAT 4 | 14 dagen ban |
-| CAT 5 | Permanente ban |
+| CAT 5 | 1 maand ban |
+| CAT 6 | Permanente ban |
 
 :::danger
-Bij een CAT 5 worden al je characters volledig gewiped/verwijderd.
+Bij een CAT 6 worden al je characters volledig gewiped/verwijderd.
 :::
 
 
