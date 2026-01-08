@@ -24,7 +24,21 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/introductie">
-            Start hier 📖
+            Start 📖
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
+            href="https://discord.gg/F3qr9MC8sC"
+            target="_blank"
+            rel="noopener noreferrer">
+            <img 
+              src="/img/discord.svg" 
+              alt="Discord" 
+              width="20" 
+              height="20" 
+              style={{marginRight: '8px', verticalAlign: 'middle'}}
+            />
+            Join Discord
           </Link>
         </div>
       </div>
