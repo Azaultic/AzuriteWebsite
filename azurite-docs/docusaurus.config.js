@@ -44,7 +44,7 @@ const config = {
       tagName: 'meta',
       attributes: {
         'http-equiv': 'Content-Security-Policy',
-        content: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://discord.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https: http:; font-src 'self' data:; connect-src 'self' https://discord.com https://discordapp.com; frame-src 'self' https://discord.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self'",
+        content: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://discord.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https: http:; font-src 'self' data:; connect-src 'self' https://discord.com https://discordapp.com https://lively-shape-5d4b.azuritebe.workers.dev; frame-src 'self' https://discord.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self'",
       },
     },
   ],
@@ -88,6 +88,7 @@ const config = {
         indexBlog: false,
         indexDocs: true,
         docsRouteBasePath: '/docs',
+        searchBarShortcutHint: false,
       }),
     ],
   ],
@@ -108,7 +109,7 @@ const config = {
       },
       colorMode: {
         defaultMode: 'dark',
-        disableSwitch: false,
+        disableSwitch: true,
         respectPrefersColorScheme: false,
       },
       navbar: {
@@ -158,6 +159,11 @@ const config = {
             position: 'left',
             label: '📝 Changelogs',
             activeBaseRegex: '/docs/changelogs/.*'
+          },
+          {
+            to: '/ban-appeal',
+            position: 'right',
+            label: '⚖️・Ban Appeal',
           },
         ],
       },
@@ -237,6 +243,10 @@ const config = {
               {
                 label: 'Support',
                 to: 'https://discord.gg/F3qr9MC8sC',
+              },
+              {
+                label: 'Ban Appeal',
+                to: '/ban-appeal',
               },
             ],
           },
