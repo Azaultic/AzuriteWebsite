@@ -37,7 +37,7 @@
 }
 
 .statusContainerVisible {
-  /* Animation class voor extra effecten indien nodig */
+  /* Animation class for extra effects */
 }
 
 .statusHeader {
@@ -125,7 +125,7 @@
 }
 
 .statBoxVisible {
-  /* Animation class voor extra effecten indien nodig */
+  /* Animation class for extra effects */
 }
 
 .statBox::before {
@@ -197,7 +197,7 @@
 }
 
 .connectSectionVisible {
-  /* Animation class voor extra effecten indien nodig */
+  /* Animation class for extra effects */
 }
 
 .connectInfo {

@@ -204,7 +204,7 @@
   justify-content: center;
   width: 40px;
   height: 40px;
-  background: #517C8E; /* Discord dark */
+  background: #517C8E;
   color: #FFFFFF !important;
   border-radius: 8px;
   text-decoration: none;
@@ -238,7 +238,7 @@
 }
 
 .discordWidgetVisible {
-  /* Animation class voor extra effecten indien nodig */
+  /* Animation class for extra effects */
 }
 
 .discordWidget:hover {
@@ -272,7 +272,7 @@
   }
 }
 
-/* Dark mode aanpassingen */
+/* Dark mode changes */
 [data-theme='dark'] .statCard {
   background: var(--ifm-background-surface-color);
   border-color: var(--ifm-color-emphasis-300);

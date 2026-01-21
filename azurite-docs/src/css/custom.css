@@ -1,10 +1,4 @@
-/**
- * Azurite - Custom Styling
- * FiveM Roleplay Server Documentation
- * Modern Dark Theme with #517C8E Primary Color
- */
-
-/* Primary Brand Colors */
+/* Primary Colors */
 :root {
   --azurite-primary: #517C8E;
   --azurite-primary-dark: #446a7a;
@@ -47,7 +41,7 @@
   }
 }
 
-/* Global Animations - Optimized */
+/* Global Animations */
 * {
   transition-property: background-color, border-color, color, opacity;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

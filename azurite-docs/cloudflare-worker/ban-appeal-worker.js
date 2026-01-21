@@ -1,30 +1,19 @@
-/**
- * Azurite Ban Appeal - Cloudflare Worker
- * 
- * INSTRUCTIES:
- * 1. Ga naar https://dash.cloudflare.com/
- * 2. Klik op "Workers & Pages" in de linker sidebar
- * 3. Klik op "Create Application" → "Create Worker"
- * 4. Geef het een naam (bijv. "azurite-ban-appeal")
- * 5. Klik op "Deploy"
- * 6. Klik daarna op "Edit code"
- * 7. Vervang alle code met deze code
- * 8. Klik op "Save and Deploy"
- * 9. Ga naar Settings → Variables
- * 10. Voeg een nieuwe variable toe:
- *     - Variable name: DISCORD_WEBHOOK_URL
- *     - Value: jouw Discord webhook URL
- *     - Klik op "Encrypt" om het veilig te maken!
- * 11. Save de variable
- * 12. Kopieer je Worker URL (bijv. https://azurite-ban-appeal.jouwaccount.workers.dev)
- * 13. Plak die URL in je BanAppealForm component
- */
-
 export default {
   async fetch(request, env) {
-    // CORS headers - sta je website toe
+    // Get the origin from the request
+    const origin = request.headers.get('Origin');
+    
+    // Allow both www and non-www versions
+    const allowedOrigins = [
+      'https://azurite.info',
+      'https://www.azurite.info'
+    ];
+    
+    const allowOrigin = allowedOrigins.includes(origin) ? origin : 'https://www.azurite.info';
+    
+    // CORS headers
     const corsHeaders = {
-      'Access-Control-Allow-Origin': '*', // Je kunt dit beperken tot je eigen domein: 'https://azurite.info'
+      'Access-Control-Allow-Origin': allowOrigin,
       'Access-Control-Allow-Methods': 'POST, OPTIONS',
       'Access-Control-Allow-Headers': 'Content-Type',
     };

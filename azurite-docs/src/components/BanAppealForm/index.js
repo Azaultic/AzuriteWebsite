@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styles from './styles.module.css';
 
-// ✅ VEILIG: Dit is je Cloudflare Worker URL (niet de Discord webhook!)
 const WORKER_URL = 'https://lively-shape-5d4b.azuritebe.workers.dev';
 
 export default function BanAppealForm() {
@@ -36,7 +35,7 @@ export default function BanAppealForm() {
       return;
     }
 
-    // Discord Embed maken
+    // Discord Embed
     const embed = {
       title: '📋 Nieuwe Ban Appeal',
       color: 0x5865f2, // Discord Blurple
