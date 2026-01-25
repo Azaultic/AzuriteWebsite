@@ -35,6 +35,26 @@ export default function BanAppealForm() {
       return;
     }
 
+    // Discord ID format validatie (17-20 cijfers)
+    if (!/^\d{17,20}$/.test(formData.discordId.trim())) {
+      setStatus({ type: 'error', message: 'Ongeldig Discord ID formaat. Een Discord ID bestaat uit 17-20 cijfers.' });
+      setIsSubmitting(false);
+      return;
+    }
+
+    // Input length validatie
+    if (formData.discordName.length > 100 || formData.ingameName.length > 100) {
+      setStatus({ type: 'error', message: 'Namen mogen maximaal 100 karakters zijn.' });
+      setIsSubmitting(false);
+      return;
+    }
+
+    if (formData.appealReason.length > 2000) {
+      setStatus({ type: 'error', message: 'Je appeal reden mag maximaal 2000 karakters zijn.' });
+      setIsSubmitting(false);
+      return;
+    }
+
     // Discord Embed
     const embed = {
       title: '📋 Nieuwe Ban Appeal',
@@ -109,14 +129,18 @@ export default function BanAppealForm() {
           extraInfo: '',
         });
       } else {
-        console.error('Worker response error:', response.status, responseData);
-        throw new Error(responseData.error || `Worker failed with status ${response.status}`);
+        // Server returned error - use message from API if available
+        const errorMsg = responseData.error || 'Er is iets misgegaan.';
+        throw new Error(errorMsg);
       }
     } catch (error) {
-      console.error('Ban appeal error:', error);
+      // Toon alleen veilige error messages aan gebruikers
+      const safeMessage = error.message.includes('te veel appeals') || error.message.includes('Ongeldig')
+        ? error.message
+        : 'Er is iets misgegaan. Probeer het later opnieuw of neem contact op via Discord.';
       setStatus({
         type: 'error',
-        message: `❌ Er is iets misgegaan. Probeer het later opnieuw of neem contact op via Discord. (${error.message})`,
+        message: `❌ ${safeMessage}`,
       });
     }
 
@@ -139,6 +163,7 @@ export default function BanAppealForm() {
             placeholder="Bijv. JanGamert#1234"
             className={styles.input}
             autoComplete="off"
+            maxLength={100}
           />
         </div>
 
@@ -155,6 +180,8 @@ export default function BanAppealForm() {
             placeholder="Bijv. 123456789012345678"
             className={styles.input}
             autoComplete="off"
+            pattern="[0-9]{17,20}"
+            maxLength={20}
           />
           <small className={styles.hint}>
             Weet je niet hoe je je Discord ID vindt? Zet Developer Mode aan in Discord instellingen.
@@ -174,6 +201,7 @@ export default function BanAppealForm() {
             placeholder="Je karakter naam in de server"
             className={styles.input}
             autoComplete="off"
+            maxLength={100}
           />
         </div>
 
@@ -204,6 +232,7 @@ export default function BanAppealForm() {
             placeholder="Leg uit waarom je denkt dat je een tweede kans verdient"
             className={styles.textarea}
             rows={4}
+            maxLength={2000}
           />
         </div>
 

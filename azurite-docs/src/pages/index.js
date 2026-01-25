@@ -3,7 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import ServerStatus from '@site/src/components/ServerStatus';
+import QuickActions from '@site/src/components/QuickActions';
 import DiscordWidget from '@site/src/components/DiscordWidget';
 import AnimatedBackground from '@site/src/components/AnimatedBackground';
 
@@ -21,11 +21,6 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/introductie">
-            Start 📖
-          </Link>
           <Link
             className="button button--secondary button--lg"
             href="https://discord.gg/F3qr9MC8sC"
@@ -54,7 +49,7 @@ export default function Home() {
       description="Officiële documentatie voor Azurite - FiveM Roleplay Server">
       <HomepageHeader />
       <main>
-        <ServerStatus />
+        <QuickActions />
         <HomepageFeatures />
         <DiscordWidget />
       </main>
