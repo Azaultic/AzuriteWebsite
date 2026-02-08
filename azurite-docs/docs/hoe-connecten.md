@@ -76,10 +76,11 @@ Bij je eerste keer inloggen:
 1. **Kies een naam**
    - Gebruik een realistische voor- en achternaam
    - Geen racistische, seksuele namen etc... Gebruik je verstand.
-   - Voorbeeld: ✅ "Jan Jansen" | ❌ "xXProGamerXx"
+   - Voorbeeld: ✅ "Lucas de Vries" | ❌ "xXProGamerXx"
 
 2. **Pas je character aan**
    - Neem je tijd voor een unieke look
+   - Er zijn extra gezichten voor een totaal nieuwe character, misschien is het wel leuk om dit uit te proberen?
    - Controleer of je geen gaten in je kleding hebt
    - Zorg dat je wenkbrauwen hebt!
 

@@ -50,20 +50,20 @@ const DiscordWidgetContent = React.memo(function DiscordWidgetContent({ serverId
               Connect met andere spelers, blijf op de hoogte van updates, 
               en vind antwoorden op je vragen in onze Discord server.
             </p>
-            <div className={styles.discordStats}>
+            {/* <div className={styles.discordStats}>
               <div className={`${styles.statCard} ${isVisible ? styles.statCardVisible : ''}`} style={{animationDelay: '0.2s'}}>
-                <span className={styles.statNumber}>2+</span>
-                <span className={styles.statLabel}>Active Members</span>
+                <span className={styles.statNumber}>Groeiende</span>
+                <span className={styles.statLabel}>Community</span>
               </div>
               <div className={`${styles.statCard} ${isVisible ? styles.statCardVisible : ''}`} style={{animationDelay: '0.3s'}}>
-                <span className={styles.statNumber}>Geen</span>
-                <span className={styles.statLabel}>Support</span>
+                <span className={styles.statNumber}>Zo Goed Mogelijk</span>
+                <span className={styles.statLabel}>Online Support</span>
               </div>
               <div className={`${styles.statCard} ${isVisible ? styles.statCardVisible : ''}`} style={{animationDelay: '0.4s'}}>
-                <span className={styles.statNumber}>2+</span>
+                <span className={styles.statNumber}>Toegewijd</span>
                 <span className={styles.statLabel}>Staff Team</span>
               </div>
-            </div>
+            </div> */}
             <a 
               href="https://discord.gg/F3qr9MC8sC" 
               className={styles.discordButton}

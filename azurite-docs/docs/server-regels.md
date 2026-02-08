@@ -268,13 +268,13 @@ De maximale groepsgrootte voor een specifieke activiteit varieert per scenario e
 | Store Robbery | 2 | ✅ |
 | House Robbery | 2 | ✅ |
 | ATM Robbery | 2 | ✅ |
-| Traphouse Robbery | 2 | ✅ |
-| ?Illegal Missions? | 4 | ✅ |
+| Illegal Missions | 4 | ✅ |
 | Laundromat Robbery | 4 | ❌ |
 | Cash Exchange Robbery | 4 | ❌ |
 | Fleeca Bank Robbery | 4 | ❌ |
 | Paleto Bank Robbery | 4 | ❌ |
 | Ammunation Robbery | 6 | ❌ |
+| Traphouse Robbery | 2 | ✅ |
 | Jewelery Robbery | 6 | ❌ |
 | Bobcat Robbery | 6 | ❌ |
 | Maze Bank Robbery | 6 | ❌ |

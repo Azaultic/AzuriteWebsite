@@ -22,9 +22,10 @@ title: 📚・FAQ
 
 
 ### Wat is een whitelisted job?
-Een whitelisted job is specifiek een job waarvoor je moet solliciteren. Al de andere jobs zijn vrij om uit te voeren.
+- Een whitelisted job is specifiek een job waarvoor je moet solliciteren. Al de andere jobs zijn vrij om uit te voeren.
 
-
+### Waarom staan sommige termen in het Engels?
+- Bepaalde termen komen in het Nederlands niet goed over. Daarom hebben we ervoor gekozen om deze in het Engels te houden.
 
 
 ### Mijn game crashed bij het joinen?

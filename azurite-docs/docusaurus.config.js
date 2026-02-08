@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Azurite',
-  tagline: '💎 Van Azurite Voor Jullie Roleplay Ervaring 💎',
+  tagline: '💎 Azurite, voor jullie 💎',
   favicon: 'img/azurite-logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -247,7 +247,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Azurite. Made with ❤️ and 💎`,
+        copyright: `Copyright © ${new Date().getFullYear()} Azurite. Made with 💎 and ❤️`,
       },
       prism: {
         theme: prismThemes.github,
