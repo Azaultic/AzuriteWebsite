@@ -51,7 +51,7 @@ Er zijn **3 manieren** om te verbinden:
 ### Methode 1: Direct Connect (Aanbevolen)
 
 1. Druk op `F8` in FiveM om de console te openen
-2. Type: `connect cfx.re/join/lvmxko`
+2. Type: `connect play.azurite.info`
 3. Druk op Enter
 
 ### Methode 2: Via Server Browser
@@ -63,10 +63,10 @@ Er zijn **3 manieren** om te verbinden:
 
 ### Methode 3: Via Website
 
-Klik gewoon op deze link: [fivem://connect/cfx.re/join/lvmxko](https://cfx.re/join/lvmxko)
+Klik gewoon op deze [link](fivem://connect/play.azurite.info)
 
 :::info Server Adres
-**Ons server adres:** `cfx.re/join/lvmxko`
+**Ons server adres:** `play.azurite.info`
 :::
 
 ## 👤 Stap 4: Character Aanmaken
@@ -75,7 +75,7 @@ Bij je eerste keer inloggen:
 
 1. **Kies een naam**
    - Gebruik een realistische voor- en achternaam
-   - Geen racistische, seksuele namen etc... Bekijk de [Server Regels](/docs/server-regels#character)
+   - Geen racistische, seksuele namen etc... Gebruik je verstand.
    - Voorbeeld: ✅ "Jan Jansen" | ❌ "xXProGamerXx"
 
 2. **Pas je character aan**
