@@ -1,0 +1,391 @@
+---
+sidebar_position: 3
+title: 📘・Server Regels
+id: server-regels
+---
+
+<div className="server-rules-page">
+
+## 📋 Algemeen
+
+---
+
+### 👥 Het Azurite Team
+
+:::warning Belangrijk
+Heb je vragen of problemen? Benader staffleden **niet** via DM en tag ze **niet** in Discord.
+Maak in plaats daarvan een **ticket** of **in-game report** aan.
+:::
+
+Wij doen ons uiterste best om alle kanalen, tickets en in-game reports zo snel mogelijk te behandelen.
+
+Het Azurite team bestaat uit:
+
+| Rol |
+|---|
+| **Azurite** (Eigenaar) |
+| **Developer** |
+| **Moderator** |
+| **Support** |
+
+---
+
+### 🔞 Leeftijdsregels
+
+De minimumleeftijd om deel te kunnen nemen aan Azurite is **16 jaar**.
+
+> Gedraag je volwassen en respectvol, ongeacht je leeftijd.
+
+---
+
+### 📜 Terms of Service
+
+Respecteer de Terms of Service (ToS) en de communityrichtlijnen!
+
+| Platform | Link |
+|---|---|
+| **CFX (FiveM)** | [Gebruiksvoorwaarden](https://runtime.fivem.net/platform-license-agreement-12-sept-2023.pdf) |
+| **Twitch** | [Gebruiksvoorwaarden](https://legal.twitch.com/en/legal/terms-of-service/) |
+| **Discord** | [Gebruiksvoorwaarden](https://discord.com/terms) |
+| **TikTok** | [Gebruiksvoorwaarden](https://www.tiktok.com/legal/page/us/terms-of-service/en) |
+| **YouTube** | [Gebruiksvoorwaarden](https://www.youtube.com/static?template=terms) |
+| **Kick** | [Gebruiksvoorwaarden](https://kick.com/terms-of-service) |
+
+---
+
+### 💰 Verkoop van in-game items/geld/eigendommen
+
+:::danger Verboden
+Het verkopen of ruilen van in-game items, geld of eigendommen voor IRL geld of goederen is **verboden** en in strijd met de FiveM ToS.
+:::
+
+---
+
+### 🐛 Glitches & Bugs
+
+Glitches en bugs dienen **altijd** gemeld te worden via:
+- 🎮 **In-game report**
+- 🐞 **#bug-reports** kanaal
+- 🎫 **Ticket**
+
+:::danger Verboden
+Het misbruiken van glitches en bugs is verboden!
+:::
+
+---
+
+### 🎙️ Microfoon
+
+Een goed werkende en klinkende microfoon is **verplicht**!
+
+> Zorg ervoor dat je goed verstaanbaar bent en dat er zo weinig mogelijk (liefst geen) achtergrondgeluid te horen is in-game.
+
+---
+
+### 🧑 Character
+
+Je character dient een **normale voor- en achternaam** te hebben.
+
+:::danger Verboden
+Racistische of kwetsende namen zijn ten strengste verboden!
+:::
+
+> Pas je character aan wanneer je voor de eerste keer in onze stad komt. Let erop dat je geen gaten hebt in je kledij en dat je character wenkbrauwen heeft.
+
+---
+
+### 👥 Multi-Character
+
+Je kan maximaal **2 characters** aanmaken. Hier zijn wel enkele regels aan verbonden.
+
+Het is **niet** toegestaan om:
+- Met meerdere characters deel te nemen aan dezelfde of verschillende onderwereldgroepen
+- Informatie mee te nemen van het ene character naar het andere
+- Met beide characters een whitelisted job uit te voeren — zie de [FAQ](/docs/faq#-wat-is-een-whitelisted-job) voor meer info
+- Spullen of geld over te zetten van het ene character naar het andere
+
+---
+
+### 🔄 Server Restart
+
+De server krijgt **3 keer per dag** een restart (RP: aardbeving/tsunami).
+
+**Tijden:**
+<ul class="rule-times">
+	<li><span class="badge badge--secondary">03:00</span></li>
+	<li><span class="badge badge--secondary">11:00</span></li>
+	<li><span class="badge badge--secondary">19:00</span></li>
+</ul>
+
+:::info Restricties rond restarts
+Voor en na restarts gelden restricties zodat diensten/groeperingen kunnen reageren of voorbereiden.
+:::
+
+| Moment | Regel |
+|---|---|
+| ⏰ **30 min vóór** restart | Geen nieuwe grote scenario's starten. Lopende scenario's tijdig afronden. |
+| ⏰ **10 min ná** restart | Geen nieuw scenario starten — geef iedereen de tijd om de stad in te komen. |
+
+> 💡 Loopt een scenario langer dan gepland? Spreek met elkaar af om het na de restart netjes voort te zetten.
+
+---
+
+## 📖 Basisregels
+
+---
+
+### 🎭 IC en OOC gescheiden houden
+
+| Term | Betekenis |
+|---|---|
+| **IC** | In Character — je speelt een karakter in de stad |
+| **OOC** | Out Of Character — jij als persoon buiten het spel |
+
+Alles wat er in-game met je karakter gebeurt, zou geen invloed mogen hebben op jezelf. Het kan niet de bedoeling zijn dat je ruzie hebt met iemand in de stad en elkaar vervolgens via Discord de huid vol scheldt.
+
+> 😉 Een aanmoediging om in de stad ook echt een karakter te spelen en niet jezelf!
+
+---
+
+### 🚫 Metagaming
+
+Het gebruiken van informatie die je **buiten het spel** hebt verkregen is verboden!
+
+Bijvoorbeeld via:
+- 💬 Discord
+- 📺 Livestreams
+- 📱 Andere communicatiekanalen
+
+> Heel simpel: wat je character niet hoort of ziet, kan hij/zij **niet** weten!
+
+💡 Het is soms verleidelijk om informatie te gebruiken die je character niet kan weten. Doe het gewoon niet — je zult merken dat het op die manier veel leuker is voor jezelf én voor anderen.
+
+---
+
+### 🔌 Combat Logging
+
+Uitloggen tijdens een lopend scenario om de gevolgen niet te dragen is **verboden**.
+
+> Moet je echt dringend weg? Geef dit aan via `/ooc` en probeer het scenario te hervatten zodra je terug in de stad kunt komen.
+
+---
+
+### 🚗 GTA Style Driving
+
+GTA style driving is **toegestaan**: snel rijden, jumps nemen, offroad rijden met een wagen die daar niet voor bestemd is — het kan allemaal.
+
+:::caution Houd het realistisch
+Geen halve schroef met driedubbele koprol en dat soort toestanden. Agenten kunnen je uiteraard beboeten voor je rijgedrag!
+:::
+
+---
+
+### ⚔️ RDM / VDM
+
+| Term | Betekenis |
+|---|---|
+| **RDM** (Random Deathmatch) | Andere spelers doelbewust neerslaan of neerschieten **zonder reden/roleplay** |
+| **VDM** (Vehicle Deathmatch) | Andere spelers doelbewust omver rijden met een voertuig **zonder reden/roleplay** |
+
+:::danger
+Dit is uiteraard **niet** toegelaten.
+:::
+
+---
+
+### ❤️ Value of Life
+
+Handel steeds alsof je character **echt leeft**. Hecht waarde aan je leven.
+
+> **Voorbeeld:** Als iemand een wapen op je richt, moet je je best doen om die persoon te overtuigen om je niet overhoop te knallen. Je zult moeten meewerken en niet laten zien dat jij ondanks de situatie toch het grootste pakketje hebt. 😉
+
+---
+
+### 💪 Powergaming
+
+Dwing **geen acties af** op mede- of tegenspelers. Geef anderen altijd de kans om iets terug te doen. Het misbruiken van in-game mechanics om een voordeel af te dwingen valt ook onder powergaming!
+
+**Voorbeelden:**
+- `/me snijdt keel door` of `/me duwt persoon uit wagen`
+- Iemand dwingen om geld van de bank te halen
+- Iemand dwingen om eigendommen over te zetten (woningen, voertuigen)
+
+---
+
+### 🎪 FailRP / Low Quality RP
+
+Alle scenario's die schadelijk zijn voor de roleplay en de ervaring negatief beïnvloeden, worden beschouwd als **Low Quality RP**.
+
+<details>
+<summary>📋 Voorbeelden van FailRP (klik om te openen)</summary>
+
+- Iemand neerschieten of steken omdat deze schade heeft aangericht aan je voertuig
+- Extreme bedragen of spullen eisen voor iemands leven
+- Vrienden gebruiken als gijzelaar voor een overval
+- Een gewonde persoon beroven, achterlaten of verstoppen, tenzij je bij het scenario betrokken bent
+- Iemand neerschieten in plaats van te overmeesteren
+- Je mengen in shoot-outs, overvallen of achtervolgingen waar je niets mee te maken hebt
+- Direct wegrijden zonder te communiceren bij het begin van een scenario met de politie
+- Roleplay ontwijken omdat je liever wil grinden
+- Iemand met `/carry` of escort vervoeren in een auto/motor als er geen ruimte is
+- Ocean dumpen
+- Onnodig tackelen
+
+</details>
+
+---
+
+### 💀 New Life Rule (NLR)
+
+De **New Life Rule** is van toepassing wanneer je character bewusteloos is. Je character is bewusteloos vanaf het moment dat je zelf EMS kunt oproepen.
+
+| Situatie | Gevolg |
+|---|---|
+| ✅ Geholpen door EMS of kunnen inchecken | Scenario onthouden, maar **2 uur niet meer aankoppelen** (geldt ook voor overheid) |
+| ❌ Niet geholpen / niet kunnen inchecken (respawn) | Spullen kwijt, scenario **niet** onthouden en **niet** opnieuw aankoppelen |
+
+---
+
+### 🎭 Maskers & Herkenbaarheid
+
+We houden het simpel:
+
+| Situatie | Herkenbaar? |
+|---|---|
+| Eigen stem + masker op | ✅ **Wel** herkenbaar |
+| Voice changer / stem vervormd | ❌ **Niet** herkenbaar op basis van stem |
+
+Je kunt de persoon nog wél herkennen op basis van andere elementen:
+- 👕 Kleding
+- 🎨 Tatoeages
+- 🚗 Voertuigen / kenteken
+
+---
+
+### 🟢 Greenzones
+
+Een greenzone is een plek waar je **geen criminele activiteiten** mag uitvoeren.
+
+:::info Huidige situatie
+Wij hebben ervoor gekozen om op dit moment **GEEN** greenzones te voorzien. Afhankelijk van hoe dit loopt en op basis van feedback kan dit worden aangepast.
+:::
+
+#### De enige uitzondering:
+Geplande evenementen door het staffteam of door een burger in samenwerking met het staffteam. Hier mogen **absoluut geen** criminele activiteiten plaatsvinden.
+
+---
+
+### 🏛️ Overheidsbanen
+
+#### 👮 Politie
+
+| Regel | Details |
+|---|---|
+| **Ontvoering** | Toegestaan in goed doordachte RP-scenario's. **Niet** voor overvallen. |
+| **Verkoop eigendommen** | Politie mag **GEEN** wapens, munitie of andere politie-eigendommen verkopen/weggeven. Ook geen in beslag genomen spullen! |
+| **Informatie delen** | Als agent mag je hints droppen of een kenteken natrekken voor een vriend. Hou het realistisch en leuk voor iedereen! |
+
+**Als burger:**
+- ❌ Verboden: vuurwapens, slagwapens, munitie en handboeien van de politie stelen
+- ✅ Toegestaan: telefoons, eten, drinken, verbandjes en in beslag genomen spullen die nog niet in de kluis zitten
+
+#### 🚑 EMS
+
+| Regel | Details |
+|---|---|
+| **Ontvoering** | In principe **niet** toegestaan — er moet altijd iemand beschikbaar zijn voor hulpverlening. In een goed doordacht scenario met goede reden **wel** mogelijk. |
+| **Wapens** | EMS mag geen wapens dragen. Lichte verdedigingsmiddelen of handboeien kunnen soms worden toegestaan. |
+| **Ambulances stelen** | Toegestaan, **behalve** tijdens actieve medische hulpverlening. Let op: zware boetes/straffen! |
+
+:::warning Let op
+Dit wil niet zeggen dat je als EMS-medewerker kunt doen en laten wat je wil "want ze mogen me toch niet ontvoeren".
+:::
+
+**Als burger:**
+- ❌ Verboden: medische apparatuur, medicijnen of andere essentiële EMS-spullen stelen
+- ✅ Toegestaan: alle andere spullen mogen gewoon gestolen worden
+
+---
+
+## 🔫 Criminaliteit
+
+---
+
+### ⚖️ Algemene regels
+
+Er geldt een limiet voor het aantal spelers per criminele activiteit. Het doorgeven van informatie tussen karakters (bijvoorbeeld via uitkijkposten of radiocommunicatie) maakt deel uit van het scenario.
+
+- Elke groep mag slechts **één** grote criminele activiteit tegelijk starten
+- Bij bepaalde overvallen moet je wachten tot de politie ter plaatse is. Andere mogen gedaan worden als **Hit & Run**
+- Vermijd het gebruik van helikopters, vliegtuigen, etc. — gebruik geen voertuigen die ervoor zorgen dat de andere partij geen kans maakt
+- Het overnemen van een bank of andere grote overval is (momenteel) **niet** toegestaan
+
+---
+
+### 👥 Ganglimiet
+
+Gangs mogen (op dit moment) maximaal **8 actieve leden** hebben, inclusief associates, recruits, prospects of hoe je ze ook wilt noemen.
+
+> Dit aantal kan worden aangepast afhankelijk van de groei en ontwikkeling van de server.
+
+---
+
+### 📍 Territorium claimen
+
+Gangs mogen bepaalde locaties als hun territorium claimen. Dit moet op een **realistische manier** worden uitgevoerd en mag **niet** op een bestaande criminele locatie zijn.
+
+---
+
+### 📊 Maximaal aantal betrokken criminelen per activiteit
+
+De maximale groepsgrootte varieert per scenario en is afgestemd op het aantal politieagenten:
+
+| Activiteit | Max spelers | Hit & Run |
+|---|---:|:---:|
+| Boosting | 2 (Rank B = 4) | ✅ |
+| Store Robbery | 2 | ✅ |
+| House Robbery | 2 | ✅ |
+| ATM Robbery | 2 | ✅ |
+| Illegal Missions | 4 | ✅ |
+| Traphouse Robbery | 2 | ✅ |
+| Laundromat Robbery | 4 | ❌ |
+| Cash Exchange Robbery | 4 | ❌ |
+| Fleeca Bank Robbery | 4 | ❌ |
+| Paleto Bank Robbery | 4 | ❌ |
+| Ammunation Robbery | 6 | ❌ |
+| Jewelery Robbery | 6 | ❌ |
+| Bobcat Robbery | 6 | ❌ |
+| Maze Bank Robbery | 6 | ❌ |
+| Oil Rig Robbery | 8 | ❌ |
+| Pacific Bank Robbery | 8 | ❌ |
+| Casino Heist Robbery | 8 | ❌ |
+
+---
+
+## 🔨 Ban Categorieën
+
+Dit zijn algemene richtlijnen voor het staffteam. Elke situatie wordt individueel beoordeeld op basis van het scenario en eventuele vorige sancties.
+
+| Categorie | Sanctie |
+|---|---|
+| **CAT 1** | 1 dag ban |
+| **CAT 2** | 3 dagen ban |
+| **CAT 3** | 7 dagen ban |
+| **CAT 4** | 14 dagen ban |
+| **CAT 5** | 1 maand ban |
+| **CAT 6** | Permanente ban |
+
+:::danger CAT 6
+Bij een CAT 6 worden al je characters volledig **gewiped/verwijderd**.
+:::
+
+---
+
+:::caution Let op
+Het niet naleven van deze regels kan leiden tot **waarschuwingen**, **mutes**, **kicks** of **bans**, afhankelijk van de ernst van de overtreding.
+:::
+
+</div>
+
+---
+💎 **Veel plezier op Azurite!** 💎
