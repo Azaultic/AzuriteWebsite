@@ -58,4 +58,4 @@ Een intake is helemaal niet moeilijk of iets om schrik van te hebben als je wat 
 
 ---
 
-💎 **Veel plezier op Azurite!** 💎
+💎 **Azurite** 💎

@@ -49,4 +49,4 @@ Let op:
 :::
 
 ---
-💎 **Veel plezier op Azurite!** 💎
+💎 **Azurite** 💎

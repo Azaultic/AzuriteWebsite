@@ -61,4 +61,4 @@ Respecteer privacy
 ##  Let op: Het niet naleven van deze regels kan leiden tot waarschuwingen, mutes, kicks of bans, afhankelijk van de ernst van de overtreding.
 </div>
 
-💎 **Veel plezier op Azurite!** 💎
+💎 **Azurite** 💎

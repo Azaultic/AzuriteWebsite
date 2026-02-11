@@ -41,4 +41,4 @@ Lees eerst de server regels. Daarna ben je ready om in te loggen en jouw verhaal
 Alle regels omtrent Azurite vind je in de [server regels](./server-regels) tab op de site.
 
 ---
-💎 **Veel plezier op Azurite!** 💎
+💎 **Azurite** 💎

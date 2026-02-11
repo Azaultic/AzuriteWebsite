@@ -307,4 +307,4 @@ Bij een CAT 6 worden al je characters volledig gewiped/verwijderd.
 </div>
 
 ---
-💎 **Veel plezier op Azurite!** 💎
+💎 **Azurite** 💎

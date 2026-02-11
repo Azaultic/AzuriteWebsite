@@ -119,4 +119,4 @@ Je kunt op twee manieren je FPS zichtbaar maken:
 - 📖 **Regels:** Check onze [regels](/docs/server-regels.md)
 
 ---
-💎 **Veel plezier op Azurite!** 💎
+💎 **Azurite** 💎

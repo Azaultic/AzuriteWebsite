@@ -90,4 +90,4 @@ Bij je eerste keer inloggen:
 
 
 ---
-💎 **Veel plezier op Azurite!** 💎
+💎 **Azurite** 💎
