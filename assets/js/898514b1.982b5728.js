@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkazurite_docs=globalThis.webpackChunkazurite_docs||[]).push([[67],{9187(s){s.exports=JSON.parse('{"tags":[{"label":"v1.0.1","permalink":"/docs/tags/v-1-0-1","count":1}]}')}}]);
