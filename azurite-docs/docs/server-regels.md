@@ -65,7 +65,7 @@ Je kan maximaal 2 characters aanmaken. Hier zijn wel enkele regels aan verbonden
 Het is **niet** toegestaan om: 
 - Met meerdere characters deel te nemen aan dezelfde of verschillende onderwereldgroepen.
 - Informatie mee te nemen van het ene character naar het andere.
-- Met beide characters een whitelisted job uit te voeren. Bekijk de [FAQ](/docs/faq#wat-is-een-whitelisted-job) voor meer info.
+- Met beide characters een whitelisted job uit te voeren.
 - Spullen of geld over te zetten van het ene character naar een andere.
 
 
