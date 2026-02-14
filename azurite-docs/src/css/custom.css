@@ -144,7 +144,7 @@ article {
 .navbar__logo {
   height: 40px;
   margin-right: 0.5rem;
-  filter: drop-shadow(0 0 10px rgba(100, 212, 255, 0.4));
+  filter: none;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
