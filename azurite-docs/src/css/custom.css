@@ -41,8 +41,8 @@
   }
 }
 
-/* Global Animations - exclude navbar sidebar elements to not break mobile menu */
-*:not(.navbar-sidebar):not(.navbar-sidebar__backdrop):not(.navbar-sidebar__items):not(.navbar-sidebar__brand):not([class*='navbar-sidebar']) {
+/* Global Animations - exclude navbar and sidebar elements to not break mobile menu */
+*:not(.navbar-sidebar):not(.navbar-sidebar__backdrop):not(.navbar-sidebar__items):not(.navbar-sidebar__brand):not([class*='navbar-sidebar']):not(.navbar):not(.navbar__inner):not(.navbar__brand):not(.navbar__logo):not(.navbar__title):not(.navbar__toggle) {
   transition-property: background-color, border-color, color, opacity, transform, visibility;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 0.2s;
@@ -149,9 +149,32 @@ article {
   position: relative;
 }
 
+/* Prevent navbar from sliding/transforming on mobile */
+.navbar,
+.navbar__inner,
+.navbar__brand,
+.navbar__logo,
+.navbar__title {
+  transform: none !important;
+  transition: none !important;
+}
+
+/* Re-enable specific hover transitions for logo (desktop only) */
+@media (min-width: 997px) {
+  .navbar__logo {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    transform: unset !important;
+  }
+}
+
 /* When mobile menu is open, prevent body scroll */
 html[data-scroll-locked] {
   overflow: hidden !important;
+}
+
+/* Completely hide the main navbar when mobile sidebar is open - instant, no transition */
+html[data-scroll-locked] .navbar:not(.navbar-sidebar) {
+  display: none !important;
 }
 
 /* Mobile Navbar Sidebar - Ensure it's fully visible and functional */
@@ -164,6 +187,43 @@ html[data-scroll-locked] {
   width: 100% !important;
   height: 100vh !important;
   transform: none !important;
+}
+
+/* Navbar sidebar brand positioning - Match exact normal navbar positioning */
+.navbar-sidebar__brand {
+  background-color: #050810 !important;
+  padding: var(--ifm-navbar-padding-vertical) var(--ifm-navbar-padding-horizontal) !important;
+  height: var(--ifm-navbar-height);
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.navbar-sidebar__brand .navbar__brand {
+  margin: 0 !important;
+  padding: 0 !important;
+  /* Add left margin to match the space the hamburger toggle takes up in the normal navbar */
+  /* Toggle button = 30px wide + 0.5rem (8px) margin-right = ~38px */
+  margin-left: 38px !important;
+  display: flex;
+  align-items: center;
+}
+
+/* Ensure logo stays consistent in mobile sidebar */
+.navbar-sidebar__brand .navbar__logo {
+  height: 40px;
+  margin-right: 0.5rem;
+}
+
+.navbar-sidebar__brand .navbar__title {
+  margin: 0;
+  padding: 0;
+}
+
+/* Make sure normal navbar brand has same positioning */
+.navbar__brand {
+  padding: 0 !important;
+  margin-right: auto !important;
 }
 
 .navbar-sidebar__backdrop {
@@ -195,10 +255,6 @@ html[data-scroll-locked] {
 .navbar-sidebar .menu__link--active {
   color: #6b9fb5 !important;
   background: rgba(81, 124, 142, 0.2);
-}
-
-.navbar-sidebar__brand {
-  background-color: #050810 !important;
 }
 
 .navbar-sidebar__items {
