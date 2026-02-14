@@ -41,8 +41,8 @@
   }
 }
 
-/* Global Animations - exclude navbar and sidebar elements to not break mobile menu */
-*:not(.navbar-sidebar):not(.navbar-sidebar__backdrop):not(.navbar-sidebar__items):not(.navbar-sidebar__brand):not([class*='navbar-sidebar']):not(.navbar):not(.navbar__inner):not(.navbar__brand):not(.navbar__logo):not(.navbar__title):not(.navbar__toggle) {
+/* Global Animations - exclude navbar sidebar elements to not break mobile menu */
+*:not(.navbar-sidebar):not(.navbar-sidebar__backdrop):not(.navbar-sidebar__items):not(.navbar-sidebar__brand):not([class*='navbar-sidebar']) {
   transition-property: background-color, border-color, color, opacity, transform, visibility;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 0.2s;
@@ -149,21 +149,15 @@ article {
   position: relative;
 }
 
-/* Prevent navbar from sliding/transforming on mobile */
-.navbar,
-.navbar__inner,
-.navbar__brand,
-.navbar__logo,
-.navbar__title {
-  transform: none !important;
-  transition: none !important;
-}
-
-/* Re-enable specific hover transitions for logo (desktop only) */
-@media (min-width: 997px) {
-  .navbar__logo {
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
-    transform: unset !important;
+/* Prevent navbar from sliding/transforming on mobile only */
+@media (max-width: 996px) {
+  .navbar,
+  .navbar__inner,
+  .navbar__brand,
+  .navbar__logo,
+  .navbar__title {
+    transform: none !important;
+    transition: none !important;
   }
 }
 
@@ -223,7 +217,6 @@ html[data-scroll-locked] .navbar:not(.navbar-sidebar) {
 /* Make sure normal navbar brand has same positioning */
 .navbar__brand {
   padding: 0 !important;
-  margin-right: auto !important;
 }
 
 .navbar-sidebar__backdrop {
