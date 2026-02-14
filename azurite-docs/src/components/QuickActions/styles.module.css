@@ -86,11 +86,16 @@
 }
 
 .actionCard:hover {
-  transform: translateY(-5px);
   border-color: rgba(81, 124, 142, 0.4);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 30px rgba(81, 124, 142, 0.1);
   text-decoration: none;
   color: inherit;
+}
+
+@media (min-width: 997px) {
+  .actionCard:hover {
+    transform: translateY(-5px);
+  }
 }
 
 .actionCard:hover::before {

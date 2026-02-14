@@ -83,6 +83,7 @@ const DiscordWidgetContent = React.memo(function DiscordWidgetContent({ serverId
               src={`https://discord.com/widget?id=${serverId}&theme=dark`}
               width="350"
               height="400"
+              style={{maxWidth: '100%', width: '350px'}}
               allowTransparency="true"
               frameBorder="0"
               sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
