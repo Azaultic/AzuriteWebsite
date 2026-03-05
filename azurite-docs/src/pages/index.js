@@ -45,8 +45,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Welkom bij ${siteConfig.title}`}
-      description="Officiële documentatie voor Azurite - FiveM Roleplay Server">
+      title={`Welkom bij ${siteConfig.title} - FiveM Roleplay Server`}
+      description="Officiële website van Azurite. Bekijk onze regels, changelogs, faq en meer zodat je altijd op de hoogte bent.">
       <HomepageHeader />
       <main>
         <QuickActions />
