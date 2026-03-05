@@ -175,6 +175,11 @@ const config = {
             activeBaseRegex: '/docs/changelogs/.*'
           },
           {
+            to: '/store',
+            position: 'right',
+            label: '🛒・Store',
+          },
+          {
             to: '/ban-appeal',
             position: 'right',
             label: '📋・Ban Appeal',
