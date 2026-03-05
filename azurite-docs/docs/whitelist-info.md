@@ -44,7 +44,7 @@ Dit doen we deels voor het roleplayniveau hoog te houden maar zeker ook met de i
 8. Wanneer de intakers al hun vragen hebben gesteld lichten ze dit toe en zal je even terug in een aparte voice channel worden gesleept zodat de intakers de kwaliteit van het intakegesprek kunnen bespreken. We vragen je dan ook om in de voice channel te wachten. Dit duurt normaal niet zo lang!
 9. Nadat de bespreking klaar is slepen ze je terug naar het intakekanaal en krijg je te horen of je de whitelist krijgt of niet! Ben je afgewezen? Dan zullen de intakers je ook uitgebreid vertellen waarom.
 10. 
-- Goedgekeurd? Gefeliciteerd met de whitelist! Nu kan je verder naar [Verbinden met Azurite](/docs/hoe-connecten.md). Hier staat alles uitgebreid uitgelegd om van start te kunnen gaan.
+- Goedgekeurd? Gefeliciteerd met de whitelist! Nu kan je verder naar [Verbinden met Azurite](/docs/verbinden-met-azurite.md). Hier staat alles uitgebreid uitgelegd om van start te kunnen gaan.
 - Afgekeurd? Helaas. Dit vinden we zelf ook heel erg jammer. Dit is uiteraard nooit persoonlijk maar soms moeten er knopen doorgehakt worden om de kwaliteit van roleplay te kunnen blijven garanderen in de stad! Dit wil niet zeggen dat je geen kans meer krijgt. Intakers zullen je tips en tricks meegeven om het volgende keer beter te doen en zullen zelf ook bijhouden in een document waarom je de eerste keer de whitelist niet hebt gekregen.
 ### Hou rekening met:
 - De duur van een gesprek. We willen natuurlijk dat het bij iedereen zo vlot mogelijk verloopt maar dit is uiteraard niet altijd het geval. Een intakegesprek kan soms namelijk uitlopen door omstandigheden. We verwachten per persoon een intake gesprek van **10 tot 15min**.

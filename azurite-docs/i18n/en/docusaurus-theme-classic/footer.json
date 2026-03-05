@@ -65,7 +65,7 @@
   },
   "link.item.label.Connecten": {
     "message": "Connecten",
-    "description": "The label of footer link with label=Connecten linking to /docs/hoe-connecten"
+    "description": "The label of footer link with label=Connecten linking to /docs/verbinden-met-azurite"
   },
   "link.item.label.Support": {
     "message": "Support",

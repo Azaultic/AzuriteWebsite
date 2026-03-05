@@ -142,7 +142,7 @@ const config = {
             label: '📚・FAQ',
           },
           {
-            to: '/docs/hoe-connecten',
+            to: '/docs/verbinden-met-azurite',
             position: 'left',
             label: '🌐・Verbinden met Azurite',
           },
@@ -234,8 +234,8 @@ const config = {
             title: 'Server Info',
             items: [
               {
-                label: 'Connecten',
-                to: '/docs/hoe-connecten',
+                label: 'Verbinden met Azurite',
+                to: '/docs/verbinden-met-azurite',
               },
               {
                 label: 'Support',
