@@ -75,7 +75,7 @@ a {
 }
 
 a:hover {
-  text-decoration-style: wavy;
+  text-decoration-style: solid;
 }
 
 /* Dark mode palette - Enhanced Modern Theme */
