@@ -1,0 +1,46 @@
+{
+  "title": {
+    "message": "Azurite",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "AzuriteLogo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.💎・Introductie": {
+    "message": "💎・Introductie",
+    "description": "Navbar item with label 💎・Introductie"
+  },
+  "item.label.📕・Discord Regels": {
+    "message": "📕・Discord Regels",
+    "description": "Navbar item with label 📕・Discord Regels"
+  },
+  "item.label.📘・Server Regels": {
+    "message": "📘・Server Regels",
+    "description": "Navbar item with label 📘・Server Regels"
+  },
+  "item.label.🔓・Whitelist info": {
+    "message": "🔓・Whitelist info",
+    "description": "Navbar item with label 🔓・Whitelist info"
+  },
+  "item.label.📚・FAQ": {
+    "message": "📚・FAQ",
+    "description": "Navbar item with label 📚・FAQ"
+  },
+  "item.label.🌐・Verbinden met Azurite": {
+    "message": "🌐・Verbinden met Azurite",
+    "description": "Navbar item with label 🌐・Verbinden met Azurite"
+  },
+  "item.label.💾・Cache Clearen": {
+    "message": "💾・Cache Clearen",
+    "description": "Navbar item with label 💾・Cache Clearen"
+  },
+  "item.label.📝・Changelogs": {
+    "message": "📝・Changelogs",
+    "description": "Navbar item with label 📝・Changelogs"
+  },
+  "item.label.📋・Ban Appeal": {
+    "message": "📋・Ban Appeal",
+    "description": "Navbar item with label 📋・Ban Appeal"
+  }
+}

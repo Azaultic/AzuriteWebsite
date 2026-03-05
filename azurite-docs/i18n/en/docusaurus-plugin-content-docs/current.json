@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.📝・Changelogs Azurite": {
+    "message": "📝・Changelogs Azurite",
+    "description": "The label for category '📝・Changelogs Azurite' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.📝・Changelogs Azurite.link.generated-index.title": {
+    "message": "📝・Changelogs",
+    "description": "The generated-index page title for category '📝・Changelogs Azurite' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.📝・Changelogs Azurite.link.generated-index.description": {
+    "message": "Overzicht van alle updates, fixes, balancing en bekende issues.",
+    "description": "The generated-index page description for category '📝・Changelogs Azurite' in sidebar 'docsSidebar'"
+  }
+}

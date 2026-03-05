@@ -85,12 +85,7 @@ const config = {
         indexDocs: true,
         docsRouteBasePath: '/docs',
         searchBarShortcutHint: false,
-        translations: {
-          search_placeholder: "Zoeken",
-          see_all_results: "Bekijk alle resultaten",
-          no_results: "Geen resultaten gevonden.",
-          search_results_for: 'Zoekresultaten voor "{{ keyword }}"',
-        },
+        searchBarPosition: "right",
       }),
     ],
   ],
