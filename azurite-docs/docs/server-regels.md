@@ -2,6 +2,7 @@
 sidebar_position: 3
 title: 📘・Server Regels
 id: server-regels
+description: Alle server regels van Azurite FiveM. Ken de regels voordat je begint met spelen.
 ---
 
 <div className="server-rules-page">

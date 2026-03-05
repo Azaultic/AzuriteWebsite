@@ -281,6 +281,17 @@
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .particle,
+  .fogLayer1,
+  .fogLayer2,
+  .gradientWave1,
+  .gradientWave2,
+  .gradientWave3 {
+    animation: none !important;
+  }
+}
+
 /* Responsive adjustments */
 @media screen and (max-width: 996px) {
   .smokeEffect1,

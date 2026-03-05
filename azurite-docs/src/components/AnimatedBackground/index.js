@@ -65,14 +65,6 @@ const AnimatedBackground = React.memo(function AnimatedBackground() {
         />
       ))}
       
-      {/* Smoke/Mist Effects - Multiple Layers */}
-      <div className={styles.smokeEffect1} />
-      <div className={styles.smokeEffect2} />
-      <div className={styles.smokeEffect3} />
-      <div className={styles.smokeEffect4} />
-      <div className={styles.smokeEffect5} />
-      <div className={styles.smokeEffect6} />
-      
       {/* Fog Overlay */}
       <div className={styles.fogLayer1} />
       <div className={styles.fogLayer2} />

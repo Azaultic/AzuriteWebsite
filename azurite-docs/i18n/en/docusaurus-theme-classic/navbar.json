@@ -23,9 +23,9 @@
     "message": "🔓・Whitelist info",
     "description": "Navbar item with label 🔓・Whitelist info"
   },
-  "item.label.📚・FAQ": {
-    "message": "📚・FAQ",
-    "description": "Navbar item with label 📚・FAQ"
+  "item.label.❓・FAQ": {
+    "message": "❓・FAQ",
+    "description": "Navbar item with label ❓・FAQ"
   },
   "item.label.🌐・Verbinden met Azurite": {
     "message": "🌐・Verbinden met Azurite",

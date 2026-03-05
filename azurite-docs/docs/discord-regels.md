@@ -2,6 +2,7 @@
 sidebar_position: 2
 title: 📕・Discord Regels
 id: discord-regels
+description: De officiële Discord regels van Azurite. Lees ze goed door voordat je deelneemt aan de community.
 ---
 
 # Discord Regels

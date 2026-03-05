@@ -229,3 +229,14 @@
 [data-theme='light'] .description {
   color: var(--ifm-color-emphasis-700);
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .header,
+  .actionCard,
+  .visible {
+    animation: none !important;
+    transition: none !important;
+    opacity: 1;
+    transform: none;
+  }
+}

@@ -47,6 +47,14 @@ const config = {
         content: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://discord.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https: http:; font-src 'self' data:; connect-src 'self' https://discord.com https://discordapp.com https://lively-shape-5d4b.azuritebe.workers.dev; frame-src 'self' https://discord.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self'",
       },
     },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/img/azurite-logo.png',
+      },
+    },
   ],
 
   i18n: {
@@ -93,11 +101,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      // Custom Azurite social card
+      image: 'img/social-card.png',
       // Announcement bar voor belangrijke updates (must be inside themeConfig)
       announcementBar: {
-        id: 'server_launch',
+        id: 'server_launch_2026_03',
         content:
           'Azurite is nu volop in Development! Join onze Discord voor meer info - <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/F3qr9MC8sC">Klik hier</a>',
         backgroundColor: '#3a5c6a',
@@ -122,34 +130,43 @@ const config = {
             label: '💎・Introductie',
           },
           {
-            to: '/docs/discord-regels',
+            type: 'dropdown',
             position: 'left',
-            label: '📕・Discord Regels',
+            label: '📕・Regels',
+            items: [
+              {
+                to: '/docs/discord-regels',
+                label: '📕・Discord Regels',
+              },
+              {
+                to: '/docs/server-regels',
+                label: '📘・Server Regels',
+              },
+            ],
           },
           {
-            to: '/docs/server-regels',
+            type: 'dropdown',
             position: 'left',
-            label: '📘・Server Regels',
-          },
-          {
-            to: '/docs/whitelist-info',
-            position: 'left',
-            label: '🔓・Whitelist info',
-          },
-          {
-            to: '/docs/faq',
-            position: 'left',
-            label: '📚・FAQ',
+            label: '📚・Info',
+            items: [
+              {
+                to: '/docs/whitelist-info',
+                label: '🔓・Whitelist info',
+              },
+              {
+                to: '/docs/faq',
+                label: '❓・FAQ',
+              },
+              {
+                to: '/docs/cache-clearen',
+                label: '💾・Cache Clearen',
+              },
+            ],
           },
           {
             to: '/docs/verbinden-met-azurite',
             position: 'left',
-            label: '🌐・Verbinden met Azurite',
-          },
-          {
-            to: '/docs/cache-clearen',
-            position: 'left',
-            label: '💾・Cache Clearen',
+            label: '🌐・Verbinden',
           },
           {
             to: '/docs/changelogs',
@@ -239,7 +256,7 @@ const config = {
               },
               {
                 label: 'Support',
-                to: 'https://discord.gg/F3qr9MC8sC',
+                href: 'https://discord.gg/F3qr9MC8sC',
               },
               {
                 label: 'Ban Appeal',

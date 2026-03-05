@@ -50,7 +50,9 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <QuickActions />
+        <div className={styles.sectionDivider} />
         <HomepageFeatures />
+        <div className={styles.sectionDivider} />
         <DiscordWidget />
       </main>
     </Layout>

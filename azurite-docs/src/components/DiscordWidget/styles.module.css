@@ -218,6 +218,17 @@
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .discordContent h2,
+  .discordButton svg,
+  .discordContainer,
+  .discordContent,
+  .discordWidget {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
 .discordIconButton::after,
 .discordIconButton .iconExternalLink {
   content: none !important;

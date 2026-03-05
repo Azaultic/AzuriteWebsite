@@ -1,6 +1,8 @@
 ---
 sidebar_position: 4
 title: 🌐・Verbinden met Azurite
+id: verbinden-met-azurite
+description: Stap-voor-stap uitleg om te verbinden met de Azurite FiveM server via FiveM, F8 console of de directe link.
 ---
 
 # Verbinden met Azurite

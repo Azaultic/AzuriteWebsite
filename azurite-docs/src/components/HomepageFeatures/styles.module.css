@@ -168,3 +168,25 @@
     margin-bottom: 1.5rem;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .sectionTitle,
+  .sectionSubtitle,
+  .featureCard {
+    animation: none !important;
+    transition: none !important;
+    opacity: 1;
+    transform: none;
+  }
+
+  .featureCardVisible {
+    opacity: 1;
+    transform: none;
+  }
+
+  .sectionTitleVisible,
+  .sectionSubtitleVisible {
+    opacity: 1;
+    transform: none;
+  }
+}

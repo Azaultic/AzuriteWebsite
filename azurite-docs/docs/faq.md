@@ -1,9 +1,10 @@
 ---
 sidebar_position: 4
-title: 📚・FAQ
+title: ❓・FAQ
+description: Veelgestelde vragen over Azurite FiveM - intakes, characters, whitelisted jobs, FPS en meer.
 ---
 
-## ❓ Veelgestelde Vragen
+## 🧐 Veelgestelde Vragen
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 title: 💾・Cache Clearen
+description: Hoe je de FiveM cache leegt om crashes, laadproblemen en prestatieproblemen op te lossen.
 ---
 
 ## Waarom je cache clearen?
