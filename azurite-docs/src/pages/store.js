@@ -27,7 +27,7 @@ export default function Store() {
           </div>
 
           <section className={styles.section}>
-            <h2>Wat bieden wij aan:</h2>
+            <h2>Wat Bieden Wij Aan:</h2>
             <p>
               Onze store bevat uitsluitend quality-of-life en uitbreidingsopties. Er zijn geen
               pakketten die je een oneerlijk voordeel geven ten opzichte van andere spelers.
@@ -47,9 +47,7 @@ export default function Store() {
               Daarnaast zitten custom nummerplaten inbegrepen bij de abonnementen.
               Bronze start met 1 nummerplaat, en per hogere categorie krijg je er 1 extra bij:
               Silver 2, Gold 3, Platinum 4, Diamond 5 en Emerald 6 nummerplaten.
-              Geen zorgen: je kunt je abonnement op elk moment stopzetten. Alle voordelen blijven
-              actief tot het einde van je lopende betaalperiode, en je custom nummerplaat blijft
-              daarna permanent op je voertuig staan. Het overzetten van je nummerplaat naar een ander voertuig is niet mogelijk.
+              Geen zorgen: je custom nummerplaat blijft permanent op je voertuig staan. Het overzetten van je nummerplaat naar een ander voertuig is niet mogelijk.
             </p>
             <p>
               Wil je geen doorlopend abonnement maar toch de server steunen? Je kunt ook een
@@ -79,7 +77,7 @@ export default function Store() {
           </section>
 
           <section className={styles.section}>
-            <h2>Hoe werkt het:</h2>
+            <h2>Hoe Werkt Het:</h2>
             <p>
               Alle betalingen worden verwerkt via Tebex. Queue Priority wordt automatisch
               geactiveerd na betaling. Voor Extra Character Slots ontvang je een Tebex-ID die
