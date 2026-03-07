@@ -9,7 +9,7 @@ description: Stap-voor-stap uitleg om te verbinden met de Azurite FiveM server v
 
 Volg deze stappen om te connecten met onze FiveM server.
 
-## 📋 Vereisten
+## Vereisten
 
 Voordat je kunt spelen, heb je het volgende nodig:
 
@@ -22,7 +22,7 @@ Voordat je kunt spelen, heb je het volgende nodig:
 Zorg ervoor dat je GTA V volledig up-to-date is voordat je FiveM installeert!
 :::
 
-## 🎮 Stap 1: FiveM Installeren
+## Stap 1: FiveM Installeren
 
 1. Ga naar [fivem.net](https://fivem.net/)
 2. Download de FiveM installer
@@ -35,7 +35,7 @@ Start GTA V **niet** via Steam/Epic terwijl je FiveM gebruikt. FiveM start het s
 
 
 
-## 📱 Stap 2: Join de Discord
+## Stap 2: Join de Discord
 
 Onze Discord is **essentieel** voor:
 - 📝 Whitelist (toegang tot de server)
@@ -46,7 +46,7 @@ Onze Discord is **essentieel** voor:
 
 
 
-## 🔗 Stap 3: Verbinden met Azurite
+## Stap 3: Verbinden met Azurite
 
 Er zijn **3 manieren** om te verbinden:
 
@@ -71,7 +71,7 @@ Klik gewoon op deze [link](fivem://connect/play.azurite.info)
 **Ons server adres:** `play.azurite.info`
 :::
 
-## 👤 Stap 4: Character Aanmaken
+## Stap 4: Character Aanmaken
 
 Bij je eerste keer inloggen:
 

@@ -14,7 +14,7 @@ export default function Store() {
             <h1>Azurite <span className={styles.accent}>Support Store</span></h1>
             <p className={styles.subtitle}>
               Bij Azurite draait alles om kwaliteit, beleving en community. Via onze store
-              kun je de server ondersteunen en tegelijkertijd handige extra's vrijspelen
+              kun je de server ondersteunen en tegelijkertijd leuke extra's linken
               die jouw roleplay-ervaring completer maken — zonder pay-to-win voordelen.
             </p>
             <a
@@ -22,12 +22,12 @@ export default function Store() {
               target="_blank"
               rel="noopener noreferrer"
               className={styles.storeButton}>
-              Naar de Store
+              Naar De Store
             </a>
           </div>
 
           <section className={styles.section}>
-            <h2>Wat bieden wij aan?</h2>
+            <h2>Wat bieden wij aan:</h2>
             <p>
               Onze store bevat uitsluitend quality-of-life en uitbreidingsopties. Er zijn geen
               pakketten die je een oneerlijk voordeel geven ten opzichte van andere spelers.
@@ -36,12 +36,20 @@ export default function Store() {
           </section>
 
           <section className={styles.section}>
-            <h2>Monthly Support — Queue Priority</h2>
+            <h2>Monthly Support — Queue Priority:</h2>
             <p>
               Met Monthly Support krijg je voorrang in de wachtrij bij het joinen van de server.
               De queue priority wordt automatisch geactiveerd zodra je betaling is verwerkt. Dit
               is een maandelijks abonnement dat je op elk moment kunt annuleren. Zolang je
               abonnement actief is, heb je priority in de queue.
+            </p>
+            <p>
+              Daarnaast zitten custom nummerplaten inbegrepen bij de abonnementen.
+              Bronze start met 1 nummerplaat, en per hogere categorie krijg je er 1 extra bij:
+              Silver 2, Gold 3, Platinum 4, Diamond 5 en Emerald 6 nummerplaten.
+              Geen zorgen: je kunt je abonnement op elk moment stopzetten. Alle voordelen blijven
+              actief tot het einde van je lopende betaalperiode, en je custom nummerplaat blijft
+              daarna permanent op je voertuig staan. Het overzetten van je nummerplaat naar een ander voertuig is niet mogelijk.
             </p>
             <p>
               Wil je geen doorlopend abonnement maar toch de server steunen? Je kunt ook een
@@ -55,9 +63,9 @@ export default function Store() {
           </section>
 
           <section className={styles.section}>
-            <h2>Extra Character Slots</h2>
+            <h2>Extra Character Slots:</h2>
             <p>
-              Standaard kun je een beperkt aantal personages aanmaken. Met Extra Character Slots
+              Standaard heb je 1 personage. Met Extra Character Slots
               breid je dat uit, zodat je meerdere verhaallijnen kunt volgen met elk hun eigen
               achtergrond, carriere en ontwikkeling. Dit is een eenmalige aankoop die permanent
               actief blijft op je account.
@@ -71,11 +79,18 @@ export default function Store() {
           </section>
 
           <section className={styles.section}>
-            <h2>Hoe werkt het?</h2>
+            <h2>Hoe werkt het:</h2>
             <p>
               Alle betalingen worden verwerkt via Tebex. Queue Priority wordt automatisch
               geactiveerd na betaling. Voor Extra Character Slots ontvang je een Tebex-ID die
               je in-game inwisselt via het character menu (zie hierboven).
+            </p>
+            <p>
+              Voor custom nummerplaten geldt een ticketflow. Vraag je nummerplaat zelf aan via
+              een ticket in de Discord en voeg je Tebex-ID toe die je via e-mail hebt ontvangen,
+              samen met het voertuig waar de nummerplaat op moet worden ingesteld.
+              Na goedkeuring helpt iemand van het Azurite-team je zo snel mogelijk in-game
+              verder om de nummerplaat op het voertuig te zetten.
             </p>
             <p>
               Zorg ervoor dat je bent ingelogd met het juiste account voordat je een aankoop doet.
@@ -84,7 +99,7 @@ export default function Store() {
           </section>
 
           <section className={styles.section}>
-            <h2>Algemene Voorwaarden</h2>
+            <h2>Algemene Voorwaarden:</h2>
             <p>
               Voordat je een bestelling plaatst, vragen we je om onderstaande voorwaarden
               aandachtig door te nemen. Zodra je een aankoop doet in de Azurite Store,
@@ -153,7 +168,7 @@ export default function Store() {
           </section>
 
           <section className={styles.section}>
-            <h2>Geen Refunds</h2>
+            <h2>Geen Refunds:</h2>
             <p>
               Alle verkopen zijn definitief. Zodra een betaling is verwerkt, is er geen
               mogelijkheid tot terugbetaling. Dit geldt voor zowel eenmalige aankopen als
@@ -168,7 +183,7 @@ export default function Store() {
           </section>
 
           <section className={styles.section}>
-            <h2>Contact</h2>
+            <h2>Contact:</h2>
             <p>
               Heb je een vraag over je bestelling of loop je tegen een probleem aan?
               Maak een ticket aan in ons{' '}

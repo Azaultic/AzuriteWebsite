@@ -35,6 +35,18 @@ function HomepageHeader() {
             />
             Join Discord
           </Link>
+          <Link
+            className="button button--primary button--lg"
+            href="fivem://connect/play.azurite.info">
+            <img 
+              src="/img/fivem.svg" 
+              alt="FiveM" 
+              width="20" 
+              height="20" 
+              style={{marginRight: '8px', verticalAlign: 'middle'}}
+            />
+            Verbinden Met Azurite
+          </Link>
         </div>
       </div>
     </header>

@@ -22,7 +22,7 @@ Dit doen we deels om het roleplayniveau hoog te houden maar zeker ook met de int
 
 ---
 
-## 📋 Stap 1: Vereisten Controleren
+## Stap 1: Vereisten Controleren
 
 ### Voordat je begint, zorg dat je voldoet aan de volgende eisen:
 
@@ -33,7 +33,7 @@ Dit doen we deels om het roleplayniveau hoog te houden maar zeker ook met de int
 
 ---
 
-## 📝 Stap 2: Voorbereiding & Intake
+## Stap 2: Voorbereiding & Intake
 
 1. Ga naar de [server regels](/docs/server-regels.md).
 2. Neem **alle** regels goed door. **Ook als je ervaren bent!** Elke server is anders, de regels kunnen verschillen van server tot server.

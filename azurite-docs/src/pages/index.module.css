@@ -82,6 +82,11 @@
 
 .buttons a {
   animation: bounceIn 1s ease-out 0.5s both;
+  color: white !important;
+}
+
+.buttons a:hover {
+  color: white !important;
 }
 
 @keyframes bgAnimation {
