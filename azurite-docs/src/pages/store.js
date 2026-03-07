@@ -36,7 +36,7 @@ export default function Store() {
           </section>
 
           <section className={styles.section}>
-            <h2>Monthly Support — Queue Priority:</h2>
+            <h2>Monthly Support:</h2>
             <p>
               Met Monthly Support krijg je voorrang in de wachtrij bij het joinen van de server.
               De queue priority wordt automatisch geactiveerd zodra je betaling is verwerkt. Dit
