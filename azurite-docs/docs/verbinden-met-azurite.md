@@ -13,10 +13,10 @@ Volg deze stappen om te connecten met onze FiveM server.
 
 Voordat je kunt spelen, heb je het volgende nodig:
 
-- ✅ **Grand Theft Auto V** (GTA V) - Steam of Epic Games versie
-- ✅ **FiveM Client** - Download van [fivem.net](https://fivem.net/)
-- ✅ **Whitelisted Discord Account** - Voor communicatie met de community & connectie naar de server
-- ✅ **Leeftijd 16+** - Minimumleeftijd voor Azurite
+- **Grand Theft Auto V** (GTA V) - Steam of Epic Games versie
+- **FiveM Client** - Download van [fivem.net](https://fivem.net/)
+- **Whitelisted Discord Account** - Voor communicatie met de community & connectie naar de server
+- **Leeftijd 16+** - Minimumleeftijd voor Azurite
 
 :::tip
 Zorg ervoor dat je GTA V volledig up-to-date is voordat je FiveM installeert!
@@ -38,11 +38,11 @@ Start GTA V **niet** via Steam/Epic terwijl je FiveM gebruikt. FiveM start het s
 ## Stap 2: Join de Discord
 
 Onze Discord is **essentieel** voor:
-- 📝 Whitelist (toegang tot de server)
-- 📢 Server updates en announcements
-- 🎫 Support tickets
-- 👥 Community interactie
-- 🎉 Event aankondigingen
+- Whitelist (toegang tot de server)
+- Server updates en announcements
+- Support tickets
+- Community interactie
+- Event aankondigingen
 
 
 
