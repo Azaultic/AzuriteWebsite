@@ -9,8 +9,6 @@
   position: relative;
   overflow: hidden;
   background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #517C8E 100%);
-  background-size: 200% 200%;
-  animation: gradient-shift 20s ease infinite;
   min-height: 500px;
   display: flex;
   align-items: center;
@@ -25,26 +23,14 @@
   right: 0;
   bottom: 0;
   background: 
-    radial-gradient(circle at 30% 40%, rgba(81, 124, 142, 0.4) 0%, transparent 50%),
-    radial-gradient(circle at 70% 60%, rgba(107, 161, 184, 0.3) 0%, transparent 50%),
-    radial-gradient(circle at 50% 80%, rgba(100, 212, 255, 0.2) 0%, transparent 60%);
+    radial-gradient(circle at 30% 40%, rgba(81, 124, 142, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 70% 60%, rgba(107, 161, 184, 0.2) 0%, transparent 50%);
   pointer-events: none;
-  animation: bgAnimation 15s ease-in-out infinite;
 }
 
 /* Smoke/mist effect layers */
 .heroBanner::after {
-  content: '';
-  position: absolute;
-  top: 20%;
-  left: -10%;
-  width: 400px;
-  height: 400px;
-  background: radial-gradient(circle, rgba(115, 166, 187, 0.2) 0%, rgba(81, 124, 142, 0.1) 40%, transparent 70%);
-  border-radius: 50%;
-  filter: blur(80px);
-  animation: heroSmoke 30s infinite ease-in-out;
-  pointer-events: none;
+  display: none;
 }
 
 @keyframes heroSmoke {
@@ -81,7 +67,6 @@
 }
 
 .buttons a {
-  animation: bounceIn 1s ease-out 0.5s both;
   color: white !important;
 }
 
@@ -104,9 +89,6 @@
   0%, 100% {
     background-position: 0% 50%;
   }
-  50% {
-    background-position: 100% 50%;
-  }
 }
 
 @media screen and (max-width: 996px) {
@@ -120,26 +102,7 @@
 .heroBanner h1 {
   position: relative;
   z-index: 2;
-  text-shadow: 
-    0 0 40px rgba(100, 212, 255, 0.5),
-    0 0 80px rgba(81, 124, 142, 0.3),
-    0 4px 20px rgba(0, 0, 0, 0.5);
-  animation: title-glow 3s ease-in-out infinite;
-}
-
-@keyframes title-glow {
-  0%, 100% {
-    text-shadow: 
-      0 0 40px rgba(100, 212, 255, 0.5),
-      0 0 80px rgba(81, 124, 142, 0.3),
-      0 4px 20px rgba(0, 0, 0, 0.5);
-  }
-  50% {
-    text-shadow: 
-      0 0 60px rgba(100, 212, 255, 0.7),
-      0 0 100px rgba(81, 124, 142, 0.5),
-      0 4px 20px rgba(0, 0, 0, 0.5);
-  }
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
 }
 
 /* Section divider between homepage sections */
@@ -147,5 +110,5 @@
   height: 1px;
   max-width: 800px;
   margin: 0 auto;
-  background: linear-gradient(90deg, transparent, rgba(81, 124, 142, 0.3), transparent);
+  background: rgba(81, 124, 142, 0.2);
 }

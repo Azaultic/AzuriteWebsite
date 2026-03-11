@@ -12,14 +12,14 @@ export default function BanAppeal() {
       <main className={styles.main}>
         <div className={styles.container}>
           <div className={styles.header}>
-            <h1>📋 <span className={styles.blueText}>Ban Appeal</span></h1>
+            <h1><span className={styles.blueText}>Ban Appeal</span></h1>
             <p className={styles.subtitle}>
               Ben je onterecht gebanned of wil je een tweede kans? Vul het onderstaande formulier in.
             </p>
           </div>
 
           <div className={styles.infoBox}>
-            <h3>⚠️ Belangrijke info!</h3>
+            <h3>BELANGRIJK</h3>
             <ul>
               <li>Wees eerlijk in je appeal - liegen vermindert je kansen. Elke perm ban die we hebben vastgesteld wordt opgeslagen met alle data langs onze kant.</li>
               <li>Je appeal wordt binnen <strong>7 dagen</strong> behandeld.</li>

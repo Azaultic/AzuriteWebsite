@@ -1,6 +1,5 @@
 .section {
   padding: 4rem 0;
-  background: linear-gradient(180deg, transparent 0%, rgba(81, 124, 142, 0.03) 50%, transparent 100%);
 }
 
 .header {
@@ -20,10 +19,7 @@
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  background: linear-gradient(135deg, #73a6bb 0%, #517C8E 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--ifm-color-primary);
 }
 
 .sectionSubtitle {
@@ -74,27 +70,19 @@
 }
 
 .actionCard::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, #517C8E, #73a6bb);
-  opacity: 0;
-  transition: opacity 0.3s ease;
+  display: none;
 }
 
 .actionCard:hover {
   border-color: rgba(81, 124, 142, 0.4);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 30px rgba(81, 124, 142, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   text-decoration: none;
   color: inherit;
 }
 
 @media (min-width: 997px) {
   .actionCard:hover {
-    transform: translateY(-5px);
+    transform: translateY(-3px);
   }
 }
 
@@ -120,7 +108,6 @@
 }
 
 .highlighted {
-  background: linear-gradient(135deg, rgba(81, 124, 142, 0.15) 0%, rgba(81, 124, 142, 0.05) 100%);
   border-color: rgba(81, 124, 142, 0.4);
 }
 
@@ -134,15 +121,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(81, 124, 142, 0.2) 0%, rgba(81, 124, 142, 0.1) 100%);
+  background: rgba(81, 124, 142, 0.15);
   border-radius: 16px;
   margin-bottom: 1.25rem;
-  transition: transform 0.3s ease, background 0.3s ease;
+  transition: background 0.3s ease;
 }
 
 .actionCard:hover .iconWrapper {
-  transform: scale(1.1);
-  background: linear-gradient(135deg, rgba(81, 124, 142, 0.3) 0%, rgba(81, 124, 142, 0.15) 100%);
+  background: rgba(81, 124, 142, 0.25);
 }
 
 .icon {
@@ -180,7 +166,7 @@
   gap: 0.5rem;
   width: 100%;
   padding: 0.75rem 1.25rem;
-  background: linear-gradient(135deg, #517C8E 0%, #446a7a 100%);
+  background: #517C8E;
   color: white;
   border-radius: 10px;
   font-weight: 600;
@@ -189,8 +175,7 @@
 }
 
 .actionCard:hover .button {
-  background: linear-gradient(135deg, #5a8a9e 0%, #517C8E 100%);
-  box-shadow: 0 4px 15px rgba(81, 124, 142, 0.4);
+  background: #5a8a9e;
 }
 
 .arrow {

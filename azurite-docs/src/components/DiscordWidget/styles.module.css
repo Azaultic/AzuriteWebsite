@@ -1,6 +1,5 @@
 .discordSection {
   padding: 4rem 0;
-  background: linear-gradient(180deg, transparent 0%, var(--ifm-background-color) 100%);
   position: relative;
   overflow: hidden;
 }
@@ -62,11 +61,7 @@
 .discordContent h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  background: linear-gradient(120deg, #517C8E 0%, #517C8E 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: fadeInLeft 0.8s ease-out;
+  color: #517C8E;
 }
 
 .discordContent p {
@@ -150,24 +145,13 @@
   border-radius: 8px;
   text-decoration: none;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 4px 12px #517C8E;
+  box-shadow: 0 4px 12px rgba(81, 124, 142, 0.2);
   position: relative;
   overflow: hidden;
 }
 
 .discordButton::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-  transition: left 0.6s ease;
-}
-
-.discordButton:hover::before {
-  left: 100%;
+  display: none;
 }
 
 .discordButton::after,
@@ -177,25 +161,15 @@
 }
 
 .discordButton:hover {
-  background: #203138;
-  transform: translateY(-3px) scale(1.05);
-  box-shadow: 0 8px 24px rgba(16, 18, 34, 0.5);
+  background: #446a7a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(81, 124, 142, 0.3);
   text-decoration: none;
 }
 
 .discordButton svg {
   width: 24px;
   height: 24px;
-  animation: gentleBounce 2s ease-in-out infinite;
-}
-
-@keyframes gentleBounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-3px);
-  }
 }
 
 .discordIconButton {

@@ -5,36 +5,68 @@ import styles from './styles.module.css';
 
 const quickActions = [
   {
-    icon: '🎮',
-    title: 'Instant Connecten',
-    description: 'Start FiveM en connect naar onze server',
-    link: 'fivem://connect/play.azurite.info',
-    buttonText: 'Connect',
-    external: true,
-  },
-  {
-    icon: '💎',
+    icon: '...',
     title: 'Introductie',
-    description: 'Leer alles over onze server en regels',
+    description: 'Wat je moet weten voor je begint',
     link: '/docs/introductie',
     buttonText: 'Lezen',
     external: false,
   },
   {
-    icon: '📝',
+    icon: '🛈',
+    title: 'Discord Regels',
+    description: 'De regels van de Discord server op een rij',
+    link: '/docs/discord-regels',
+    buttonText: 'Lezen',
+    external: false,
+  },
+  {
+    icon: '🛈',
+    title: 'Server Regels',
+    description: 'De regels van de server op een rij',
+    link: '/docs/server-regels',
+    buttonText: 'Lezen',
+    external: false,
+  },
+  {
+    icon: '✓',
     title: 'Whitelist',
-    description: 'Check alle info over onze whitelist procedure',
+    description: 'Hoe de whitelist werkt',
     link: '/docs/whitelist-info',
     buttonText: 'Info',
     external: false,
   },
   {
-    icon: '📚',
-    title: 'Vragen?',
-    description: 'Bekijk de FAQ of neem contact op via onze discord',
+    icon: '?',
+    title: 'FAQ',
+    description: 'Veelgestelde vragen en antwoorden',
     link: '/docs/faq',
-    buttonText: 'FAQ',
+    buttonText: 'Bekijk',
     external: false,
+  },
+  {
+    icon: '󠁝X',
+    title: 'Cache Clearen',
+    description: 'Hoe je de cache kunt clearen',
+    link: '/docs/cache-clearen',
+    buttonText: 'Bekijk',
+    external: false,
+  },
+  {
+    icon: '↻',
+    title: 'Changelogs',
+    description: 'Bekijk de laatste wijzigingen en updates',
+    link: '/docs/changelogs',
+    buttonText: 'Bekijk',
+    external: false,
+  },
+  {
+    icon: '▶',
+    title: 'Connecten',
+    description: 'Direct de server op via FiveM',
+    link: 'fivem://connect/play.azurite.info',
+    buttonText: 'Connect',
+    external: true,
   },
 ];
 
@@ -111,8 +143,8 @@ export default function QuickActions() {
     <section className={styles.section} ref={sectionRef}>
       <div className="container">
         <div className={`${styles.header} ${isVisible ? styles.headerVisible : ''}`}>
-          <h2 className={styles.sectionTitle}>Snel Starten</h2>
-          <p className={styles.sectionSubtitle}>Alles wat je nodig hebt om te beginnen</p>
+          <h2 className={styles.sectionTitle}>Aan de slag</h2>
+          <p className={styles.sectionSubtitle}>De basis op een rij</p>
         </div>
         <div className={styles.grid}>
           {quickActions.map((action, index) => (

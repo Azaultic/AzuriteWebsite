@@ -1,6 +1,5 @@
 .features {
   padding: 4rem 0;
-  background: linear-gradient(180deg, transparent 0%, rgba(81, 124, 142, 0.05) 100%);
   position: relative;
   overflow: hidden;
 }
@@ -39,10 +38,7 @@
 .sectionTitle {
   font-size: 2.5rem;
   font-weight: 800;
-  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-light) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--ifm-color-primary);
   margin-bottom: 1rem;
   opacity: 0;
   transform: translateY(30px);
@@ -89,33 +85,16 @@
 }
 
 .featureCard::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-light) 100%);
-  transform: scaleX(0);
-  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  transform-origin: left;
+  display: none;
 }
 
 .featureCard::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), 
-    rgba(81, 124, 142, 0.1) 0%, 
-    transparent 50%);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  pointer-events: none;
+  display: none;
 }
 
 .featureCard:hover {
   border-color: var(--ifm-color-primary);
-  box-shadow: 0 6px 16px rgba(81, 124, 142, 0.2);
+  box-shadow: 0 4px 12px rgba(81, 124, 142, 0.15);
 }
 
 .featureCard:hover::before {
@@ -151,7 +130,7 @@
 }
 
 [data-theme='dark'] .featureCard:hover {
-  box-shadow: 0 12px 32px rgba(107, 161, 184, 0.3);
+  box-shadow: 0 8px 20px rgba(81, 124, 142, 0.15);
 }
 
 /* Responsive */

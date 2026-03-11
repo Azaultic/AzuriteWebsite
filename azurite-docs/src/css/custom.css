@@ -50,23 +50,21 @@
 
 /* Page fade-in animation */
 main {
-  animation: pageLoad 0.6s ease-out;
+  animation: pageLoad 0.4s ease-out;
 }
 
 @keyframes pageLoad {
   from {
     opacity: 0;
-    transform: translateY(10px);
   }
   to {
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
-/* Article content animations */
+/* Article content */
 article {
-  animation: fadeInUp 0.8s ease-out;
+  animation: none;
 }
 
 /* Links hover effects */

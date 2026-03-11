@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from 'react';
 
 const FeatureList = [
   {
-    title: '🎮 Actieve Community',
+    title: 'Actieve Community',
     description: (
       <>
         Word deel van een groeiende community van FiveM spelers. 
@@ -16,7 +16,7 @@ const FeatureList = [
     ),
   },
   {
-    title: '📋 Duidelijke Regels',
+    title: 'Duidelijke Regels',
     description: (
       <>
         Onze server draait op respect en fairplay. Met duidelijke regels 
@@ -26,7 +26,7 @@ const FeatureList = [
     ),
   },
   {
-    title: '💰 Balanced Economy',
+    title: 'Eerlijke Economie',
     description: (
       <>
         Een goed uitgebalanceerde economie waar hard werken beloond wordt. 
@@ -114,7 +114,7 @@ export default function HomepageFeatures() {
             Waarom Azurite?
           </Heading>
           <p className={clsx(styles.sectionSubtitle, isTitleVisible && styles.sectionSubtitleVisible)}>
-            Ontdek wat onze FiveM server uniek maakt
+            Een oor voor de community is ons sterkste punt.
           </p>
         </div>
         <div className="row">
