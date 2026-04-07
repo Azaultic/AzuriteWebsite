@@ -77,9 +77,9 @@ Het is **niet** toegestaan om:
 
 **Tijden:**
 <ul class="rule-times">
-	<li><span class="badge badge--secondary">03:00</span></li>
-	<li><span class="badge badge--secondary">11:00</span></li>
-	<li><span class="badge badge--secondary">19:00</span></li>
+	<li><span class="badge badge--secondary">02:00u</span></li>
+	<li><span class="badge badge--secondary">10:00u</span></li>
+	<li><span class="badge badge--secondary">18:00u</span></li>
 </ul>
 
 :::info
