@@ -12,7 +12,7 @@ description: Veelgestelde vragen over Azurite FiveM - intakes, characters, white
 
 Er zijn nooit specifieke uren gepland voor intakes. Wel worden deze altijd **op voorhand aangekondigd**.
 
-> 🔔 Hou de Discord in de gaten! Bekijk ook de [Whitelist info](/docs/whitelist-info) voor alles omtrent een whitelist.
+> Hou de Discord in de gaten! Bekijk ook de [Whitelist info](/docs/whitelist-info) voor alles omtrent een whitelist.
 
 ---
 
@@ -80,7 +80,7 @@ Beide methodes vereisen het volgende pad naar de FiveM executable:
 7. Zet deze op **"Aan"** en voer je gewenste FPS in
 8. Klik op **OK** → **"Toepassen"**
 
-> ⚠️ Had je FiveM al open? Herstart het spel om de wijziging toe te passen.
+> Had je FiveM al open? Herstart het spel om de wijziging toe te passen.
 
 ---
 
@@ -108,16 +108,16 @@ Je kunt op twee manieren je FPS zichtbaar maken:
 | **Console** | Druk op **F8** → typ `cl_drawFps 1` → **Enter** |
 | **Overlay** | Druk op **F8** → vink **Overlays → Draw FPS** aan |
 
-> ✅ Je FPS wordt nu linksboven weergegeven. Als alles goed is gegaan, zou deze gecapped moeten zijn.
+> Je FPS wordt nu linksboven weergegeven. Als alles goed is gegaan, zou deze gecapped moeten zijn.
 
 
 
 
-## 🆘 Hulp Nodig?
+## Hulp Nodig?
 
-- 💬 **In-Game:** Type `/report` om staff te contacteren
-- 🎫 **Discord:** Maak een support ticket
-- 📖 **Regels:** Check onze [regels](/docs/server-regels.md)
+- **In-Game:** Type `/report` om staff te contacteren
+- **Discord:** Maak een support ticket
+- **Regels:** Check onze [regels](/docs/server-regels.md)
 
 ---
 💎 **Azurite** 💎
