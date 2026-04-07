@@ -1,33 +1,5 @@
-.features {
+﻿.features {
   padding: 4rem 0;
-  position: relative;
-  overflow: hidden;
-}
-
-.features::before {
-  display: none;
-}
-
-.features::after {
-  display: none;
-}
-
-@keyframes ambientFloat1 {
-  0%, 100% {
-    transform: translate3d(0, 0, 0);
-  }
-  50% {
-    transform: translate3d(50px, -40px, 0);
-  }
-}
-
-@keyframes ambientFloat2 {
-  0%, 100% {
-    transform: translate3d(0, 0, 0);
-  }
-  50% {
-    transform: translate3d(-40px, 30px, 0);
-  }
 }
 
 .features .container {
@@ -36,13 +8,13 @@
 }
 
 .sectionTitle {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 800;
   color: var(--ifm-color-primary);
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   opacity: 0;
-  transform: translateY(30px);
-  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .sectionTitleVisible {
@@ -51,13 +23,13 @@
 }
 
 .sectionSubtitle {
-  font-size: 1.2rem;
-  color: var(--ifm-color-emphasis-700);
-  max-width: 600px;
-  margin: 0 auto 3rem;
+  font-size: 1.1rem;
+  color: var(--ifm-color-emphasis-500);
+  max-width: 550px;
+  margin: 0 auto 2.5rem;
   opacity: 0;
-  transform: translateY(20px);
-  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+  transform: translateY(14px);
+  transition: opacity 0.6s ease 0.15s, transform 0.6s ease 0.15s;
 }
 
 .sectionSubtitleVisible {
@@ -69,80 +41,59 @@
   padding: 2rem;
   height: 100%;
   background: var(--ifm-background-surface-color);
-  border-radius: 16px;
-  border: 2px solid var(--ifm-color-emphasis-200);
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
-  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid rgba(81, 124, 142, 0.1);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
   margin-bottom: 2rem;
   opacity: 0;
-  transform: translateY(40px) scale(0.95);
+  transform: translateY(24px);
 }
 
 .featureCardVisible {
   opacity: 1;
-  transform: translateY(0) scale(1);
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.featureCard::before {
-  display: none;
-}
-
+.featureCard::before,
 .featureCard::after {
   display: none;
 }
 
 .featureCard:hover {
-  border-color: var(--ifm-color-primary);
-  box-shadow: 0 4px 12px rgba(81, 124, 142, 0.15);
-}
-
-.featureCard:hover::before {
-  transform: scaleX(1);
-}
-
-.featureCard:hover::after {
-  opacity: 1;
+  border-color: rgba(81, 124, 142, 0.25);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
 .featureTitle {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-weight: 700;
   color: var(--ifm-color-primary);
-  margin-bottom: 1rem;
-  transition: all 0.3s ease;
-}
-
-.featureCard:hover .featureTitle {
-  color: var(--ifm-color-primary-light);
+  margin-bottom: 0.75rem;
 }
 
 .featureDescription {
-  color: var(--ifm-color-emphasis-700);
-  line-height: 1.6;
-  font-size: 1rem;
+  color: var(--ifm-color-emphasis-500);
+  line-height: 1.65;
+  font-size: 0.95rem;
 }
 
-/* Dark mode adjustments */
 [data-theme='dark'] .featureCard {
   background: var(--ifm-background-surface-color);
-  border-color: var(--ifm-color-emphasis-300);
+  border-color: rgba(81, 124, 142, 0.1);
 }
 
 [data-theme='dark'] .featureCard:hover {
-  box-shadow: 0 8px 20px rgba(81, 124, 142, 0.15);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
 }
 
-/* Responsive */
 @media (max-width: 996px) {
   .sectionTitle {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
-  
   .sectionSubtitle {
     font-size: 1rem;
   }
-  
   .featureCard {
     margin-bottom: 1.5rem;
   }
@@ -157,12 +108,10 @@
     opacity: 1;
     transform: none;
   }
-
   .featureCardVisible {
     opacity: 1;
     transform: none;
   }
-
   .sectionTitleVisible,
   .sectionSubtitleVisible {
     opacity: 1;
