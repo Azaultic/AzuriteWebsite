@@ -7,11 +7,32 @@ description: Alle server regels van Azurite FiveM. Ken de regels voordat je begi
 
 <div className="server-rules-page">
 
-## Algemeen
+## Intro
+### Azurite
+Laten we vooropstellen dat Azurite een Roleplay-server is. Dit betekent dat je een personage speelt en dat je steeds in character moet denken, handelen en reageren.
 
-### Het Azurite Team
+Mag er af en toe hersenloos gegrind worden? Zeker!
+Mag dat ten koste gaan van Roleplay? Nooit!
+
+Dit betekent ook dat wanneer iemand Roleplay met jou wil aangaan, dat je verplicht bent om hierop in te gaan.
+
+### Roleplay vs Ruleplay
+Voordat we een overzicht geven van de huidige regels binnen Azurite, nog even dit:
+
+- We hebben het al op veel servers gezien: Ruleplay dat de overhand neemt op Roleplay. Mensen die voor elk klein detail beginnen te zeuren of boos worden, waardoor anderen constant moeten nadenken voordat ze iets doen uit schrik voor discussie achteraf. Laten we het hier anders aanpakken. Ga gewoon roleplayen. Houd de regels in je achterhoofd, maar laat ze niet de overhand nemen en zo het plezier wegnemen.
+
+Uiteindelijk zal er altijd iemand een fout maken. Ook jij hebt vast weleens iets verkeerd gedaan zonder dat het je bedoeling was.
+
+Zolang het leuk blijft voor alle betrokken partijen, kan er af en toe eens buiten de lijntjes gekleurd worden. Want het draait uiteindelijk om:
+- **Samen een leuke tijd beleven en onvergetelijke, grappige en spannende momenten creëren.**
+
+Kom je toch iets tegen dat echt niet door de beugel kan, probeer dan het scenario zo goed mogelijk **in character** af te werken. Bespreek het nadien via een report, ticket of in een voicekanaal.
+
+## Algemene Regels
+
+### Hulp
 - Indien je vragen of problemen hebt is het **niet** de bedoeling om staffleden via DM te benaderen of te taggen in discord.
-- Het is **wel** de bedoeling dat je dan een ticket of in-game report aanmaakt.
+- Het is **wel** de bedoeling dat je dan een ticket of in-game report aanmaakt of plaats neemt in een support voicekanaal.
 - Wij zullen steeds onze uiterste best doen om alle kanalen, tickets en in-game reports zo snel mogelijk te bekijken en/of te behandelen.
 - Het Azurite team bestaat uit: **Azurite**, **Developer**, **Moderator**, **Support**.
 
@@ -60,15 +81,12 @@ Pas je character aan wanneer je voor de eerste keer in onze stad komt. Let er da
 
 
 
-### Multi-Character 
-Je kan maximaal 2 characters aanmaken. Hier zijn wel enkele regels aan verbonden. 
+### Multi-Character
 
-Het is **niet** toegestaan om: 
-- Met meerdere characters deel te nemen aan dezelfde of verschillende onderwereldgroepen.
-- Informatie mee te nemen van het ene character naar het andere.
-- Met beide characters een whitelisted job uit te voeren.
-- Spullen of geld over te zetten van het ene character naar een andere.
+We hebben hier lang over nagedacht en uiteindelijk besloten dat je **standaard** slechts één character kunt spelen.
 
+- Extra character slots zijn wel beschikbaar via aankoop. Waarom kiezen we hiervoor?
+Veel spelers ondervinden moeite om meerdere characters strikt gescheiden te houden. Door extra slots betalend te maken, willen we ervoor zorgen dat hier bewuster mee wordt omgegaan en misbruik wordt voorkomen. Denk hierbij aan het overzetten van geld of het gebruiken van informatie tussen characters.
 
 
 ### Server Restart 
@@ -94,6 +112,7 @@ Uiteraard kan het al eens gebeuren dat een scenario toch veel langer loopt dan g
 
 
 ## Basisregels
+
 ### IC en OOC gescheiden houden.
 - IC = In Character.
 
@@ -176,7 +195,12 @@ Enkele voorbeelden:
 - Onnodig tackelen.
 - Etc..
 
+### Heftige Content
+Niet toegestaan:
 
+- Seksuele RP (ERP)
+- Extreme marteling zonder toestemming
+- Gevoelige onderwerpen (zelfmoord, ziekte,)
 
 ### New Life Rule (NLR)
 Wat is de **New Life Rule**?
@@ -221,21 +245,22 @@ Wij hebben ervoor gekozen om op dit moment GEEN greenzones te voorzien. Afhankel
 ### Overheidsbanen
 #### Politie
 
-- Ontvoeren van agenten is toegestaan, maar alleen in goed doordachte RP-scenario’s. Ze mogen niet ontvoerd worden voor overvallen. 
-- Politie mag GEEN wapens, munitie, of andere politie-eigendommen verkopen of weggeven aan andere spelers! Ook geen wapens, munitie of andere spullen die in beslag zijn genomen van burgers! 
+- Het stelen van politievoertuigen is toegestaan, uiteraard enkel voor goed doordachte RP-scenario's en niet zomaar omdat je daar even zin in hebt. Let wel op, dit kan leiden tot zware in-game boetes/straffen.
+- Ontvoeren van agenten is toegestaan, maar ook alleen in goed doordachte RP-scenario’s. Ze mogen niet ontvoerd worden voor overvallen.
+Politie mag GEEN wapens, munitie, of andere politie-eigendommen verkopen of weggeven aan andere spelers! Ook geen wapens, munitie of andere spullen die in beslag zijn genomen van burgers!
 - Met informatie mag je als agent doen wat je wil! Wil jij graag hier en daar een hint droppen voor een crimineel of een kenteken natrekken voor een goede vriend bijvoorbeeld? Dat kan, hou het aub wel realistisch en vooral leuk voor alle partijen!
-- Als burger is het verboden om vuurwapens, slagwapens, munitie en handboeien van de politie te stelen. 
-Telefoons, eten en drinken, verbandjes of spullen (dus ook wapens en munitie) die in beslag zijn genomen van criminelen maar nog niet in de kluis geraakt zijn mag je wel gewoon stelen.
+- Als burger is het verboden om vuurwapens, slagwapens, munitie en handboeien van de politie te stelen.
+Telefoons, eten en drinken, verbandjes en alle spullen die in beslag zijn genomen van criminelen maar nog niet in de kluis geraakt zijn mag je wel gewoon stelen.
 
 #### EMS
 
 - EMS-personeel mag niet ontvoerd worden om ervoor te zorgen dat er steeds iemand is die hulp kan bieden aan burgers.
-Dit wil niet zeggen dat je als EMS-medewerker kan doen en laten wat je wil "want ze mogen me toch niet onvoeren". 
-- In een goed doordacht scenario én met een goede reden kan en mag je een specifieke EMS medewerker **wel** ontvoeren.
+Dit wil niet zeggen dat je als EMS-medewerker kan doen en laten wat je wil "want ze mogen me toch niet onvoeren".
+- In een goed doordacht scenario én met een goede reden kan en mag je een specifieke EMS medewerker wel ontvoeren.
+EMS mag geen wapens dragen, maar lichte verdedigingsmiddelen of handboeien kunnen soms worden toegestaan.
 - EMS mag geen wapens dragen, maar lichte verdedigingsmiddelen of handboeien kunnen soms worden toegestaan.
-- Het stelen van ambulances is toegestaan, behalve tijdens actieve medische hulpverlening.
-Let wel op, dit kan leiden tot zware boetes/straffen.
-
+- Het stelen van ambulances is toegestaan (behalve tijdens actieve medische hulpverlening!), ook weer alleen bij goed doordachte RP-scenario's.
+Let wel op, dit kan leiden tot zware in-game boetes/straffen.
 - Als burger is het verboden om medische apparatuur, medicijnen of andere essentiële spullen van EMS te stelen.
 Net zoals bij de politie mogen alle andere spullen wel gewoon gestolen worden.
 
@@ -245,7 +270,7 @@ Net zoals bij de politie mogen alle andere spullen wel gewoon gestolen worden.
 Er geldt een limiet voor het aantal spelers per criminele activiteit. Het doorgeven van informatie tussen karakters (bijvoorbeeld via uitkijkposten of radiocommunicatie) maakt deel uit van het scenario. 
 - Elke groep mag slechts één grote criminele activiteit tegelijk starten.
 - Bij bepaalde overvallen moet je wachten tot de politie ter plaatse is voordat je het scenario verder kunt zetten. Andere mogen gedaan worden als Hit & Run.
-- Vermijd het gebruik van helikopters, vliegtuigen, etc.. Met andere woorden; gebruik geen voertuigen die ervoor zorgen dat de andere partij geen kans maakt.
+- Het gebruik van "speciale voertuigen" zoals helikopters, vliegtuigen, boten, etc.. is toegestaan maar zorg ervoor dat de tegenpartij altijd een kans heeft om mee te volgen in het scenario.
 - Het overnemen van een bank of andere grote overval is (momenteel) **niet** toegestaan.
 
 

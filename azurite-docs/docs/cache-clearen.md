@@ -46,7 +46,7 @@ Let op:
 6. Start FiveM en stel je keybinds opnieuw in.
 
 :::tip
-- Als keybinds specifiek op één server problemen geven, het legen van `data\server-cache` en `data\server-cache-priv` (zie stappen hierboven) forceert een reload van servergebonden data, wat vaak bind‑conflicten oplost.
+Als keybinds specifiek op één server problemen geven, het legen van `data\server-cache` en `data\server-cache-priv` (zie stappen hierboven) forceert een reload van servergebonden data, wat vaak bind‑conflicten oplost.
 :::
 
 ---

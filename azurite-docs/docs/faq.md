@@ -47,7 +47,8 @@ Probeer het volgende:
 | 3 | **Update je graphics drivers** |
 | 4 | **Verlaag je GTA V settings** als je een lage-spec PC hebt |
 
-:::tip Werkt het nog steeds niet?
+:::tip 
+Werkt het nog steeds niet?
 Maak een ticket aan in onze Discord!
 :::
 
@@ -57,7 +58,8 @@ Maak een ticket aan in onze Discord!
 
 Je kunt je FPS begrenzen via je GPU-software. Hieronder vind je de stappen voor zowel **Nvidia** als **AMD**.
 
-:::info FiveM pad
+:::info 
+FiveM pad
 Beide methodes vereisen het volgende pad naar de FiveM executable:
 
 ```
@@ -93,7 +95,7 @@ Beide methodes vereisen het volgende pad naar de FiveM executable:
 5. Open het aangemaakte profiel voor FiveM
 6. Activeer de **Chill**-instelling en stel je **min** en **max FPS** in
 
-:::caution Let op
+:::caution
 Deze methode is niet persoonlijk getest voor AMD. Werkt het niet? Maak een ticket aan in Discord!
 :::
 
