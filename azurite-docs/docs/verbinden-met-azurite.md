@@ -29,7 +29,8 @@ Zorg ervoor dat je GTA V volledig up-to-date is voordat je FiveM installeert!
 3. Voer de installer uit en volg de instructies
 4. FiveM zal automatisch je GTA V installatie detecteren
 
-:::warning Let op!
+:::warning 
+Let op!
 Start GTA V **niet** via Steam/Epic terwijl je FiveM gebruikt. FiveM start het spel automatisch.
 :::
 
@@ -67,8 +68,9 @@ Er zijn **3 manieren** om te verbinden:
 
 Klik gewoon op deze [link](fivem://connect/play.azurite.info)
 
-:::info Server Adres
-**Ons server adres:** `play.azurite.info`
+:::info
+Server Adres
+**Ons server adres:** `connect play.azurite.info`
 :::
 
 ## Stap 4: Character Aanmaken

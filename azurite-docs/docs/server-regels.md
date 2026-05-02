@@ -301,7 +301,7 @@ De maximale groepsgrootte voor een specifieke activiteit varieert per scenario e
 | Paleto Bank Robbery | 4 | ❌ |
 | Ammunation Robbery | 6 | ❌ |
 | Traphouse Robbery | 2 | ✅ |
-| Jewelery Robbery | 6 | ❌ |
+| Jewellery Robbery | 6 | ❌ |
 | Bobcat Robbery | 6 | ❌ |
 | Maze Bank Robbery | 6 | ❌ |
 | Oil Rig Robbery | 8 | ❌ |
