@@ -5,9 +5,6 @@ id: discord-regels
 description: De officiële Discord regels van Azurite. Lees ze goed door voordat je deelneemt aan de community.
 ---
 
-# Discord Regels
----
-
 <div className="server-rules-page">
 
 ## Algemene Regels

@@ -3,8 +3,6 @@ sidebar_position: 1
 title: 💎・Introductie
 description: Welkom bij Azurite! Leer alles over onze FiveM roleplay server, kernwaarden en hoe je snel van start gaat.
 ---
-# Introductie
----
 
 ## Welkom
 We zijn blij dat je deel wil uitmaken van onze community! 

@@ -4,8 +4,6 @@ title: 🔓・Whitelist info
 description: Alles over het whitelist en intake proces van Azurite. Vereisten, voorbereiding en wat je kunt verwachten.
 ---
 
-# Whitelist/Intake Proces - Azurite
-
 ### Welkom bij het whitelist/intake proces van Azurite! 
 
 Nog nooit op een whitelisted server gespeeld of een intake gedaan? Geen enkel probleem, laat je absoluut niet afschrikken en lees rustig verder. Iedereen is ooit ergens moeten beginnen en misschien is dit voor jou wel het begin!

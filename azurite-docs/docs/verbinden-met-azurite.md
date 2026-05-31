@@ -5,8 +5,6 @@ id: verbinden-met-azurite
 description: Stap-voor-stap uitleg om te verbinden met de Azurite FiveM server via FiveM, F8 console of de directe link.
 ---
 
-# Verbinden met Azurite
-
 Volg deze stappen om te connecten met onze FiveM server.
 
 ## Vereisten
