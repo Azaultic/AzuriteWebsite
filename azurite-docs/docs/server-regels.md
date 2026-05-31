@@ -83,10 +83,9 @@ Pas je character aan wanneer je voor de eerste keer in onze stad komt. Let er da
 
 ### Multi-Character
 
-We hebben hier lang over nagedacht en uiteindelijk besloten dat je **standaard** slechts één character kunt spelen.
+We hebben hier lang over nagedacht en uiteindelijk besloten dat je 2 characters kunt spelen.
 
-- Extra character slots zijn wel beschikbaar via aankoop. Waarom kiezen we hiervoor?
-Veel spelers ondervinden moeite om meerdere characters strikt gescheiden te houden. Door extra slots betalend te maken, willen we ervoor zorgen dat hier bewuster mee wordt omgegaan en misbruik wordt voorkomen. Denk hierbij aan het overzetten van geld of het gebruiken van informatie tussen characters.
+- Extra character slots zijn wel beschikbaar via aankoop.
 
 
 ### Server Restart 
@@ -172,8 +171,9 @@ Dwing geen acties af op je mede/tegenspelers, geef anderen altijd de kans om iet
 
 Enkele bekende voorbeelden van powergaming: 
 - /me snijdt keel door of /me duwt persoon uit wagen.
-- Iemand dwingen om geld van de bank te halen.
-- Iemand dwingen om eigendommen over te zetten, woningen of voertuigen.
+- Een persoon dwingen om geld van de bank te halen.
+- Een persoon dwingen om eigendommen over te zetten, woningen of voertuigen.
+- Een persoon die bezig is met bijvoorbeeld kleding aan te passen, eten te bestellen, etc.. zomaar meenemen terwijl deze nog actief bezig is in het menu.
 
 
 
@@ -187,11 +187,12 @@ Enkele voorbeelden:
 - Vrienden gebruiken als gijzelaar voor een overval.
 - Een gewonde persoon die op de grond ligt beroven, achterlaten of verstoppen, tenzij je bij het scenario betrokken bent.
 - Iemand neerschieten in plaats van deze te overmeesteren.
+- Een persoon toelaten spullen te laten wegleggen terwijl je deze meeneemt als hostage.
 - Je gaan mengen in shoot-outs, overvallen of achtervolgingen waar je niets mee te maken hebt.
-- Direct wegrijden zonder te communiceren bij het begin van een scenario of gesprek met de politie.
 - Roleplay ontwijken omdat je er geen zin in hebt en liever wil grinden.
-- Iemand met /carry of escort vervoeren in een auto of op een motor omdat er geen ruimte is.
-- Ocean dumpen.
+- Iemand met carry of escort vervoeren in een auto of op een motor omdat er geen ruimte is.
+- Waardevolle spullen stelen van personen (telefoon, wapens, voedsel, etc..) zonder een langdurige roleplay voorafgaand.
+- Ocean dumpen ( zonder een voorafgaand langdurig scenario ). Dit mag zeker niet gebruikt worden om iemand te verplichten een scenario te vergeten.
 - Onnodig tackelen.
 - Etc..
 
@@ -231,6 +232,25 @@ Je kan de persoon natuurlijk wel nog herkennen op basis van andere elementen zoa
 
 
 
+
+### Eindeloos Conflict
+Elk conflict moet een realistische mogelijkheid hebben om tot een einde te komen.
+
+Het herhaaldelijk voortzetten van een conflict waarbij jouw partij steeds opnieuw verlies lijdt of schade oploopt, zonder enige poging om het conflict te beëindigen of op te lossen, wordt beschouwd als het niet waarderen van het leven van je personage.
+
+Het herhaaldelijk aanvallen van een groep of individu zonder hen een realistische kans te geven om het conflict te beëindigen of tot een oplossing te komen, wordt beschouwd als griefing. Hierbij wordt het conflict kunstmatig in stand gehouden ten koste van het roleplay-verloop.
+
+
+
+
+### Afkoelperiode voor conflicten
+Opeenvolgende conflicten met meerdere slachtoffers binnen een korte tijdsperiode worden beschouwd als fail RP.
+
+Er moet minimaal 60 minuten afkoeltijd zitten tussen conflicten.
+
+
+
+
 ### Greenzones
 Een greenzone is een plek waar je geen criminele activiteiten mag uitvoeren. Hier mogen dus bijvoorbeeld geen mensen ontvoerd worden om mee te nemen als gijzelaar. 
 Vaak zijn het ziekenhuis, de appartementen en het politiebureau een greenzone. 
@@ -243,8 +263,8 @@ Wij hebben ervoor gekozen om op dit moment GEEN greenzones te voorzien. Afhankel
 
 
 ### Overheidsbanen
-#### Politie
 
+#### Politie
 - Het stelen van politievoertuigen is toegestaan, uiteraard enkel voor goed doordachte RP-scenario's en niet zomaar omdat je daar even zin in hebt. Let wel op, dit kan leiden tot zware in-game boetes/straffen.
 - Ontvoeren van agenten is toegestaan, maar ook alleen in goed doordachte RP-scenario’s. Ze mogen niet ontvoerd worden voor overvallen.
 Politie mag GEEN wapens, munitie, of andere politie-eigendommen verkopen of weggeven aan andere spelers! Ook geen wapens, munitie of andere spullen die in beslag zijn genomen van burgers!
@@ -253,7 +273,6 @@ Politie mag GEEN wapens, munitie, of andere politie-eigendommen verkopen of wegg
 Telefoons, eten en drinken, verbandjes en alle spullen die in beslag zijn genomen van criminelen maar nog niet in de kluis geraakt zijn mag je wel gewoon stelen.
 
 #### EMS
-
 - EMS-personeel mag niet ontvoerd worden om ervoor te zorgen dat er steeds iemand is die hulp kan bieden aan burgers.
 Dit wil niet zeggen dat je als EMS-medewerker kan doen en laten wat je wil "want ze mogen me toch niet onvoeren".
 - In een goed doordacht scenario én met een goede reden kan en mag je een specifieke EMS medewerker wel ontvoeren.
@@ -275,6 +294,16 @@ Er geldt een limiet voor het aantal spelers per criminele activiteit. Het doorge
 
 
 
+
+### Looten na schietpartijen
+Je mag na een schietpartij maximaal 10 minuten looten, of totdat de politie begint met het opruimen en afhandelen van de plaats delict, afhankelijk van wat het eerst gebeurt.
+
+Laat andere spelers niet wachten terwijl jij aan het looten bent.
+
+Op de locatie blijven terwijl er meerdere politieagenten aanwezig zijn, wordt beschouwd als fail RP.
+
+
+
 ### Ganglimiet
 Gangs mogen (op dit moment) maximaal 8 actieve leden hebben, inclusief associates, recruits, prospects of hoe je ze ook wil noemen. Dit aantal kan worden aangepast afhankelijk van de groei en ontwikkeling van de server.
 
@@ -288,27 +317,31 @@ Gangs mogen bepaalde locaties als hun territorium claimen. Dit moet op een reali
 ### Activiteit totaal aantal betrokken criminelen
 De maximale groepsgrootte voor een specifieke activiteit varieert per scenario en is afgestemd op het aantal politieagenten:
 
-| Activiteit | Max spelers | Hit & Run |
-|---|---:|:---:|
-| Boosting | 2 (Rank B = 4)  | ✅ |
-| Store Robbery | 2 | ✅ |
-| House Robbery | 2 | ✅ |
-| ATM Robbery | 2 | ✅ |
-| Illegal Missions | 4 | ✅ |
-| Laundromat Robbery | 4 | ❌ |
-| Cash Exchange Robbery | 4 | ❌ |
-| Fleeca Bank Robbery | 4 | ❌ |
-| Paleto Bank Robbery | 4 | ❌ |
-| Ammunation Robbery | 6 | ❌ |
-| Traphouse Robbery | 2 | ✅ |
-| Jewellery Robbery | 6 | ❌ |
-| Bobcat Robbery | 6 | ❌ |
-| Maze Bank Robbery | 6 | ❌ |
-| Oil Rig Robbery | 8 | ❌ |
-| Pacific Bank Robbery | 8 | ❌ |
-| Casino Heist Robbery | 8 | ❌ |
+| Activiteit | Max spelers | Max agenten | Hit & Run |
+|---|---:|---:|:---:|
+| Boosting | 2 (Rank B = 4) | - | ✅ |
+| Store Robbery | 2 | 4 | ✅ |
+| House Robbery | 2 | 4 | ✅ |
+| ATM Robbery | 2 | 4 | ✅ |
+| Laundromat Robbery | 4 | 8 | ❌ |
+| Cash Exchange Robbery | 4 | 8 | ❌ |
+| Fleeca Bank Robbery | 4 | 8 | ❌ |
+| Paleto Bank Robbery | 5 | 10 | ❌ |
+| Ammunation Robbery | 6 | 12 | ❌ |
+| Traphouse Robbery | 3 | 6 | ✅ |
+| Jewellery Robbery | 6 | 12 | ❌ |
+| Bobcat Robbery | 6 | 12 | ❌ |
+| Maze Bank Robbery | 6 | 12 | ❌ |
+| Oil Rig Robbery | 8 | 16 | ❌ |
+| Pacific Bank Robbery | 8 | 16 | ❌ |
+| Casino Heist Robbery | 8 | 16 | ❌ |
 
-
+Per verdachte mogen er **2 agenten** aankoppelen voor alle overige scenario's. ( noodknop = alle agenten ter beschikking )
+Met overige scenario's bedoelen we als voorbeeld:
+ - Achtervolgingen
+ - Gijzelingen
+ - Schietincidenten
+ - Etc...
 
 
 ### Ban Categorieën
