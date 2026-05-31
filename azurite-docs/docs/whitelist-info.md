@@ -26,10 +26,10 @@ Dit doen we deels om het roleplayniveau hoog te houden maar zeker ook met de int
 
 ### Voordat je begint, zorg dat je voldoet aan de volgende eisen:
 
-- ✅ **Goede microfoon**
-- ✅ **Leeftijd 16+**
-- ✅ **Geen actieve bans op andere servers** (als dit wel zo is, vragen we je eerlijk te zijn.)
-- ✅ **De juiste mindset!**
+- **Goede microfoon**
+- **Leeftijd 16+**
+- **Geen actieve bans op andere servers** (als dit wel zo is, vragen we je eerlijk te zijn.)
+- **De juiste mindset!**
 
 ---
 
