@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkazurite_docs=self.webpackChunkazurite_docs||[]).push([["98"],{5355(e){e.exports=JSON.parse('{"tag":{"label":"v1.0.2","permalink":"/docs/tags/v-1-0-2","allTagsPath":"/docs/tags","count":1,"items":[{"id":"changelogs/15-02-2026","title":"15-februari-2026","description":"Mededeling:","permalink":"/docs/changelogs/15-02-2026"}],"unlisted":false}}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkazurite_docs=self.webpackChunkazurite_docs||[]).push([["528"],{9187(s){s.exports=JSON.parse('{"tags":[{"label":"v1.0.0","permalink":"/docs/tags/v-1-0-0","count":1}]}')}}]);
