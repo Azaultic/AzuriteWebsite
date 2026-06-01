@@ -274,7 +274,7 @@ Telefoons, eten en drinken, verbandjes en alle spullen die in beslag zijn genome
 
 #### EMS
 - EMS-personeel mag niet ontvoerd worden om ervoor te zorgen dat er steeds iemand is die hulp kan bieden aan burgers.
-Dit wil niet zeggen dat je als EMS-medewerker kan doen en laten wat je wil "want ze mogen me toch niet onvoeren".
+Dit wil niet zeggen dat je als EMS-medewerker kan doen en laten wat je wil "want ze mogen me toch niet ontvoeren".
 - In een goed doordacht scenario én met een goede reden kan en mag je een specifieke EMS medewerker wel ontvoeren.
 EMS mag geen wapens dragen, maar lichte verdedigingsmiddelen of handboeien kunnen soms worden toegestaan.
 - EMS mag geen wapens dragen, maar lichte verdedigingsmiddelen of handboeien kunnen soms worden toegestaan.
