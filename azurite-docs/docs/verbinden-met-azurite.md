@@ -34,7 +34,7 @@ Start GTA V **niet** via Steam/Epic terwijl je FiveM gebruikt. FiveM start het s
 
 
 
-## Stap 2: Join de Discord
+## Stap 2: [Join](https://discord.gg/F3qr9MC8sC) De Discord
 
 Onze Discord is **essentieel** voor:
 - Whitelist (toegang tot de server)
@@ -45,7 +45,7 @@ Onze Discord is **essentieel** voor:
 
 
 
-## Stap 3: Verbinden met Azurite
+## Stap 3: Verbinden Met Azurite
 
 Er zijn **3 manieren** om te verbinden:
 
