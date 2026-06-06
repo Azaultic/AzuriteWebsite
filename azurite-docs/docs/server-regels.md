@@ -85,7 +85,15 @@ Pas je character aan wanneer je voor de eerste keer in onze stad komt. Let er da
 
 We hebben hier lang over nagedacht en uiteindelijk besloten dat je 2 characters kunt spelen.
 
-- Extra character slots zijn wel beschikbaar via aankoop.
+Als je 2 characters speelt moeten er minimaal 3 hoofdpunten verschillen tussen deze characters om verwarring te voorkomen en de roleplay kwaliteit een boost te geven.
+Verschil tussen 2 characters:
+- Gezicht
+- Stem (accent / taal)
+- Gedrag / Algemene stijl
+
+
+Extra characters:
+- Extra character slots zijn wel beschikbaar via aankoop op onze tebex.
 
 
 ### Server Restart 
@@ -305,7 +313,7 @@ Op de locatie blijven terwijl er meerdere politieagenten aanwezig zijn, wordt be
 
 
 ### Ganglimiet
-Gangs mogen (op dit moment) maximaal 8 actieve leden hebben, inclusief associates, recruits, prospects of hoe je ze ook wil noemen. Dit aantal kan worden aangepast afhankelijk van de groei en ontwikkeling van de server.
+Gangs mogen (op dit moment) maximaal 12 actieve leden hebben, inclusief associates, recruits, prospects of hoe je ze ook wil noemen. Dit aantal kan worden aangepast afhankelijk van de groei en ontwikkeling van de server.
 
 
 
