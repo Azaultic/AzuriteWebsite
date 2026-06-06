@@ -201,6 +201,7 @@ Enkele voorbeelden:
 - Iemand met carry of escort vervoeren in een auto of op een motor omdat er geen ruimte is.
 - Waardevolle spullen stelen van personen (telefoon, wapens, voedsel, etc..) zonder een langdurige roleplay voorafgaand.
 - Ocean dumpen ( zonder een voorafgaand langdurig scenario ). Dit mag zeker niet gebruikt worden om iemand te verplichten een scenario te vergeten.
+- Een motor gebruiken om zo snel mogelijk / gemakkelijk de politie kwijt te geraken.
 - Onnodig tackelen.
 - Etc..
 
