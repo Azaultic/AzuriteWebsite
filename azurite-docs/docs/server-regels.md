@@ -202,7 +202,7 @@ Enkele voorbeelden:
 - Waardevolle spullen stelen van personen (telefoon, wapens, voedsel, etc..) zonder een langdurige roleplay voorafgaand.
 - Ocean dumpen ( zonder een voorafgaand langdurig scenario ). Dit mag zeker niet gebruikt worden om iemand te verplichten een scenario te vergeten.
 - Een motor gebruiken om zo snel mogelijk / gemakkelijk de politie kwijt te geraken.
-- Een combat outfit dragen terwijl je niet gerelateerde gang activiteiten aan het doen bent
+- Het dragen van een combat outfit is alleen toegestaan tijdens gang-gerelateerde activiteiten. Het dragen van combat kleding tijdens reguliere burgeractiviteiten of wanneer je niet actief betrokken bent bij gangactiviteiten is niet toegestaan.
 - Onnodig tackelen.
 - Etc..
 
