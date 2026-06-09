@@ -20,7 +20,7 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://www.azurite.info',
+  url: 'https://azurite.info',
   // For a custom domain, the baseUrl should be '/'
   baseUrl: '/',
 
