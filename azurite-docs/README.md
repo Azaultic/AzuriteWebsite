@@ -26,16 +26,13 @@ This command generates static content into the `build` directory and can be serv
 
 ## Deployment
 
-Using SSH:
+`yarn deploy` publishes to GitHub Pages and is intended for a GitHub repository that is hosted there.
+It is not the right command for a private workspace or a private repository.
+
+For private/local use:
 
 ```bash
-USE_SSH=true yarn deploy
+yarn build
 ```
 
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This generates the static site in `build/`, which you can upload to any static host (for example Cloudflare Pages, Netlify, or your own server).

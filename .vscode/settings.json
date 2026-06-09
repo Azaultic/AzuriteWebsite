@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd d:\\\\AzuriteWebsite\\\\azurite-docs; python -c 'import urllib\\.request, ssl; urls=\\[\"https://azurite\\.info/docs/server-regels/\",\"https://Azaultic\\.github\\.io/AzuriteWebsite/docs/server-regels/\"\\]; \nctx=ssl\\.create_default_context\\(\\);\nfor url in urls:\n    try:\n        with urllib\\.request\\.urlopen\\(url, context=ctx, timeout=30\\) as r:\n            text=r\\.read\\(\\)\\.decode\\(\"utf-8\", errors=\"ignore\"\\)\n            print\\(\"URL:\", url\\)\n            print\\(\"FINAL:\", r\\.geturl\\(\\)\\)\n            print\\(\"STATUS:\", r\\.status\\)\n            print\\(\"LEN:\", len\\(text\\)\\)\n            print\\(\"HAS_RULE:\", \"Een motor gebruiken om zo snel mogelijk / gemakkelijk de politie kwijt te geraken\\.\" in text\\)\n            print\\(\"SNIP:\", text\\[:500\\]\\.replace\\(\"\\\\n\",\" \"\\)\\[:500\\]\\)\n    except Exception as e:\n        print\\(\"ERR\", url, e\\)'$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

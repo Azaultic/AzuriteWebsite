@@ -1,8 +1,6 @@
-// Rate limit configuratie
-const RATE_LIMIT_WINDOW = 3600; // 1 uur in seconden
-const MAX_REQUESTS_PER_WINDOW = 3; // Max 3 appeals per uur per IP
+const RATE_LIMIT_WINDOW = 3600; // 1 uur
+const MAX_REQUESTS_PER_WINDOW = 3; // Max 3 appeals per uur per ip
 
-// Input validatie limieten
 const INPUT_LIMITS = {
   discordName: 100,
   discordId: 20,
@@ -12,20 +10,17 @@ const INPUT_LIMITS = {
   extraInfo: 1000,
 };
 
-// Sanitize input - verwijder potentieel gevaarlijke karakters
 function sanitizeInput(str, maxLength) {
   if (!str || typeof str !== 'string') return '';
   return str
     .slice(0, maxLength)
-    .replace(/[<>]/g, '') // Voorkom HTML injection
-    .replace(/@everyone|@here/gi, '[mention removed]') // Voorkom Discord mentions
+    .replace(/[<>]/g, '')
+    .replace(/@everyone|@here/gi, '[mention removed]')
     .trim();
 }
 
-// Rate limiting functie
 async function checkRateLimit(ip, env) {
   if (!env.RATE_LIMIT) {
-    // Als KV niet geconfigureerd is, sta toe maar log warning
     console.warn('RATE_LIMIT KV not configured - rate limiting disabled');
     return { allowed: true };
   }
@@ -37,7 +32,6 @@ async function checkRateLimit(ip, env) {
     const data = await env.RATE_LIMIT.get(key, { type: 'json' });
     
     if (!data) {
-      // Eerste request van dit IP
       await env.RATE_LIMIT.put(key, JSON.stringify({ count: 1, firstRequest: now }), {
         expirationTtl: RATE_LIMIT_WINDOW,
       });
@@ -49,29 +43,25 @@ async function checkRateLimit(ip, env) {
       return { allowed: false, resetInMinutes: resetTime };
     }
 
-    // Increment counter
     await env.RATE_LIMIT.put(key, JSON.stringify({ ...data, count: data.count + 1 }), {
       expirationTtl: RATE_LIMIT_WINDOW,
     });
     return { allowed: true, remaining: MAX_REQUESTS_PER_WINDOW - data.count - 1 };
   } catch (error) {
     console.error('Rate limit error:', error);
-    return { allowed: true }; // Bij fout, sta toe
+    return { allowed: true };
   }
 }
 
 export default {
   async fetch(request, env) {
-    // Get the origin from the request
     const origin = request.headers.get('Origin');
     
-    // Allow both www and non-www versions
     const allowedOrigins = [
       'https://azurite.info',
       'https://www.azurite.info'
     ];
     
-    // Strikte origin check
     if (!allowedOrigins.includes(origin)) {
       return new Response(JSON.stringify({ error: 'Unauthorized' }), {
         status: 403,
@@ -85,12 +75,10 @@ export default {
       'Access-Control-Allow-Headers': 'Content-Type',
     };
 
-    // Handle preflight request
     if (request.method === 'OPTIONS') {
       return new Response(null, { headers: corsHeaders });
     }
 
-    // Alleen POST requests toestaan
     if (request.method !== 'POST') {
       return new Response(JSON.stringify({ error: 'Method not allowed' }), {
         status: 405,
@@ -98,7 +86,6 @@ export default {
       });
     }
 
-    // Rate limiting check
     const clientIP = request.headers.get('CF-Connecting-IP') || 'unknown';
     const rateLimit = await checkRateLimit(clientIP, env);
     
@@ -116,10 +103,8 @@ export default {
     }
 
     try {
-      // Haal de form data op
       const data = await request.json();
 
-      // Validatie - check of verplichte velden aanwezig zijn
       if (!data.discordName || !data.discordId || !data.ingameName || !data.banReason || !data.appealReason) {
         return new Response(JSON.stringify({ error: 'Vul alle verplichte velden in!' }), {
           status: 400,
@@ -127,7 +112,6 @@ export default {
         });
       }
 
-      // Sanitize alle input
       const sanitizedData = {
         discordName: sanitizeInput(data.discordName, INPUT_LIMITS.discordName),
         discordId: sanitizeInput(data.discordId, INPUT_LIMITS.discordId).replace(/\D/g, ''), // Alleen cijfers
@@ -137,7 +121,6 @@ export default {
         extraInfo: sanitizeInput(data.extraInfo, INPUT_LIMITS.extraInfo),
       };
 
-      // Extra validatie na sanitization
       if (!sanitizedData.discordName || !sanitizedData.discordId || !sanitizedData.ingameName) {
         return new Response(JSON.stringify({ error: 'Ongeldige input gedetecteerd.' }), {
           status: 400,
@@ -145,7 +128,6 @@ export default {
         });
       }
 
-      // Discord ID moet 17-20 cijfers zijn
       if (!/^\d{17,20}$/.test(sanitizedData.discordId)) {
         return new Response(JSON.stringify({ error: 'Ongeldig Discord ID formaat.' }), {
           status: 400,
@@ -153,7 +135,6 @@ export default {
         });
       }
 
-      // Discord Embed maken met gesanitizede data
       const embed = {
         title: '📋 Nieuwe Ban Appeal',
         color: 0x5865f2,
@@ -195,7 +176,6 @@ export default {
         },
       };
 
-      // Stuur naar Discord webhook (URL uit environment variable)
       const webhookResponse = await fetch(env.DISCORD_WEBHOOK_URL, {
         method: 'POST',
         headers: {

@@ -47,7 +47,6 @@
   background: linear-gradient(to bottom, rgba(81, 124, 142, 0.025) 0%, transparent 100%);
 }
 
-/* Unused elements kept hidden for component compat */
 .particle,
 .smokeEffect1,
 .smokeEffect2,

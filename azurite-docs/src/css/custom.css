@@ -1,9 +1,4 @@
-﻿/* =============================================
-   Azurite — Dark Modern Theme
-   Primary: #517C8E
-   ============================================= */
-
-:root {
+﻿:root {
   --azurite-primary: #517C8E;
   --azurite-primary-dark: #446a7a;
   --azurite-primary-darker: #3a5c6a;
@@ -43,7 +38,6 @@
   }
 }
 
-/* Transitions on interactive elements only */
 a,
 button,
 .menu__link,
@@ -71,7 +65,6 @@ a:hover {
   text-decoration-style: solid;
 }
 
-/* --- Dark mode palette --- */
 [data-theme='dark'] {
   --ifm-color-primary: #6e9bab;
   --ifm-color-primary-dark: #5a8a9e;
@@ -104,7 +97,6 @@ a:hover {
   --ifm-menu-color-background-hover: rgba(81, 124, 142, 0.06);
 }
 
-/* --- Navbar --- */
 .navbar {
   box-shadow: none;
   backdrop-filter: blur(16px);
@@ -250,7 +242,6 @@ html[data-scroll-locked] .navbar:not(.navbar-sidebar) {
   color: var(--azurite-primary-light) !important;
 }
 
-/* --- Hero --- */
 .hero--primary {
   background: linear-gradient(168deg, #0e1117 0%, #131a23 40%, #1a2a35 100%);
   position: relative;
@@ -298,7 +289,6 @@ html[data-scroll-locked] .navbar:not(.navbar-sidebar) {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* --- Buttons --- */
 .button--secondary,
 .button--primary {
   background: #517C8E;
@@ -330,7 +320,6 @@ html[data-scroll-locked] .navbar:not(.navbar-sidebar) {
   transform: translateY(0);
 }
 
-/* --- Cards --- */
 .card {
   border: 1px solid rgba(81, 124, 142, 0.1);
   border-radius: 12px;
@@ -349,7 +338,6 @@ html[data-scroll-locked] .navbar:not(.navbar-sidebar) {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* --- Markdown content --- */
 .markdown > * {
   animation: fadeInUp 0.5s ease-out;
   animation-fill-mode: both;
@@ -403,7 +391,6 @@ table tbody td {
   border-bottom: 1px solid var(--ifm-color-emphasis-200) !important;
 }
 
-/* Lists */
 ul, ol {
   animation: fadeInLeft 0.5s ease-out;
 }
@@ -412,7 +399,6 @@ li {
   padding: 0.25rem 0;
 }
 
-/* --- Sidebar --- */
 .menu {
   font-weight: 500;
 }
@@ -442,7 +428,6 @@ li {
   border-radius: 6px;
 }
 
-/* --- Code Blocks --- */
 .prism-code {
   border-radius: 10px;
   border: 1px solid rgba(81, 124, 142, 0.1);
@@ -461,7 +446,6 @@ div[class*='codeBlockTitle'] {
   border-color: rgba(81, 124, 142, 0.2);
 }
 
-/* --- Admonitions --- */
 .admonition {
   border-radius: 10px;
   border-left: 4px solid;
@@ -497,7 +481,6 @@ div[class*='codeBlockTitle'] {
   background: rgba(239, 68, 68, 0.06);
 }
 
-/* --- Footer --- */
 .footer {
   background: #090c10;
   border-top: 1px solid rgba(81, 124, 142, 0.08);
@@ -529,7 +512,6 @@ div[class*='codeBlockTitle'] {
   font-size: 0.85rem;
 }
 
-/* --- Scrollbar --- */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -552,7 +534,6 @@ div[class*='codeBlockTitle'] {
   background: var(--azurite-dark-bg);
 }
 
-/* --- Table of Contents --- */
 .table-of-contents {
   border-left: 2px solid rgba(81, 124, 142, 0.12);
 }
@@ -572,7 +553,6 @@ div[class*='codeBlockTitle'] {
   font-weight: 600;
 }
 
-/* --- Pagination --- */
 .pagination-nav__link {
   border: 1px solid rgba(81, 124, 142, 0.1);
   border-radius: 10px;
@@ -589,7 +569,6 @@ div[class*='codeBlockTitle'] {
   font-weight: 600;
 }
 
-/* --- Breadcrumbs --- */
 .breadcrumbs__link {
   color: #8b949e;
   transition: color 0.15s ease;
@@ -600,7 +579,6 @@ div[class*='codeBlockTitle'] {
   color: var(--azurite-primary-light);
 }
 
-/* --- Announcement Bar --- */
 div[class*='announcementBar'] {
   background: var(--azurite-primary-darker);
   border-bottom: 1px solid rgba(81, 124, 142, 0.12);
@@ -617,7 +595,6 @@ div[class*='announcementBarContent'] a:hover {
   color: #96c5d6;
 }
 
-/* --- Responsive --- */
 @media (max-width: 996px) {
   .hero__title {
     font-size: 2.5rem !important;
@@ -644,7 +621,6 @@ div[class*='announcementBarContent'] a:hover {
   }
 }
 
-/* --- Keyframes --- */
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -659,7 +635,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* --- Server Rules Page --- */
 .server-rules-page h3 {
   position: relative;
   padding: 14px 18px;

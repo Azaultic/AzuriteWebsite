@@ -10,7 +10,6 @@ const DiscordWidgetContent = React.memo(function DiscordWidgetContent({ serverId
   useEffect(() => {
     if (!ExecutionEnvironment.canUseDOM) return;
     
-    // Fallback timeout in case IntersectionObserver doesn't fire
     const fallbackTimeout = setTimeout(() => {
       setIsVisible(true);
     }, 100);

@@ -28,21 +28,18 @@ export default function BanAppealForm() {
     setIsSubmitting(true);
     setStatus({ type: '', message: '' });
 
-    // Validatie
     if (!formData.discordName || !formData.discordId || !formData.ingameName || !formData.banReason || !formData.appealReason) {
       setStatus({ type: 'error', message: 'Vul alle verplichte velden in!' });
       setIsSubmitting(false);
       return;
     }
 
-    // Discord ID format validatie (17-20 cijfers)
     if (!/^\d{17,20}$/.test(formData.discordId.trim())) {
       setStatus({ type: 'error', message: 'Ongeldig Discord ID formaat. Een Discord ID bestaat uit 17-20 cijfers.' });
       setIsSubmitting(false);
       return;
     }
 
-    // Input length validatie
     if (formData.discordName.length > 100 || formData.ingameName.length > 100) {
       setStatus({ type: 'error', message: 'Namen mogen maximaal 100 karakters zijn.' });
       setIsSubmitting(false);
@@ -55,10 +52,9 @@ export default function BanAppealForm() {
       return;
     }
 
-    // Discord Embed
     const embed = {
       title: '📋 Nieuwe Ban Appeal',
-      color: 0x5865f2, // Discord Blurple
+      color: 0x5865f2,
       fields: [
         {
           name: '👤 Discord Naam',
@@ -129,12 +125,10 @@ export default function BanAppealForm() {
           extraInfo: '',
         });
       } else {
-        // Server returned error - use message from API if available
         const errorMsg = responseData.error || 'Er is iets misgegaan.';
         throw new Error(errorMsg);
       }
     } catch (error) {
-      // Toon alleen veilige error messages aan gebruikers
       const safeMessage = error.message.includes('te veel appeals') || error.message.includes('Ongeldig')
         ? error.message
         : 'Er is iets misgegaan. Probeer het later opnieuw of neem contact op via Discord.';

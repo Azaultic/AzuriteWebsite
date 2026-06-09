@@ -19,7 +19,6 @@ function getFallbackEmojiIcon(item) {
 
 function getIconTitleProps(item) {
   const extracted = extractLeadingEmoji(item.label);
-  // Prevent digits (0-9) from being extracted as emoji icons
   if (extracted.emoji && /^\d$/.test(extracted.emoji)) {
     return {
       icon: null,
