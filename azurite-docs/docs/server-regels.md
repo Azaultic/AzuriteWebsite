@@ -202,7 +202,6 @@ Enkele voorbeelden:
 - Waardevolle spullen stelen van personen (telefoon, wapens, voedsel, etc..) zonder een langdurige roleplay voorafgaand.
 - Ocean dumpen ( zonder een voorafgaand langdurig scenario ). Dit mag zeker niet gebruikt worden om iemand te verplichten een scenario te vergeten.
 - Een motor gebruiken om zo snel mogelijk / gemakkelijk de politie kwijt te geraken.
-- Het dragen van een combat outfit is alleen toegestaan tijdens gang-gerelateerde activiteiten. Het dragen van combat kleding tijdens reguliere burgeractiviteiten of wanneer je niet actief betrokken bent bij gangactiviteiten is niet toegestaan.
 - Onnodig tackelen.
 - Etc..
 
@@ -301,6 +300,8 @@ Er geldt een limiet voor het aantal spelers per criminele activiteit. Het doorge
 - Bij bepaalde overvallen moet je wachten tot de politie ter plaatse is voordat je het scenario verder kunt zetten. Andere mogen gedaan worden als Hit & Run.
 - Het gebruik van "speciale voertuigen" zoals helikopters, vliegtuigen, boten, etc.. is toegestaan maar zorg ervoor dat de tegenpartij altijd een kans heeft om mee te volgen in het scenario.
 - Het overnemen van een bank of andere grote overval is (momenteel) **niet** toegestaan.
+- Het dragen van een combat outfit is alleen toegestaan tijdens gang-gerelateerde activiteiten. Het dragen van combat kleding tijdens reguliere burgeractiviteiten of wanneer je niet actief betrokken bent bij gangactiviteiten is niet toegestaan.
+
 
 
 
