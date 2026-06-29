@@ -18,7 +18,7 @@ export default function Store() {
               die jouw roleplay-ervaring completer maken — zonder pay-to-win voordelen.
             </p>
             <a
-              href="https://store.azurite.info/"
+              href="https://azurite-webstore.tebex.io/"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.storeButton}>
